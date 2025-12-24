@@ -16140,7 +16140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-0961_Horizontal_1.0mm-PCB"
+		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
 			(at 149.86 26.67 0)
 			(hide yes)
 			(effects
