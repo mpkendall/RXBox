@@ -79,6 +79,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
@@ -116,9 +117,11 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
+        "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "ignore",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -686,12 +689,16 @@
         "uuid": "628a1d0e-3f7e-46e6-aacf-8d90ddf82e31"
       }
     ],
-    "used_designators": "R14-17,J3,U8-9,C37-45,SW1-2,Y1"
+    "used_designators": ""
   },
   "sheets": [
     [
       "628a1d0e-3f7e-46e6-aacf-8d90ddf82e31",
       ""
+    ],
+    [
+      "0abc54f2-5d79-40d7-948d-9a7a66a97498",
+      "SDR"
     ]
   ],
   "text_variables": {},
