@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -145,7 +145,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -610,6 +610,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -689,7 +695,8 @@
         "uuid": "628a1d0e-3f7e-46e6-aacf-8d90ddf82e31"
       }
     ],
-    "used_designators": ""
+    "used_designators": "L1-13,D1-2,#PWR1-55,C1-36,R1-14,J1-2,TP1-3,U1-7,X1",
+    "variants": []
   },
   "sheets": [
     [
@@ -697,8 +704,8 @@
       ""
     ],
     [
-      "0abc54f2-5d79-40d7-948d-9a7a66a97498",
-      "SDR"
+      "ba42e672-3541-4915-9af8-b593ef75af02",
+      "sdr"
     ]
   ],
   "text_variables": {},
