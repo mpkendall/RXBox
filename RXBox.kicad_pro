@@ -194,6 +194,7 @@
       ],
       "track_widths": [
         0.0,
+        0.37,
         0.5,
         0.75
       ],
@@ -507,13 +508,70 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "100R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "90R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/ComputeModule/HDMI0_CEC": [
+        "100R"
+      ],
+      "/ComputeModule/HDMI0_CLK_N": [
+        "100R"
+      ],
+      "/ComputeModule/HDMI0_CLK_P": [
+        "100R"
+      ],
+      "/ComputeModule/HDMI0_HOTPLUG": [
+        "100R"
+      ],
+      "/ComputeModule/HDMI0_SCL": [
+        "100R"
+      ],
+      "/ComputeModule/HDMI0_SDA": [
+        "100R"
+      ],
+      "/ComputeModule/HDMI0_TX0_N": [
+        "100R"
+      ],
+      "/ComputeModule/HDMI0_TX0_P": [
+        "100R"
+      ],
+      "/ComputeModule/HDMI0_TX1_N": [
+        "100R"
+      ],
+      "/ComputeModule/HDMI0_TX1_P": [
+        "100R"
+      ],
+      "/ComputeModule/HDMI0_TX2_N": [
+        "100R"
+      ],
+      "/ComputeModule/HDMI0_TX2_P": [
+        "100R"
+      ],
+      "/ComputeModule/USB_N": [
+        "90R"
+      ],
+      "/ComputeModule/USB_P": [
+        "90R"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -616,6 +674,12 @@
           "label": "LCSC",
           "name": "LCSC",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -695,7 +759,7 @@
         "uuid": "628a1d0e-3f7e-46e6-aacf-8d90ddf82e31"
       }
     ],
-    "used_designators": "L1-13,D1-2,#PWR1-55,C1-36,R1-14,J1-2,TP1-3,U1-7,X1",
+    "used_designators": "U8,D2,D5,#PWR27,#PWR29,#PWR31,#PWR35,#PWR37-39,L14,C38-40,R14,R20-22,TP1-2,JP1,J2",
     "variants": []
   },
   "sheets": [
@@ -705,7 +769,27 @@
     ],
     [
       "ba42e672-3541-4915-9af8-b593ef75af02",
-      "sdr"
+      "SDR"
+    ],
+    [
+      "ec955dc0-cde8-4ee1-833d-9ef934002cd4",
+      "Power"
+    ],
+    [
+      "6e52488d-8939-49e9-b14c-ef64510a5453",
+      "ComputeModule"
+    ],
+    [
+      "e9488829-e62c-45df-8181-79088791b670",
+      "Screen"
+    ],
+    [
+      "5a470c62-ff56-463f-9e03-5d82efe2b665",
+      "Interface"
+    ],
+    [
+      "958fadd5-ba7c-4f84-90f6-e2ad9ff413e6",
+      "Sensors"
     ]
   ],
   "text_variables": {},
