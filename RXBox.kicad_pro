@@ -117,6 +117,7 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
@@ -233,11 +234,13 @@
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
+      "bom_rev": "",
       "dist": "",
       "distpn": "",
       "internal_id": "",
       "mfg": "",
-      "mpn": ""
+      "mpn": "",
+      "sch_revision": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -442,6 +445,7 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
@@ -759,7 +763,7 @@
         "uuid": "628a1d0e-3f7e-46e6-aacf-8d90ddf82e31"
       }
     ],
-    "used_designators": "U8,D2,D5,#PWR27,#PWR29,#PWR31,#PWR35,#PWR37-39,L14,C38-40,R14,R20-22,TP1-2,JP1,J2",
+    "used_designators": "J2",
     "variants": []
   },
   "sheets": [
@@ -780,7 +784,7 @@
       "ComputeModule"
     ],
     [
-      "e9488829-e62c-45df-8181-79088791b670",
+      "6e3847e5-2cc9-4762-92a5-9313b052916f",
       "Screen"
     ],
     [

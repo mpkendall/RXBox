@@ -1,7 +1,7 @@
 (kicad_pcb
-	(version 20260101)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.99")
+	(generator_version "10.0")
 	(general
 		(thickness 1.6)
 		(legacy_teardrops no)
@@ -160,7 +160,7 @@
 			(at 6.39 5.71 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6955643b-9eee-4a14-832b-cc6dcec622f5")
+			(uuid "1e8beb59-5349-4d8d-9eaa-6455acf7d515")
 			(effects
 				(font
 					(size 1 1)
@@ -171,7 +171,7 @@
 		(property "Value" "100nF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
-			(uuid "f6937289-4bad-41c1-b8cf-188f223666d2")
+			(uuid "8083e0f6-1f14-479f-92e5-04f9f8d04473")
 			(effects
 				(font
 					(size 1 1)
@@ -183,7 +183,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fa6c2d54-3d77-4d90-91f2-f06092e2a3c2")
+			(uuid "f04ea92d-ac89-42c5-a2f2-99034cea3ae4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -194,7 +194,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c25a3fef-34c1-43be-963d-feecdef4a3dd")
+			(uuid "8d7b73da-a69b-43ca-a7d7-fdad11575d21")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -203,7 +203,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/d4a16847-3f90-495d-971d-fa810f709b7b")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -331,10 +331,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "3cbff03c-0044-419a-a1b3-dc3227d83eb9")
 		)
 		(pad "2" smd roundrect
@@ -344,10 +340,6 @@
 			(roundrect_rratio 0.25)
 			(net "+3V3")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "bf132788-538b-4978-b2e1-1da0538bd515")
 		)
 		(embedded_fonts no)
@@ -373,7 +365,7 @@
 			(at -6.87 5.22 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "592ff745-c974-4ddb-b857-4da03cecbc1b")
+			(uuid "1979ef6c-c389-4bf3-b9df-bb235a8d0ebe")
 			(effects
 				(font
 					(size 1 1)
@@ -384,7 +376,7 @@
 		(property "Value" "bead"
 			(at 0 1.17 0)
 			(layer "F.Fab")
-			(uuid "505f5bac-ee1b-4e50-abc9-f4d4b0fc0162")
+			(uuid "88addf57-a66b-4255-a2dd-5a3229ca658b")
 			(effects
 				(font
 					(size 1 1)
@@ -396,7 +388,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "68e099d6-87f4-4c52-a6dd-d0eaf9f12493")
+			(uuid "6509190c-bd5c-4a0e-8ba9-50d15a982e67")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -407,7 +399,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6892acea-9de8-4749-97db-cc11918153d9")
+			(uuid "b439c54b-56ef-4868-82bf-65625239fd94")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -416,7 +408,7 @@
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/d8558e3f-1535-4aa0-9d9b-dfcaaf0a7aa8")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -524,10 +516,6 @@
 			(roundrect_rratio 0.25)
 			(net "+1V2")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "17441939-9a1f-4184-b52e-6a4c8b3ea7eb")
 		)
 		(pad "2" smd roundrect
@@ -537,10 +525,6 @@
 			(roundrect_rratio 0.25)
 			(net "/sdr/1V2_FILT_3")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "e09e7812-64e0-4ed1-9ffe-b5a46bb1aa9b")
 		)
 		(embedded_fonts no)
@@ -609,7 +593,7 @@
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/112927f2-1238-4f8b-aedd-9edda401d13d")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -737,10 +721,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(U3-TF1P)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "00f53e03-00c2-492b-8c32-bd1ef9e90f32")
 		)
 		(pad "2" smd roundrect
@@ -750,10 +730,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(U3-TF2P)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "73ca7a3c-9b43-4358-bd6d-ed851a7ddaac")
 		)
 		(embedded_fonts no)
@@ -822,7 +798,7 @@
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/a497fe16-39f5-4445-8852-3d6a6742ce08")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -930,10 +906,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(C3-Pad2)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "417488d4-d6c4-4104-846c-7a512ed0e146")
 		)
 		(pad "2" smd roundrect
@@ -943,10 +915,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "c6b1883b-77ad-46f0-9edb-996e5119c599")
 		)
 		(embedded_fonts no)
@@ -972,7 +940,7 @@
 			(at 6.87 -7.56 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "5f56e84d-5346-49ea-8cd0-cdfa09aa41ab")
+			(uuid "0134ea0e-ff48-4e70-867c-bb1dd3af6a9d")
 			(effects
 				(font
 					(size 1 1)
@@ -983,7 +951,7 @@
 		(property "Value" "100kR"
 			(at 0 1.17 0)
 			(layer "F.Fab")
-			(uuid "f43e7608-e3c1-4e3e-a278-af72c27258f7")
+			(uuid "c83719eb-57e1-40a6-9561-dac44f69816b")
 			(effects
 				(font
 					(size 1 1)
@@ -995,7 +963,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5bcca5b6-d07e-4776-9166-fbf79a532cd9")
+			(uuid "a7808693-de8d-4b1a-b520-81e1b07e91e8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1006,7 +974,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6f529f19-a9d1-4900-abc3-7641fe373657")
+			(uuid "3cbe7103-d3cf-489b-9ee2-8be62bccac41")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1015,7 +983,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/344502a2-81d2-4955-9ffa-feedd624f803")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -1143,10 +1111,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(C36-Pad2)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "a8eb30a4-4a56-4976-804e-1ede3ddb60ee")
 		)
 		(pad "2" smd roundrect
@@ -1156,10 +1120,6 @@
 			(roundrect_rratio 0.25)
 			(net "+3V3")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "a75ac56d-f6c1-4a35-af09-8c37556a0efd")
 		)
 		(embedded_fonts no)
@@ -1228,7 +1188,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/49ed5cc6-1e91-427c-b3d4-93e7d2396667")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -1356,10 +1316,6 @@
 			(roundrect_rratio 0.25)
 			(net "+1V2")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "20796c0e-8c13-4b78-ac6a-2822c63a35d2")
 		)
 		(pad "2" smd roundrect
@@ -1369,10 +1325,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "809ed44b-c299-4ac0-8a23-ba329f1c2975")
 		)
 		(embedded_fonts no)
@@ -1441,7 +1393,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/ad0e7d40-e541-4ec5-911b-d8e5a2c1fecc")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -1684,10 +1636,6 @@
 			(net "Earth")
 			(pinfunction "K_1")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "468b5970-5edb-4dd2-b920-34f0842baace")
 		)
 		(pad "2" smd roundrect
@@ -1698,10 +1646,6 @@
 			(net "Earth")
 			(pinfunction "A_2")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "dcc9ea88-e55b-4959-95c6-721d7873a9de")
 		)
 		(pad "3" smd roundrect
@@ -1722,10 +1666,6 @@
 				(enabled yes)
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
-			)
-			(tenting
-				(front none)
-				(back none)
 			)
 			(uuid "59abf9e7-e9b2-438b-8f9f-9c79f2eb55ae")
 		)
@@ -1795,7 +1735,7 @@
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/012aea4a-3b5e-4831-b92e-80d73bb8052c")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -1903,10 +1843,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(C31-Pad2)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "63abf02e-6052-413e-ab9b-25bab8399558")
 		)
 		(pad "2" smd roundrect
@@ -1926,10 +1862,6 @@
 				(enabled yes)
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
-			)
-			(tenting
-				(front none)
-				(back none)
 			)
 			(uuid "8d9d0625-d6dd-4327-ba55-7183721e833d")
 		)
@@ -1999,7 +1931,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/fea4754c-6060-454a-9d81-10f35b06d7dc")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -2127,10 +2059,6 @@
 			(roundrect_rratio 0.25)
 			(net "+1V2")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "444be88c-06d3-44f4-a26b-8ff8a3f18a55")
 		)
 		(pad "2" smd roundrect
@@ -2140,10 +2068,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "ef6b07e8-4dd8-4e6f-b183-cd59d0f3fe9f")
 		)
 		(embedded_fonts no)
@@ -2169,7 +2093,7 @@
 			(at -6.87 5.23 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "7120487b-9948-41b9-b724-e69f74306a0a")
+			(uuid "f2f0b4e6-bd59-4b7f-afd5-6ed32b015f2f")
 			(effects
 				(font
 					(size 1 1)
@@ -2180,7 +2104,7 @@
 		(property "Value" "20pF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
-			(uuid "ba21c42f-844b-4b2d-bfee-62d9f69f3ccb")
+			(uuid "59155532-13e9-479a-8eea-8e9f7355db03")
 			(effects
 				(font
 					(size 1 1)
@@ -2192,7 +2116,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "00e93693-750e-4347-aa7b-7e3b12e5f000")
+			(uuid "0f6e4b9c-b69b-4b8c-9cc5-e298775f0a92")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2203,7 +2127,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d231dc66-1855-4d3a-86c5-cc58b574b730")
+			(uuid "1a19b9e9-e539-4339-9e57-ad8cab0b3275")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2212,7 +2136,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/f9b1f1e9-fc26-48ca-8d6f-5343c2ebb66d")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -2340,10 +2264,6 @@
 			(roundrect_rratio 0.25)
 			(net "/sdr/BAND_PASS")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "386e24a8-3696-4f7f-8085-3700a1c582a0")
 		)
 		(pad "2" smd roundrect
@@ -2353,10 +2273,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(C1-Pad2)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "624068d7-dc57-43bc-b3ae-a39fd5d9fd37")
 		)
 		(embedded_fonts no)
@@ -2425,7 +2341,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/f0d880a3-3cd1-4543-966a-bbb72e1bdfee")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -2553,10 +2469,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(U3-CP)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "c3df5aad-4164-4574-95a8-135495f5a12a")
 		)
 		(pad "2" smd roundrect
@@ -2566,10 +2478,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(C27-Pad1)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "35d79829-c7ce-42d8-b923-f147e4d7cc4d")
 		)
 		(embedded_fonts no)
@@ -2638,7 +2546,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/33e052ad-1a3e-4380-babb-a18296327624")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -2766,10 +2674,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "4c1f1349-310f-4090-a42f-411fdcc912bb")
 		)
 		(pad "2" smd roundrect
@@ -2779,10 +2683,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(C3-Pad2)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "f3e915a7-cefa-4bfa-8cc8-72738c1d1248")
 		)
 		(embedded_fonts no)
@@ -2808,7 +2708,7 @@
 			(at -6.39 -8.04 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d3ae4850-a55a-4c6f-b434-360f96edd82c")
+			(uuid "093b83d7-4b0c-4fc5-ab1b-c38d1a5c318c")
 			(effects
 				(font
 					(size 1 1)
@@ -2819,7 +2719,7 @@
 		(property "Value" "4.7kR"
 			(at 0 1.17 90)
 			(layer "F.Fab")
-			(uuid "5b2b0e83-05c0-4662-8b32-dd945ad3bed2")
+			(uuid "253edbf6-2476-497d-accb-1f4a1d2088a9")
 			(effects
 				(font
 					(size 1 1)
@@ -2831,7 +2731,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "368e63ed-7462-4638-8e63-5b4f7e89e2cf")
+			(uuid "b407ac0d-c6c3-4b69-b6d0-3f7ba3c03d00")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2842,7 +2742,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1de8267e-c2bc-4aa3-aae9-e91574073263")
+			(uuid "6a6818e9-98d4-47f6-aedd-f38010348401")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2851,7 +2751,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/8cf3096c-ce01-41d7-9460-e08aa17283b0")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -2979,10 +2879,6 @@
 			(roundrect_rratio 0.25)
 			(net "+3V3")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "9a866950-4639-4482-9782-003f4183f387")
 		)
 		(pad "2" smd roundrect
@@ -2992,10 +2888,6 @@
 			(roundrect_rratio 0.25)
 			(net "/sdr/EEPROM_SCL")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "efd801b8-f3d8-4044-8e6f-ac677175328a")
 		)
 		(embedded_fonts no)
@@ -3021,7 +2913,7 @@
 			(at 6.87 -7.55 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d5f65efc-84c0-4c55-8a97-41e1775454a0")
+			(uuid "07e7bff7-529c-422c-b4d1-a05ae4b6ed2c")
 			(effects
 				(font
 					(size 1 1)
@@ -3032,7 +2924,7 @@
 		(property "Value" "10nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
-			(uuid "bcaafb01-0845-45bf-aea9-02d497b4505f")
+			(uuid "187c5287-715b-4ad1-a605-1a63a7b513a1")
 			(effects
 				(font
 					(size 1 1)
@@ -3044,7 +2936,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "96181b85-51a5-476e-a748-0686e238d7c7")
+			(uuid "aef28154-43d5-41f6-bf1a-0230a44eb278")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3055,7 +2947,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "edb8c290-de03-4f2c-a0d6-cdbc9c895dfa")
+			(uuid "5bfb8bfd-7750-46e6-8559-72b296217a2c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3064,7 +2956,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/b54f05fe-ca7b-49e0-a9b4-392a69954c8d")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -3192,10 +3084,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "2b75f0b6-52b2-4c82-9611-1ddd547f69bf")
 		)
 		(pad "2" smd roundrect
@@ -3205,10 +3093,6 @@
 			(roundrect_rratio 0.25)
 			(net "+3V3")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "e22687d6-5988-4ed9-8c1c-6a2f3b8385c2")
 		)
 		(embedded_fonts no)
@@ -3277,7 +3161,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/0345b452-decd-48be-8bbc-fff46951cbad")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -3405,10 +3289,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(U3-CP)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "5a36d014-6387-4856-9f21-be0c19006757")
 		)
 		(pad "2" smd roundrect
@@ -3418,10 +3298,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "debf2782-a3ac-4ee3-a9f3-d1dc4f38d196")
 		)
 		(embedded_fonts no)
@@ -3447,7 +3323,7 @@
 			(at -6.39 -11.17 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "bb22c3a4-9fac-433b-9015-51be135ee21e")
+			(uuid "c2a5c08b-fcba-4e05-bf65-fdce6314dd0c")
 			(effects
 				(font
 					(size 1 1)
@@ -3458,7 +3334,7 @@
 		(property "Value" "RTL2832U"
 			(at 0 4.3 90)
 			(layer "F.Fab")
-			(uuid "c578bdf0-bcb1-4fe7-910c-d88f8a493a27")
+			(uuid "8a14a456-2a36-49bf-bbc7-1449424dfa4b")
 			(effects
 				(font
 					(size 1 1)
@@ -3470,7 +3346,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2ed35ab5-491f-4acd-8aa6-046f91b09b21")
+			(uuid "8f748ab8-9afd-4f7f-be48-847c49b1eca0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3481,7 +3357,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2fe8457b-2eed-4e99-a3db-315fefb1c497")
+			(uuid "d36e96af-7ffd-4e0c-b91b-89666ad4b997")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3489,7 +3365,7 @@
 			)
 		)
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/faa460d8-4474-4ef2-b91d-f0e8fa74b6c4")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -3823,10 +3699,6 @@
 			(size 1.16 1.16)
 			(layers "F.Paste")
 			(roundrect_rratio 0.215517)
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "f2d1d4a8-cbc4-4390-94b9-5a30aadf4403")
 		)
 		(pad "" smd roundrect
@@ -3834,10 +3706,6 @@
 			(size 1.16 1.16)
 			(layers "F.Paste")
 			(roundrect_rratio 0.215517)
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "1929944c-ef01-472d-aeb3-572d60d89616")
 		)
 		(pad "" smd roundrect
@@ -3845,10 +3713,6 @@
 			(size 1.16 1.16)
 			(layers "F.Paste")
 			(roundrect_rratio 0.215517)
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "e791b10b-27e9-493b-acfc-fab40986eb43")
 		)
 		(pad "" smd roundrect
@@ -3856,10 +3720,6 @@
 			(size 1.16 1.16)
 			(layers "F.Paste")
 			(roundrect_rratio 0.215517)
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "23166233-e5fa-42f5-bc2a-d0066038bf42")
 		)
 		(pad "" smd roundrect
@@ -3867,10 +3727,6 @@
 			(size 1.16 1.16)
 			(layers "F.Paste")
 			(roundrect_rratio 0.215517)
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "5e20b1e8-bea9-472b-b45e-a648cf78e5ae")
 		)
 		(pad "" smd roundrect
@@ -3878,10 +3734,6 @@
 			(size 1.16 1.16)
 			(layers "F.Paste")
 			(roundrect_rratio 0.215517)
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "c08b816e-580e-4959-93a5-de9889bfddb9")
 		)
 		(pad "" smd roundrect
@@ -3889,10 +3741,6 @@
 			(size 1.16 1.16)
 			(layers "F.Paste")
 			(roundrect_rratio 0.215517)
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "0abe9b72-306a-4038-a87c-18fef29ad2fd")
 		)
 		(pad "" smd roundrect
@@ -3900,10 +3748,6 @@
 			(size 1.16 1.16)
 			(layers "F.Paste")
 			(roundrect_rratio 0.215517)
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "f71778e7-551a-44e0-ae40-cacc96e3725b")
 		)
 		(pad "" smd roundrect
@@ -3911,10 +3755,6 @@
 			(size 1.16 1.16)
 			(layers "F.Paste")
 			(roundrect_rratio 0.215517)
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "be1f818d-66b7-4d3b-804f-150d45f81f19")
 		)
 		(pad "1" smd roundrect
@@ -3925,10 +3765,6 @@
 			(net "/sdr/IF_I_P")
 			(pinfunction "IF_I_P_1")
 			(pintype "input")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "a6bb4100-a0f3-45da-af82-be4f5881dae3")
 		)
 		(pad "2" smd roundrect
@@ -3939,10 +3775,6 @@
 			(net "/sdr/IF_I_N")
 			(pinfunction "IF_I_N_2")
 			(pintype "input")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "84904b30-6377-4c64-8036-ecc744ca953d")
 		)
 		(pad "3" smd roundrect
@@ -3953,10 +3785,6 @@
 			(net "Earth")
 			(pinfunction "GND_3")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "54faa33b-a273-486a-9be8-e45cb5127cb7")
 		)
 		(pad "4" smd roundrect
@@ -3967,10 +3795,6 @@
 			(net "/sdr/IF_Q_P")
 			(pinfunction "IF_Q_P_4")
 			(pintype "input")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "983c1598-b182-497b-ac50-e06aaf12fdf6")
 		)
 		(pad "5" smd roundrect
@@ -3981,10 +3805,6 @@
 			(net "/sdr/IF_Q_N")
 			(pinfunction "IF_Q_N_5")
 			(pintype "input")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "2cff1816-c014-466a-8817-60f4e435bb83")
 		)
 		(pad "6" smd roundrect
@@ -3995,10 +3815,6 @@
 			(net "unconnected-(U1-NC-Pad6)")
 			(pinfunction "NC_6")
 			(pintype "input+no_connect")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "ce9ec847-e6c6-4d6a-b619-922c6d083768")
 		)
 		(pad "7" smd roundrect
@@ -4009,10 +3825,6 @@
 			(net "/sdr/1V2_FILT_2")
 			(pinfunction "1.2V_7")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "cd8f8adc-154f-4598-93de-47bd3438ea2c")
 		)
 		(pad "8" smd roundrect
@@ -4023,10 +3835,6 @@
 			(net "Earth")
 			(pinfunction "GND_8")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "870a264b-dbf1-46e3-93b5-5383012a79ce")
 		)
 		(pad "9" smd roundrect
@@ -4037,10 +3845,6 @@
 			(net "unconnected-(U1-NC-Pad9)")
 			(pinfunction "NC_9")
 			(pintype "bidirectional+no_connect")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "adeda25b-c8e3-4d65-b41e-1c15562811bd")
 		)
 		(pad "10" smd roundrect
@@ -4051,10 +3855,6 @@
 			(net "Net-(U1-X_O)")
 			(pinfunction "X_O_10")
 			(pintype "output")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "e90faee7-aae4-4c22-925a-16cec86fbec4")
 		)
 		(pad "11" smd roundrect
@@ -4065,10 +3865,6 @@
 			(net "/sdr/RTL_CLK")
 			(pinfunction "X_I_11")
 			(pintype "input")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "4f1f2eb9-f26f-41d0-9db8-eb932db6b2bb")
 		)
 		(pad "12" smd roundrect
@@ -4079,10 +3875,6 @@
 			(net "+1V2")
 			(pinfunction "1.2V_12")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "90d0b51e-4d09-452e-9c8f-7b026fc7793b")
 		)
 		(pad "13" smd roundrect
@@ -4093,10 +3885,6 @@
 			(net "/sdr/RTL_IF_AGC")
 			(pinfunction "AGC1_13")
 			(pintype "open_collector")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "303ca630-a287-4bc6-ac9e-a6e55834d059")
 		)
 		(pad "14" smd roundrect
@@ -4107,10 +3895,6 @@
 			(net "/sdr/RTL_3V3")
 			(pinfunction "3.3V_14")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "2a5d13c5-3bc7-463a-b1a2-005b047d47ff")
 		)
 		(pad "15" smd roundrect
@@ -4121,10 +3905,6 @@
 			(net "unconnected-(U1-AGC2-Pad15)")
 			(pinfunction "AGC2_15")
 			(pintype "open_collector+no_connect")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "7b6f0796-f0b1-4fae-ae64-1efb20ed4402")
 		)
 		(pad "16" smd roundrect
@@ -4135,10 +3915,6 @@
 			(net "/sdr/TUNER_SCL")
 			(pinfunction "TUNER_SCL_16")
 			(pintype "open_collector")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "fd50f689-10c2-4fac-b09e-5cec024868f7")
 		)
 		(pad "17" smd roundrect
@@ -4149,10 +3925,6 @@
 			(net "/sdr/TUNER_SDA")
 			(pinfunction "TUNER_SDA_17")
 			(pintype "bidirectional")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "094cb077-990d-45ed-9cc9-511252432243")
 		)
 		(pad "18" smd roundrect
@@ -4163,10 +3935,6 @@
 			(net "/sdr/EEPROM_SCL")
 			(pinfunction "EEPROM_SCL_18")
 			(pintype "open_collector")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "8d1ad7b2-4d24-4012-aed0-495974c80395")
 		)
 		(pad "19" smd roundrect
@@ -4177,10 +3945,6 @@
 			(net "/sdr/EEPROM_SDA")
 			(pinfunction "EEPROM_SDA_19")
 			(pintype "bidirectional")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "e41101dd-99c7-4fc4-af3c-adf55462fec8")
 		)
 		(pad "20" smd roundrect
@@ -4191,10 +3955,6 @@
 			(net "+1V2")
 			(pinfunction "1.2V_20")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "662df85f-bdb6-4195-9176-a216a39f1f73")
 		)
 		(pad "21" smd roundrect
@@ -4205,10 +3965,6 @@
 			(net "unconnected-(U1-GPIO7-Pad21)")
 			(pinfunction "GPIO7_21")
 			(pintype "tri_state+no_connect")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "83ce0ef7-fc58-4c41-96c8-fb10904ba805")
 		)
 		(pad "22" smd roundrect
@@ -4219,10 +3975,6 @@
 			(net "unconnected-(U1-GPIO6-Pad22)")
 			(pinfunction "GPIO6_22")
 			(pintype "tri_state+no_connect")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "e8bd03b2-142a-419c-a177-ba897516ee66")
 		)
 		(pad "23" smd roundrect
@@ -4233,10 +3985,6 @@
 			(net "+1V2")
 			(pinfunction "1.2V_23")
 			(pintype "input")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "d5c25316-dd96-4e77-80d0-662381d24ecc")
 		)
 		(pad "24" smd roundrect
@@ -4247,10 +3995,6 @@
 			(net "Net-(U1-1.2V_REG_OUT)")
 			(pinfunction "1.2V_REG_OUT_24")
 			(pintype "power_out")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "cabeb35c-1eff-4108-a20f-4f6caba82056")
 		)
 		(pad "25" smd roundrect
@@ -4261,10 +4005,6 @@
 			(net "/sdr/RTL_3V3")
 			(pinfunction "3.3V_25")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "b688e6b6-741c-4169-a65e-6f3a514da6d0")
 		)
 		(pad "26" smd roundrect
@@ -4275,10 +4015,6 @@
 			(net "/sdr/RTL_3V3")
 			(pinfunction "3.3V_26")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "3214059f-cdf3-4880-b9c9-93ae0f9f6aa2")
 		)
 		(pad "27" smd roundrect
@@ -4289,10 +4025,6 @@
 			(net "/sdr/RTL_3V3")
 			(pinfunction "3.3V_27")
 			(pintype "input")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "c3fadece-1503-4cd6-b9a7-91f65ed36e4a")
 		)
 		(pad "28" smd roundrect
@@ -4303,10 +4035,6 @@
 			(net "+1V2")
 			(pinfunction "1.2V_28")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "2f3e2413-d34c-4cc9-8244-73c3be78c752")
 		)
 		(pad "29" smd roundrect
@@ -4317,10 +4045,6 @@
 			(net "unconnected-(U1-GPIO5-Pad29)")
 			(pinfunction "GPIO5_29")
 			(pintype "tri_state+no_connect")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "5951c1b3-7d5e-47d8-95f4-ae1fc7110d57")
 		)
 		(pad "30" smd roundrect
@@ -4331,10 +4055,6 @@
 			(net "unconnected-(U1-GPIO4-Pad30)")
 			(pinfunction "GPIO4_30")
 			(pintype "tri_state+no_connect")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "e9aa6d42-4400-42bb-b9bf-84b96a149752")
 		)
 		(pad "31" smd roundrect
@@ -4345,10 +4065,6 @@
 			(net "unconnected-(U1-GPIO2-Pad31)")
 			(pinfunction "GPIO2_31")
 			(pintype "tri_state+no_connect")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "743ab7c5-1626-4b02-a8f5-f587e39820dc")
 		)
 		(pad "32" smd roundrect
@@ -4359,10 +4075,6 @@
 			(net "unconnected-(U1-GPIO1-Pad32)")
 			(pinfunction "GPIO1_32")
 			(pintype "tri_state+no_connect")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "b487e205-323f-4854-b1a2-b17c9f3d6d46")
 		)
 		(pad "33" smd roundrect
@@ -4373,10 +4085,6 @@
 			(net "/sdr/RTL_3V3")
 			(pinfunction "3.3V_33")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "e80260f7-6302-4144-8824-c1ddffba9311")
 		)
 		(pad "34" smd roundrect
@@ -4387,10 +4095,6 @@
 			(net "+1V2")
 			(pinfunction "1.2V_34")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "8501f509-c23d-4d08-a734-0370df9df547")
 		)
 		(pad "35" smd roundrect
@@ -4401,10 +4105,6 @@
 			(net "unconnected-(U1-NC-Pad35)")
 			(pinfunction "NC_35")
 			(pintype "output+no_connect")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "b0378596-e794-4fcd-b870-1f8a0eff4518")
 		)
 		(pad "36" smd roundrect
@@ -4415,10 +4115,6 @@
 			(net "unconnected-(U1-GPIO3-Pad36)")
 			(pinfunction "GPIO3_36")
 			(pintype "tri_state+no_connect")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "c4fd75d1-a67b-4383-914b-2ba087c532bc")
 		)
 		(pad "37" smd roundrect
@@ -4429,10 +4125,6 @@
 			(net "unconnected-(U1-GPIO0-Pad37)")
 			(pinfunction "GPIO0_37")
 			(pintype "tri_state+no_connect")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "49614dcd-3f2d-49df-a3b0-06ac16b5c806")
 		)
 		(pad "38" smd roundrect
@@ -4443,10 +4135,6 @@
 			(net "unconnected-(U1-IR_IN-Pad38)")
 			(pinfunction "IR_IN_38")
 			(pintype "input+no_connect")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "f8502ab3-1d40-4f6a-a50c-d5612829accd")
 		)
 		(pad "39" smd roundrect
@@ -4457,10 +4145,6 @@
 			(net "Earth")
 			(pinfunction "GND_39")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "2debefa7-7d90-4757-804e-a40a47410575")
 		)
 		(pad "40" smd roundrect
@@ -4471,10 +4155,6 @@
 			(net "/sdr/RTL_DP")
 			(pinfunction "USB_DP_40")
 			(pintype "bidirectional")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "80d46503-9c4b-48c4-b715-58eda0ac42ec")
 		)
 		(pad "41" smd roundrect
@@ -4485,10 +4165,6 @@
 			(net "/sdr/RTL_DM")
 			(pinfunction "USB_DM_41")
 			(pintype "bidirectional")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "86a22a23-5274-4fa0-9d88-16f47a6a96e2")
 		)
 		(pad "42" smd roundrect
@@ -4499,10 +4175,6 @@
 			(net "/sdr/1V2_FILT_3")
 			(pinfunction "1.2V_42")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "e9090600-fc9e-4f0b-aab3-93a202a7fdee")
 		)
 		(pad "43" smd roundrect
@@ -4513,10 +4185,6 @@
 			(net "Net-(L1-Pad1)")
 			(pinfunction "3.3V_43")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "4fa523ed-5aa8-44c1-b9d6-92a2728449ec")
 		)
 		(pad "44" smd roundrect
@@ -4527,10 +4195,6 @@
 			(net "/sdr/1V2_FILT_1")
 			(pinfunction "1.2V_44")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "90db9b3d-b078-4464-a7dd-4f8d852a6b2d")
 		)
 		(pad "45" smd roundrect
@@ -4541,10 +4205,6 @@
 			(net "Earth")
 			(pinfunction "GND_45")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "6931d0c1-0318-4213-95c3-4789a647a0df")
 		)
 		(pad "46" smd roundrect
@@ -4555,10 +4215,6 @@
 			(net "Net-(U1-C)")
 			(pinfunction "C_46")
 			(pintype "input")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "556f7427-c76b-4906-8eae-1cf72d1ebc9e")
 		)
 		(pad "47" smd roundrect
@@ -4569,10 +4225,6 @@
 			(net "/sdr/1V2_FILT_1")
 			(pinfunction "1.2V_47")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "1a9cf76e-2ef9-4286-88f1-fa082c98ae3f")
 		)
 		(pad "48" smd roundrect
@@ -4583,10 +4235,6 @@
 			(net "Net-(U1-R)")
 			(pinfunction "R_48")
 			(pintype "input")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "072db2c9-26a5-43d0-a1c1-61bf0dc92d0e")
 		)
 		(pad "49" thru_hole circle
@@ -4599,10 +4247,6 @@
 			(net "Earth")
 			(pinfunction "GND_49")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "a66de8d6-50e9-4a92-81a6-7b4236894335")
 		)
 		(pad "49" thru_hole circle
@@ -4615,10 +4259,6 @@
 			(net "Earth")
 			(pinfunction "GND_49")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "7fc6d18b-395b-42f0-93a3-7408f08a380b")
 		)
 		(pad "49" thru_hole circle
@@ -4631,10 +4271,6 @@
 			(net "Earth")
 			(pinfunction "GND_49")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "78e1e38e-02ae-406d-8b49-2cb0543f0f03")
 		)
 		(pad "49" thru_hole circle
@@ -4647,10 +4283,6 @@
 			(net "Earth")
 			(pinfunction "GND_49")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "f7298a61-bb50-4ac7-a863-d2dc5b575642")
 		)
 		(pad "49" thru_hole circle
@@ -4663,10 +4295,6 @@
 			(net "Earth")
 			(pinfunction "GND_49")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "0d8889a8-970e-4a85-8d1e-86929b350ba9")
 		)
 		(pad "49" thru_hole circle
@@ -4679,10 +4307,6 @@
 			(net "Earth")
 			(pinfunction "GND_49")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "8e631188-eb98-40f5-aa92-63c221afa46c")
 		)
 		(pad "49" thru_hole circle
@@ -4695,10 +4319,6 @@
 			(net "Earth")
 			(pinfunction "GND_49")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "30617027-b959-4e2d-b76e-20cd3471bf5a")
 		)
 		(pad "49" thru_hole circle
@@ -4711,10 +4331,6 @@
 			(net "Earth")
 			(pinfunction "GND_49")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "088f0f9d-72b1-42d8-9a5a-1ea2542a5024")
 		)
 		(pad "49" smd rect
@@ -4726,10 +4342,6 @@
 			(pinfunction "GND_49")
 			(pintype "power_in")
 			(zone_connect 2)
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "ca56d688-bb42-4db0-9b4a-298308703270")
 		)
 		(pad "49" smd rect
@@ -4741,10 +4353,6 @@
 			(pinfunction "GND_49")
 			(pintype "power_in")
 			(zone_connect 2)
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "a7b11c72-e565-497c-8ae1-ff2bd36861c2")
 		)
 		(pad "49" thru_hole circle
@@ -4757,10 +4365,6 @@
 			(net "Earth")
 			(pinfunction "GND_49")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "d56b0ccc-5529-4b68-b718-c721dce3daf9")
 		)
 		(pad "49" thru_hole circle
@@ -4773,10 +4377,6 @@
 			(net "Earth")
 			(pinfunction "GND_49")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "294ee637-87d7-4a0c-90ed-3aee1eec5fd5")
 		)
 		(pad "49" thru_hole circle
@@ -4789,10 +4389,6 @@
 			(net "Earth")
 			(pinfunction "GND_49")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "921881c2-77c9-4b45-a945-bbfe67a8aca8")
 		)
 		(pad "49" thru_hole circle
@@ -4805,10 +4401,6 @@
 			(net "Earth")
 			(pinfunction "GND_49")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "0a569d03-e8f7-4ee9-bf51-f788cacaace8")
 		)
 		(pad "49" thru_hole circle
@@ -4821,10 +4413,6 @@
 			(net "Earth")
 			(pinfunction "GND_49")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "0ebc5268-173e-4895-b98e-06f51bc1ab24")
 		)
 		(pad "49" thru_hole circle
@@ -4837,10 +4425,6 @@
 			(net "Earth")
 			(pinfunction "GND_49")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "ccfcb820-dc5e-4f2e-bf50-dffc86a5b917")
 		)
 		(pad "49" thru_hole circle
@@ -4853,10 +4437,6 @@
 			(net "Earth")
 			(pinfunction "GND_49")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "15d96b33-8ede-4781-87fa-7fa5abd7feec")
 		)
 		(pad "49" thru_hole circle
@@ -4869,10 +4449,6 @@
 			(net "Earth")
 			(pinfunction "GND_49")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "aab58d9b-a509-44a7-a761-bb970af07f9a")
 		)
 		(embedded_fonts no)
@@ -4898,7 +4474,7 @@
 			(at -6.87 5.22 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f165a3b7-d4e4-4aa6-b301-1485256f2828")
+			(uuid "4ab5e95d-586e-419a-8814-de7c0848b85c")
 			(effects
 				(font
 					(size 1 1)
@@ -4909,7 +4485,7 @@
 		(property "Value" "220R"
 			(at 0 1.17 0)
 			(layer "F.Fab")
-			(uuid "3f7e4d70-ac02-4472-8c76-a88b595934f1")
+			(uuid "b6cc4b64-5839-436c-a635-e238fcd357ca")
 			(effects
 				(font
 					(size 1 1)
@@ -4921,7 +4497,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "93cf0d54-bfe2-4ab6-a44d-5e2cf0efc0ed")
+			(uuid "cd708287-737e-4dd3-8517-762ae0e12ed4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4932,7 +4508,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e5ae9c7e-dc91-4519-b2cd-475e10e0474f")
+			(uuid "888f95e0-08ac-4ca1-ab86-16d973ffde04")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4941,7 +4517,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/39038214-f3c9-4fe1-8751-cd99ca6b8621")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -5069,10 +4645,6 @@
 			(roundrect_rratio 0.25)
 			(net "/sdr/TUNER_SDA")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "9aaa3684-0534-4fe7-bf00-dc20610377a4")
 		)
 		(pad "2" smd roundrect
@@ -5082,10 +4654,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(U3-SDA)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "ab817097-cc96-4ad5-b38e-b38965b07578")
 		)
 		(embedded_fonts no)
@@ -5111,7 +4679,7 @@
 			(at 6.39 5.71 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "aa586443-1777-4cfc-8d10-442e212c0b1a")
+			(uuid "4d24500c-2542-471f-bca5-64d7f4735c80")
 			(effects
 				(font
 					(size 1 1)
@@ -5122,7 +4690,7 @@
 		(property "Value" "100nF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
-			(uuid "e0d542eb-7c6a-4dea-8871-5baf35fd3cdc")
+			(uuid "fa9df824-4e57-407b-9bea-ad29e7106fc7")
 			(effects
 				(font
 					(size 1 1)
@@ -5134,7 +4702,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f9312fdf-95b4-4960-aa7d-2da5cf373093")
+			(uuid "83ac52fb-e16f-402f-8eba-f127e3100d55")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5145,7 +4713,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8df697ef-15ab-4fdd-901b-b4e5280cf254")
+			(uuid "85d5ab54-415a-42b4-9119-5ddafb350d8c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5154,7 +4722,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/3501eca2-e92d-48a4-8bed-693c061e38d3")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -5282,10 +4850,6 @@
 			(roundrect_rratio 0.25)
 			(net "/sdr/IF_AGC")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "9a110bff-8a6d-415d-91b6-dfd4be6c0710")
 		)
 		(pad "2" smd roundrect
@@ -5295,10 +4859,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "77ecf8de-4aa1-4743-98a4-4ebd0058e2ec")
 		)
 		(embedded_fonts no)
@@ -5367,7 +4927,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/e6952b3e-3215-4010-919f-b8b43295e1d3")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -5495,10 +5055,6 @@
 			(roundrect_rratio 0.25)
 			(net "+1V2")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "5c71f329-26a6-4931-82f5-35cc9363e641")
 		)
 		(pad "2" smd roundrect
@@ -5508,10 +5064,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "685707d6-e3ae-4fe0-9acf-e5a010f8d00b")
 		)
 		(embedded_fonts no)
@@ -5580,7 +5132,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/57386c1d-cb6a-4057-b391-b13b0ece3ca6")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -5708,10 +5260,6 @@
 			(roundrect_rratio 0.25)
 			(net "+1V2")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "406fa0e2-5341-498c-8f33-4f03ad7b963c")
 		)
 		(pad "2" smd roundrect
@@ -5721,10 +5269,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "0fc3dee0-d2f7-486c-86a4-cd434fbc1cbe")
 		)
 		(embedded_fonts no)
@@ -5750,7 +5294,7 @@
 			(at -6.39 -8.03 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "c3537e0b-f345-405d-96ed-0b6375161702")
+			(uuid "21f7e4fc-d66b-43f0-9f42-d4d02881da23")
 			(effects
 				(font
 					(size 1 1)
@@ -5761,7 +5305,7 @@
 		(property "Value" "100nF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
-			(uuid "b81bea41-fdc8-4b1b-be63-3d75791b1c99")
+			(uuid "a7bd9725-de2c-4e6c-866d-3f4f58744c27")
 			(effects
 				(font
 					(size 1 1)
@@ -5773,7 +5317,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "30340a82-8782-40fe-b916-f13d485a0dd1")
+			(uuid "dbeedd9d-289c-4cab-8d56-889dd33c6489")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5784,7 +5328,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b8514476-e258-44ef-a5e2-e3fc4f573312")
+			(uuid "3b2db441-a517-4c6f-86de-62fa87f1876e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5793,7 +5337,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/ff9436b0-3ad9-4248-b94d-1b0f14cf3b05")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -5921,10 +5465,6 @@
 			(roundrect_rratio 0.25)
 			(net "/sdr/IF_N")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "8f856c53-9655-483c-a8db-ed955cd56a50")
 		)
 		(pad "2" smd roundrect
@@ -5934,10 +5474,6 @@
 			(roundrect_rratio 0.25)
 			(net "/sdr/IF_I_N")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "15a67f56-b8ad-40d6-8233-ae04747bb2a0")
 		)
 		(embedded_fonts no)
@@ -5963,7 +5499,7 @@
 			(at -6.39 -8.03 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "38b0f535-47af-4cd5-a556-55fca61fdf46")
+			(uuid "4bb90e00-b513-4b2b-8d8a-abdf5ac56928")
 			(effects
 				(font
 					(size 1 1)
@@ -5974,7 +5510,7 @@
 		(property "Value" "100nF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
-			(uuid "2a383af2-663c-4118-bf89-78785cd24544")
+			(uuid "dcf377a7-7ef4-49ec-a6ff-17248bd55e31")
 			(effects
 				(font
 					(size 1 1)
@@ -5986,7 +5522,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5ab21841-dc5e-4f4d-9c7b-6d58372df389")
+			(uuid "b598ee26-d513-480d-ab13-42156fd92515")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5997,7 +5533,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c0b9b15f-cb0b-4825-aa8b-28e6024c98b9")
+			(uuid "351928f1-5565-4188-b25f-604c63787cc0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6006,7 +5542,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/091a4c35-266e-4d5e-b407-a9aa26efbaec")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -6134,10 +5670,6 @@
 			(roundrect_rratio 0.25)
 			(net "/sdr/RTL_3V3")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "ed76707c-5db5-4904-869b-08799fe33683")
 		)
 		(pad "2" smd roundrect
@@ -6147,10 +5679,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "1d37f225-5353-4bee-8a97-10f67ded6c55")
 		)
 		(embedded_fonts no)
@@ -6219,7 +5747,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/a36ca455-a75e-40da-8255-2bb319a10161")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -6358,10 +5886,6 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "155aa024-a72b-4180-b0c4-f6468208d598")
 		)
 		(pad "2" smd roundrect
@@ -6371,10 +5895,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(C31-Pad2)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "c4f471d4-4401-4ac2-9131-b874c5110401")
 		)
 		(embedded_fonts no)
@@ -6443,7 +5963,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/e2c83eda-e275-4d70-aac0-20bc3d537492")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -6571,10 +6091,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(X1-Out)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "a04f94f3-164e-45ad-8d94-7a7c673d0aba")
 		)
 		(pad "2" smd roundrect
@@ -6584,10 +6100,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(C36-Pad2)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "1486c1f1-94aa-4a96-9c30-0e268a7ae545")
 		)
 		(embedded_fonts no)
@@ -6656,7 +6168,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/559d9cdb-e6c6-46b8-a69f-00fccdb01b03")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -6784,10 +6296,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(U3-VDD_PLL)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "138a9a44-16d8-4d6f-993e-e428a887a5e1")
 		)
 		(pad "2" smd roundrect
@@ -6797,10 +6305,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "4dacbb1b-3d4a-4bab-a3a5-e758ce9a21d7")
 		)
 		(embedded_fonts no)
@@ -6826,7 +6330,7 @@
 			(at -6.87 5.22 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b11d156a-c84f-4265-9e87-cc630e8c57b2")
+			(uuid "fcbd2c6c-a5ad-4527-93c3-9c577f5d2aa7")
 			(effects
 				(font
 					(size 1 1)
@@ -6837,7 +6341,7 @@
 		(property "Value" "4.7kR"
 			(at 0 1.17 0)
 			(layer "F.Fab")
-			(uuid "77470af5-44b8-4b2d-8903-a075f7bea42b")
+			(uuid "782a18af-6644-4569-b7f6-829214214e61")
 			(effects
 				(font
 					(size 1 1)
@@ -6849,7 +6353,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b9d13875-cf0c-442d-a756-629db745560b")
+			(uuid "769ecc9c-8e93-4e95-a459-e77e32b8adc3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6860,7 +6364,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "75ac4dfc-e9a7-4d79-b179-d0648fad4f1d")
+			(uuid "4e7839a2-7231-4562-bd27-9d3b307a286d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6869,7 +6373,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/7599fbd6-77d1-4b00-be7a-58e775cd1a4b")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -6997,10 +6501,6 @@
 			(roundrect_rratio 0.25)
 			(net "+3V3")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "cfeed920-959e-4c79-8418-b932c58ae548")
 		)
 		(pad "2" smd roundrect
@@ -7010,10 +6510,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(U3-SDA)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "182c35cc-ed43-4132-bab9-22f1d629fc47")
 		)
 		(embedded_fonts no)
@@ -7082,7 +6578,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/bdb53367-46df-4540-bb58-0c54eed931ba")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -7210,10 +6706,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(C3-Pad2)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "10d5c0c8-37cc-45e5-9548-8bbca9822d33")
 		)
 		(pad "2" smd roundrect
@@ -7223,10 +6715,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(C5-Pad2)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "b0676796-0ee7-4826-a9fd-afab0ff4b778")
 		)
 		(embedded_fonts no)
@@ -7299,7 +6787,7 @@
 		)
 		(property ki_fp_filters "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/05ff6637-f123-467f-9c9b-3abc04975fcc")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -7701,10 +7189,6 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "5e91a42d-842f-4ea6-b3af-0429af13e095")
 		)
 		(pad "2" smd roundrect
@@ -7715,10 +7199,6 @@
 			(net "Earth")
 			(pinfunction "Ext_2")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "1c3fbdd7-42b8-4a22-8385-899bebe83c30")
 		)
 		(pad "2" smd roundrect
@@ -7729,10 +7209,6 @@
 			(net "Earth")
 			(pinfunction "Ext_2")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "d1ca9473-7178-44ac-8312-8c107dbf0fc7")
 		)
 		(pad "2" smd roundrect
@@ -7743,10 +7219,6 @@
 			(net "Earth")
 			(pinfunction "Ext_2")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "bdce58fa-4255-4d2b-9483-4dcb496ad8e1")
 		)
 		(pad "2" smd roundrect
@@ -7757,10 +7229,6 @@
 			(net "Earth")
 			(pinfunction "Ext_2")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "d97902f4-62dc-45bb-9e04-4870953f6d9a")
 		)
 		(embedded_fonts no)
@@ -7786,7 +7254,7 @@
 			(at 6.87 -7.56 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "9257ae6e-7f59-47ec-811b-7906d2d19a40")
+			(uuid "807103e0-51fd-4128-a572-103d6bf975c3")
 			(effects
 				(font
 					(size 1 1)
@@ -7797,7 +7265,7 @@
 		(property "Value" "4.7kR"
 			(at 0 1.17 0)
 			(layer "F.Fab")
-			(uuid "99f56c65-8d34-446b-a94b-688a22013894")
+			(uuid "7cf38752-b97a-4685-8383-862a571fdd59")
 			(effects
 				(font
 					(size 1 1)
@@ -7809,7 +7277,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3ccddcab-5517-4041-baa2-a3442b71554a")
+			(uuid "cda1c46e-1e80-46e1-b6cc-518ccf559878")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7820,7 +7288,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b7f223a4-888f-413c-b29e-efb7f03c52b8")
+			(uuid "e0473737-9587-41c1-b9e7-36e996946066")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7829,7 +7297,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/aa017a08-bda7-478b-9f3c-dbcbc292098e")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -7957,10 +7425,6 @@
 			(roundrect_rratio 0.25)
 			(net "+3V3")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "a1958e9d-7f68-411f-bce9-be41b5b16751")
 		)
 		(pad "2" smd roundrect
@@ -7970,10 +7434,6 @@
 			(roundrect_rratio 0.25)
 			(net "/sdr/EEPROM_SDA")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "2f3e56fb-53f6-4dfb-8012-9d1a7491be36")
 		)
 		(embedded_fonts no)
@@ -8042,7 +7502,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/32703565-133f-4520-a5eb-084993643257")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -8170,10 +7630,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "2beaabce-420c-444b-b317-78e3a5b26b6a")
 		)
 		(pad "2" smd roundrect
@@ -8183,10 +7639,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(U3-Det1)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "36900528-8554-4495-adc6-f08248d46ea2")
 		)
 		(embedded_fonts no)
@@ -8255,7 +7707,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/a22d431e-23c6-4623-ade4-443b954baef1")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -8383,10 +7835,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "c1b1230f-8b7d-4d8a-af4e-9e2f639206bb")
 		)
 		(pad "2" smd roundrect
@@ -8396,10 +7844,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(U3-Det2)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "a57faf84-4d48-40a1-a2b1-dad28fdd1b52")
 		)
 		(embedded_fonts no)
@@ -8425,7 +7869,7 @@
 			(at 6.87 -9.79 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ad876e25-d9d4-41dd-8054-cc3fa06731af")
+			(uuid "030cc940-e892-4437-8a40-67cc6f96c359")
 			(effects
 				(font
 					(size 1 1)
@@ -8436,7 +7880,7 @@
 		(property "Value" "M24C02-WMN"
 			(at 0 3.4 0)
 			(layer "F.Fab")
-			(uuid "85a31cf0-5650-4fd6-9733-357e0b584aec")
+			(uuid "39546019-4785-4261-9242-3dcf4261f78f")
 			(effects
 				(font
 					(size 1 1)
@@ -8448,7 +7892,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a9058885-386a-499b-8f2d-748332e65389")
+			(uuid "0e061643-a4e1-4092-b137-a82e5f861bd8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8459,7 +7903,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5cb45af3-61c4-4f73-9bae-248d9f61ea77")
+			(uuid "1f7f0bdf-0cc4-4847-8eeb-b6d72e263e3a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8468,7 +7912,7 @@
 		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/9f825065-f899-439a-9c76-b7be8b30ba0a")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -8701,10 +8145,6 @@
 			(net "Earth")
 			(pinfunction "E0_1")
 			(pintype "input")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "caad87c1-d18f-42e5-a68c-d3cf8ed9bfc7")
 		)
 		(pad "2" smd roundrect
@@ -8715,10 +8155,6 @@
 			(net "Earth")
 			(pinfunction "E1_2")
 			(pintype "input")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "c8c824bb-c2c4-4181-a1c0-b365a4bd63ce")
 		)
 		(pad "3" smd roundrect
@@ -8729,10 +8165,6 @@
 			(net "Earth")
 			(pinfunction "E2_3")
 			(pintype "input")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "7636acf8-f41b-4dcf-bac2-bb52716de814")
 		)
 		(pad "4" smd roundrect
@@ -8743,10 +8175,6 @@
 			(net "Earth")
 			(pinfunction "VSS_4")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "02006b3d-46b1-42f2-9a54-5b4bb218311f")
 		)
 		(pad "5" smd roundrect
@@ -8757,10 +8185,6 @@
 			(net "/sdr/EEPROM_SDA")
 			(pinfunction "SDA_5")
 			(pintype "bidirectional")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "30be153a-78cc-46ab-afba-6511c1130ee5")
 		)
 		(pad "6" smd roundrect
@@ -8771,10 +8195,6 @@
 			(net "/sdr/EEPROM_SCL")
 			(pinfunction "SCL_6")
 			(pintype "input")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "e814ecdc-72a9-40a4-9cac-870687c8e046")
 		)
 		(pad "7" smd roundrect
@@ -8785,10 +8205,6 @@
 			(net "Earth")
 			(pinfunction "~{WC}_7")
 			(pintype "input")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "e6d15b97-0063-41b1-adf6-256637403259")
 		)
 		(pad "8" smd roundrect
@@ -8799,10 +8215,6 @@
 			(net "+3V3")
 			(pinfunction "VCC_8")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "6a226be6-088f-44c2-9e51-fe626be8f020")
 		)
 		(embedded_fonts no)
@@ -9114,10 +8526,6 @@
 			(net "VBUS")
 			(pinfunction "VIN_1")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "bd4b0671-710c-461c-a19f-45ea2653660f")
 		)
 		(pad "2" smd roundrect
@@ -9128,10 +8536,6 @@
 			(net "Earth")
 			(pinfunction "GND_2")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "61d7ad9d-ff57-4a53-a54f-1cb8c5687cff")
 		)
 		(pad "3" smd roundrect
@@ -9142,10 +8546,6 @@
 			(net "VBUS")
 			(pinfunction "EN_3")
 			(pintype "input")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "1cab368e-13fc-44e9-896b-49c489c6ebaf")
 		)
 		(pad "4" smd roundrect
@@ -9156,10 +8556,6 @@
 			(net "unconnected-(U4-NC-Pad4)")
 			(pinfunction "NC_4")
 			(pintype "no_connect")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "d1a72761-ef49-40a5-88d6-09d9b3be8345")
 		)
 		(pad "5" smd roundrect
@@ -9170,10 +8566,6 @@
 			(net "+3V3")
 			(pinfunction "VOUT_5")
 			(pintype "power_out")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "3379dff7-868b-481e-9606-8674a0e445b8")
 		)
 		(embedded_fonts no)
@@ -9199,7 +8591,7 @@
 			(at -6.39 -9.12 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8db8e607-173f-4967-8209-74f8b998f342")
+			(uuid "54da05c7-75e9-4288-83ed-1fce51ea5199")
 			(effects
 				(font
 					(size 1 1)
@@ -9210,7 +8602,7 @@
 		(property "Value" "74LVC1G17"
 			(at 0 2 90)
 			(layer "F.Fab")
-			(uuid "407880c8-d647-4c19-bc0a-59c492f389a9")
+			(uuid "2321863f-90e9-463b-b608-60af1c8a29fb")
 			(effects
 				(font
 					(size 1 1)
@@ -9223,7 +8615,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "12e81b60-d15c-4404-afa5-bb7f5695ffe9")
+			(uuid "b54ff9bf-f4c3-4e03-a242-c7b9f5f41d9e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9236,7 +8628,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ca056c33-3f94-4e7f-98e7-6bc8cbfbed43")
+			(uuid "9016c97c-a418-4904-a35a-4baa3655684a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9246,7 +8638,7 @@
 		)
 		(property ki_fp_filters "SOT?23* SOT?553* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/e76fb07c-9ab7-4292-94bb-129361794c81")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -9397,10 +8789,6 @@
 			(net "unconnected-(U6-NC-Pad1)")
 			(pinfunction "NC_1")
 			(pintype "no_connect")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "5ed4dd17-483e-47ef-8255-fbce2eff4a3d")
 		)
 		(pad "2" smd roundrect
@@ -9410,10 +8798,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(C36-Pad2)")
 			(pintype "input")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "b2b93a94-464d-478f-92d8-7c3f6ff15c89")
 		)
 		(pad "3" smd roundrect
@@ -9424,10 +8808,6 @@
 			(net "Earth")
 			(pinfunction "GND_3")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "cb172daf-67d3-4a5b-a677-569a0fe865ef")
 		)
 		(pad "4" smd roundrect
@@ -9437,10 +8817,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(U5-C)")
 			(pintype "output")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "6df95dd1-b542-48c1-a6cd-ec6672151f1e")
 		)
 		(pad "5" smd roundrect
@@ -9451,10 +8827,6 @@
 			(net "+3V3")
 			(pinfunction "VCC_5")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "38a11449-cc86-4f30-a2af-20e2ede56f5e")
 		)
 		(embedded_fonts no)
@@ -9769,10 +9141,6 @@
 			(net "Net-(J2-D+)")
 			(pinfunction "I/O1_1")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "5da70e69-0548-430a-b531-eec025cd3e7b")
 		)
 		(pad "2" smd roundrect
@@ -9783,10 +9151,6 @@
 			(net "Earth")
 			(pinfunction "GND_2")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "8cf95300-1306-45ba-a4e0-bd9b3251b606")
 		)
 		(pad "3" smd roundrect
@@ -9797,10 +9161,6 @@
 			(net "Net-(J2-D-)")
 			(pinfunction "I/O2_3")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "6cdec014-7dce-49a0-bc88-aee013880cc1")
 		)
 		(pad "4" smd roundrect
@@ -9811,10 +9171,6 @@
 			(net "/sdr/RTL_DM")
 			(pinfunction "I/O2_4")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "48642924-ca99-48f9-91d1-a2ef82e9fd94")
 		)
 		(pad "5" smd roundrect
@@ -9825,10 +9181,6 @@
 			(net "VBUS")
 			(pinfunction "VBUS_5")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "e746a617-c77b-4c33-90e7-ad0256a4c9c6")
 		)
 		(pad "6" smd roundrect
@@ -9839,10 +9191,6 @@
 			(net "/sdr/RTL_DP")
 			(pinfunction "I/O1_6")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "f3a54fdc-7ed8-45b9-89cb-c7e0b4c740c2")
 		)
 		(embedded_fonts no)
@@ -9911,7 +9259,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/c862e16e-eadd-4902-b28f-5f7e72107d73")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -10039,10 +9387,6 @@
 			(roundrect_rratio 0.25)
 			(net "+1V2")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "f3514faf-ef08-45f5-96be-8b223ae395c8")
 		)
 		(pad "2" smd roundrect
@@ -10052,10 +9396,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "c892f087-677f-4b0c-8271-dd37aa55920b")
 		)
 		(embedded_fonts no)
@@ -10124,7 +9464,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/f7947c6d-3e10-4ccc-a19b-8b022e2b0a66")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -10252,10 +9592,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "81055e53-017e-4717-91cd-8f0d106fb0f1")
 		)
 		(pad "2" smd roundrect
@@ -10265,10 +9601,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(U1-R)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "ad220dd8-7f40-4b84-ac46-b21aef06ac95")
 		)
 		(embedded_fonts no)
@@ -10294,7 +9626,7 @@
 			(at 6.87 -7.56 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2723fa3b-f85a-4228-b4b0-c08661f9d63c")
+			(uuid "b585d0fa-9b15-4b8d-8f36-1c7bb6331484")
 			(effects
 				(font
 					(size 1 1)
@@ -10305,7 +9637,7 @@
 		(property "Value" "bead"
 			(at 0 1.17 0)
 			(layer "F.Fab")
-			(uuid "1e4e5988-809d-4400-bb06-a1dc8fd11343")
+			(uuid "5c70d28d-61dc-419a-b88f-a4181592378d")
 			(effects
 				(font
 					(size 1 1)
@@ -10317,7 +9649,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e0bf8c72-7643-4c27-9589-d8ffb9baa7f4")
+			(uuid "68ce5b2a-3be9-41d2-9908-8808c5b4b3b0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10328,7 +9660,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "70043aae-c2e8-4eff-b762-f8cc27feeb5a")
+			(uuid "7495b7e6-9a1f-497f-97d7-febc94f05bbf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10337,7 +9669,7 @@
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/d7da3baa-9a54-44f7-a7f6-af9aeadf8baf")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -10445,10 +9777,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(L1-Pad1)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "e10502e9-12f9-4c45-bbcf-7cc5b2f61baa")
 		)
 		(pad "2" smd roundrect
@@ -10458,10 +9786,6 @@
 			(roundrect_rratio 0.25)
 			(net "/sdr/RTL_3V3")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "b27ce011-5eee-4c73-9e07-0f3e91a5ca7c")
 		)
 		(embedded_fonts no)
@@ -10487,7 +9811,7 @@
 			(at -6.87 5.23 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "caa7c3bb-e77e-4b35-a6ca-e0d803e3fe3d")
+			(uuid "0db80c52-a8da-4c1a-9d93-b6c5248442c6")
 			(effects
 				(font
 					(size 1 1)
@@ -10498,7 +9822,7 @@
 		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
-			(uuid "4121ad9e-64ab-4968-acf6-a864465aeecb")
+			(uuid "cddeee42-9ed4-48fc-9d7f-99135eb4045a")
 			(effects
 				(font
 					(size 1 1)
@@ -10510,7 +9834,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "287fea48-fc02-4ac3-b170-c739ec28651d")
+			(uuid "d0d9fda8-7f66-40dd-b7cf-0fcd9522db8a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10521,7 +9845,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9a0bbdab-7a97-47d1-96c7-0c7a73f084e8")
+			(uuid "52c4bded-fb23-4d44-8b91-fd8caf3aff90")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10530,7 +9854,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/51761269-0dea-40cb-8ca8-eb3a6a2616a7")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -10658,10 +9982,6 @@
 			(roundrect_rratio 0.25)
 			(net "/sdr/RTL_CLK")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "3523844a-b861-49e2-b5ae-8e0302b01562")
 		)
 		(pad "2" smd roundrect
@@ -10671,10 +9991,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(U3-CLK_Out)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "dabe2eb6-313d-45f2-9ba9-0ca678f8c119")
 		)
 		(embedded_fonts no)
@@ -10743,7 +10059,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/c573c8ff-2b65-438b-9e82-8330534c8a1c")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -10871,10 +10187,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "c467e2c1-e301-418a-923b-8168589cf6d0")
 		)
 		(pad "2" smd roundrect
@@ -10884,10 +10196,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(U1-C)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "9230daef-f41a-4a00-ac6c-d531e9a9a2a3")
 		)
 		(embedded_fonts no)
@@ -10913,7 +10221,7 @@
 			(at -6.39 -8.03 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "78baa932-1568-4bf7-86f8-8a2f9bc30d86")
+			(uuid "81252244-5a99-4476-88e9-4e8c2bf06a9c")
 			(effects
 				(font
 					(size 1 1)
@@ -10924,7 +10232,7 @@
 		(property "Value" "100nF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
-			(uuid "b96c5425-8fb0-49ae-ae74-33ffdf3464fe")
+			(uuid "becaef6e-de03-440f-a20d-c9953e8d3f09")
 			(effects
 				(font
 					(size 1 1)
@@ -10936,7 +10244,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ea93bfb3-b316-4c47-91fa-4e7237ef89a8")
+			(uuid "7c12855b-0982-4aad-9c8a-0d5118d611cc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10947,7 +10255,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "10cf4e7f-3827-4da8-99b3-4e7d860c50a1")
+			(uuid "aba26d21-937b-44fc-932d-794740219247")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10956,7 +10264,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/17be06f5-8822-4c1c-a352-ac9341b5a266")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -11084,10 +10392,6 @@
 			(roundrect_rratio 0.25)
 			(net "+3V3")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "ed76a465-0d5e-437e-bf03-7ba4ea4428fa")
 		)
 		(pad "2" smd roundrect
@@ -11097,10 +10401,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "8005e262-c025-4c08-af48-25750a40fd1a")
 		)
 		(embedded_fonts no)
@@ -11126,7 +10426,7 @@
 			(at 6.39 5.71 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ace4139c-461d-47a7-bfb9-1ca74153919f")
+			(uuid "0d7fb1a6-da4e-40ad-8dab-57192f9ee6c2")
 			(effects
 				(font
 					(size 1 1)
@@ -11137,7 +10437,7 @@
 		(property "Value" "10uF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
-			(uuid "c93dd60c-56d9-48c1-b8a8-3257e9c5931b")
+			(uuid "150e723c-5a76-432c-b249-aa1fd83ac2f7")
 			(effects
 				(font
 					(size 1 1)
@@ -11149,7 +10449,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e44fdc64-df67-4b77-a59c-01854c7d9072")
+			(uuid "ed81fb96-4fc8-49cd-90b5-c1a2fa16ccf4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11160,7 +10460,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "38ec9748-4393-48ff-b611-74f8955052a6")
+			(uuid "5cfc740a-d4b4-48de-855d-16c504697ca4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11169,7 +10469,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/c593e4ff-fbd3-4935-a415-138bb2eca7c1")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -11297,10 +10597,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "34181964-5760-4996-b6eb-0560e9d565d4")
 		)
 		(pad "2" smd roundrect
@@ -11310,10 +10606,6 @@
 			(roundrect_rratio 0.25)
 			(net "+3V3")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "a7008158-efe9-415c-8b88-9d31b9ee1f24")
 		)
 		(embedded_fonts no)
@@ -11339,7 +10631,7 @@
 			(at -6.39 -8.87 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a770a118-1bed-487f-8d1d-14fc15976dd3")
+			(uuid "7c8f0ee8-2e38-4b31-8c99-a148b8e480a8")
 			(effects
 				(font
 					(size 1 1)
@@ -11350,7 +10642,7 @@
 		(property "Value" "74AUP1G74"
 			(at 0 2 90)
 			(layer "F.Fab")
-			(uuid "4c5ae8a1-d6b1-4979-9899-f4f091b84857")
+			(uuid "5b0923a4-344b-4c26-8159-1e4965ebaed2")
 			(effects
 				(font
 					(size 1 1)
@@ -11363,7 +10655,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2df03bc5-0b6b-4f03-8e05-b2c17d77a3fd")
+			(uuid "b62045de-4191-48e6-b1a8-bd920c9eb7a3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11376,7 +10668,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "30845958-1c6a-4631-a7ae-42f969a61f93")
+			(uuid "9bac8cb4-89cc-409c-8afe-5149728722d4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11386,7 +10678,7 @@
 		)
 		(property ki_fp_filters "SSOP* VSSOP*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/761dc9bc-bd98-4f99-bd94-d356b3c35271")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -11536,10 +10828,6 @@
 			(net "Net-(U5-C)")
 			(pinfunction "C_1")
 			(pintype "input")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "9581021d-2296-4b8f-8caa-51cc14bcd222")
 		)
 		(pad "2" smd roundrect
@@ -11550,10 +10838,6 @@
 			(net "/sdr/D")
 			(pinfunction "D_2")
 			(pintype "input")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "59bb6fcd-de31-4efb-85bb-229db06e5dab")
 		)
 		(pad "3" smd roundrect
@@ -11564,10 +10848,6 @@
 			(net "/sdr/D")
 			(pinfunction "~{Q}_3")
 			(pintype "output")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "def2dd48-524d-4b17-ac28-e2cede196b97")
 		)
 		(pad "4" smd roundrect
@@ -11578,10 +10858,6 @@
 			(net "Earth")
 			(pinfunction "GND_4")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "fdb174be-4a23-408f-97ef-c5725e5395c7")
 		)
 		(pad "5" smd roundrect
@@ -11592,10 +10868,6 @@
 			(net "/sdr/BAND_PASS")
 			(pinfunction "Q_5")
 			(pintype "output")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "11023d81-8ab7-446f-86d9-48c749aab787")
 		)
 		(pad "6" smd roundrect
@@ -11606,10 +10878,6 @@
 			(net "+3V3")
 			(pinfunction "~{CLR}_6")
 			(pintype "input")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "0c7564d1-f9ab-4871-9b85-156837ad060b")
 		)
 		(pad "7" smd roundrect
@@ -11620,10 +10888,6 @@
 			(net "+3V3")
 			(pinfunction "~{PRE}_7")
 			(pintype "input")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "4b8c5372-90a4-48c2-89db-42e69dfb5cbc")
 		)
 		(pad "8" smd roundrect
@@ -11634,10 +10898,6 @@
 			(net "+3V3")
 			(pinfunction "VCC_8")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "bd492000-1993-4d6b-aeb0-53e80ee3cf0e")
 		)
 		(embedded_fonts no)
@@ -11663,7 +10923,7 @@
 			(at -6.39 -8.03 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "77a5c2e5-bcca-47e8-9200-d4d03eef522c")
+			(uuid "67854fbe-b8a9-4acb-8e08-dfb75db5effb")
 			(effects
 				(font
 					(size 1 1)
@@ -11674,7 +10934,7 @@
 		(property "Value" "100nF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
-			(uuid "cf7a7736-9821-40e1-9d74-7ddb0cc6d643")
+			(uuid "1121683c-2d0e-4599-975d-1e6486e86d2f")
 			(effects
 				(font
 					(size 1 1)
@@ -11686,7 +10946,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3f90852f-e6d2-4c10-b8d7-b4b13da57a0f")
+			(uuid "f9236ee5-b65c-428b-accb-a2f5b6d38ad9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11697,7 +10957,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "de037773-028b-4146-a70b-3739acc9b75a")
+			(uuid "94f07dce-242f-4375-8d91-6cc638b1e0c7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11706,7 +10966,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/de679869-9787-469c-9ec7-0ba39402a1b8")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -11834,10 +11094,6 @@
 			(roundrect_rratio 0.25)
 			(net "+3V3")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "c1c32c1a-1219-4b13-954c-59eae1f039f2")
 		)
 		(pad "2" smd roundrect
@@ -11847,10 +11103,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "2ea0f1e7-a4e3-4a86-9f9f-c123c72d7129")
 		)
 		(embedded_fonts no)
@@ -11919,7 +11171,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/4faac22b-f960-421e-8ca5-357f76a25767")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -12047,10 +11299,6 @@
 			(roundrect_rratio 0.25)
 			(net "+1V2")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "09099cd1-62f3-476b-8c82-a0500bbd9ae9")
 		)
 		(pad "2" smd roundrect
@@ -12060,10 +11308,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "9f22fa53-b2e0-48a8-b7ee-8f218d10e564")
 		)
 		(embedded_fonts no)
@@ -12132,7 +11376,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/5deb6085-7525-4194-8708-95439b6d838c")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -12260,10 +11504,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "4223b5c7-70ce-4115-bebe-b8537448e6cf")
 		)
 		(pad "2" smd roundrect
@@ -12273,10 +11513,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(C36-Pad2)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "d6a8c7de-5a89-4aa7-8f94-d25fc8c6c882")
 		)
 		(embedded_fonts no)
@@ -12345,7 +11581,7 @@
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/4af0fc03-dca4-488c-89e6-e689dd39ac5b")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -12473,10 +11709,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(U3-TF1N)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "2d8ff2d7-7654-445c-a0b2-90092f0efed2")
 		)
 		(pad "2" smd roundrect
@@ -12486,10 +11718,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(U3-TF2N)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "bee36f0f-a8c5-4902-a600-43c119da01e5")
 		)
 		(embedded_fonts no)
@@ -12515,7 +11743,7 @@
 			(at 6.39 5.7 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b866757d-4120-4363-a992-a087fb7eadc9")
+			(uuid "f32f056b-2593-4414-9efd-d56510feb9cb")
 			(effects
 				(font
 					(size 1 1)
@@ -12526,7 +11754,7 @@
 		(property "Value" "4.7kR"
 			(at 0 1.17 90)
 			(layer "F.Fab")
-			(uuid "cbf2f927-44b2-4ac6-892d-985a6292423f")
+			(uuid "c69fc3f1-75d7-4fb9-b68e-1a7f12cad910")
 			(effects
 				(font
 					(size 1 1)
@@ -12538,7 +11766,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cd51edf8-d04d-4451-903d-54d0ef79bd7b")
+			(uuid "2fb3154a-a01f-4e4c-924e-a7a612f101ab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12549,7 +11777,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1bb9f888-5c2e-4162-867e-db1e5c18570b")
+			(uuid "e907b723-a83f-4c2e-a6b9-9d77746bf655")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12558,7 +11786,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/bdc43995-b5ff-4daa-95bb-f567d5f930ec")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -12686,10 +11914,6 @@
 			(roundrect_rratio 0.25)
 			(net "/sdr/RTL_IF_AGC")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "511b2c8a-5d61-416a-ae5b-231c9ff3d670")
 		)
 		(pad "2" smd roundrect
@@ -12699,10 +11923,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(C29-Pad2)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "a7deb6b7-310a-4b76-a618-1c006b28167e")
 		)
 		(embedded_fonts no)
@@ -12728,7 +11948,7 @@
 			(at 6.39 5.71 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ab31af2c-6af2-4314-8097-0c907c0b6538")
+			(uuid "f338c19b-10b2-4365-b204-3da55e7ae5d4")
 			(effects
 				(font
 					(size 1 1)
@@ -12739,7 +11959,7 @@
 		(property "Value" "100nF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
-			(uuid "228b269c-283a-4cc9-a0d0-7865abf57a02")
+			(uuid "1f124422-32af-429d-adb0-185ab92cfcf7")
 			(effects
 				(font
 					(size 1 1)
@@ -12751,7 +11971,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d551d949-5c03-4a93-a879-f232bac4c77d")
+			(uuid "f75a4edc-a989-410b-9a85-d341c577fca0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12762,7 +11982,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6ed4e5c4-c5bc-45c7-a3b8-406af2d6e136")
+			(uuid "ac881759-32d4-4b30-8d10-54565f469c96")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12771,7 +11991,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/314e3e9e-c160-4e39-9a01-0a604b04ce17")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -12899,10 +12119,6 @@
 			(roundrect_rratio 0.25)
 			(net "+3V3")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "fc6dcd1a-5ac3-481e-9cea-f1e3ee29fd1c")
 		)
 		(pad "2" smd roundrect
@@ -12912,10 +12128,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "eac9b495-ab43-48f4-b47f-38ce2a882a0e")
 		)
 		(embedded_fonts no)
@@ -12941,7 +12153,7 @@
 			(at -6.39 -8.03 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d478760a-32d6-4c7e-b5db-5a298b28b422")
+			(uuid "01db2999-fbe1-4707-ae48-2c14d2952932")
 			(effects
 				(font
 					(size 1 1)
@@ -12952,7 +12164,7 @@
 		(property "Value" "100nF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
-			(uuid "26048e81-79d2-4a1b-bcf2-191b4f834a58")
+			(uuid "dfcaeaa4-dbcc-499f-82fd-dbbd0c44b577")
 			(effects
 				(font
 					(size 1 1)
@@ -12964,7 +12176,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8367bc14-993b-4f4a-99ca-2ead4c311f67")
+			(uuid "9a38bfd8-db8d-45f5-a140-7517f3437e89")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12975,7 +12187,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "652dbc40-6abc-4752-bf62-bac2c5129d93")
+			(uuid "476b69c8-2fb4-4bff-bce2-2aba42fe20f4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12984,7 +12196,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/00575eb0-89aa-427b-ac3b-6db0ab10dfb0")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -13112,10 +12324,6 @@
 			(roundrect_rratio 0.25)
 			(net "+3V3")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "8ca7a9a5-c618-4830-a740-8921f3f36817")
 		)
 		(pad "2" smd roundrect
@@ -13125,10 +12333,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "120f0149-c521-424e-ab48-c45c04bee755")
 		)
 		(embedded_fonts no)
@@ -13154,7 +12358,7 @@
 			(at 6.39 5.7 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2267940e-e79e-42d0-9b26-4489e178e1cc")
+			(uuid "b2634a9a-8154-4c74-a1d7-2ad29963e58c")
 			(effects
 				(font
 					(size 1 1)
@@ -13165,7 +12369,7 @@
 		(property "Value" "10kR"
 			(at 0 1.17 90)
 			(layer "F.Fab")
-			(uuid "3f2ef08f-0b9f-4ed4-9d5a-b2ec0b3188e4")
+			(uuid "95c05f42-6669-4013-83cf-ec630b9a8917")
 			(effects
 				(font
 					(size 1 1)
@@ -13177,7 +12381,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c3839be5-e145-4642-9c53-82b0aa548a99")
+			(uuid "5ea7d940-d7c6-408f-ba98-fa2ec44353f1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13188,7 +12392,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7c4a80a0-aa83-4bb8-97e5-020f52591108")
+			(uuid "2e0b641b-c40c-4a71-81cc-a4dbd3e4f0d6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13197,7 +12401,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/e67c9f07-bd46-4f83-9afa-08c0b67d2015")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -13325,10 +12529,6 @@
 			(roundrect_rratio 0.25)
 			(net "/sdr/IF_AGC")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "a562ae50-bc93-4748-b74a-26441b0dc9a3")
 		)
 		(pad "2" smd roundrect
@@ -13338,10 +12538,6 @@
 			(roundrect_rratio 0.25)
 			(net "/sdr/RTL_IF_AGC")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "0569b8d9-fa5e-49fa-a542-6cdce95bcad4")
 		)
 		(embedded_fonts no)
@@ -13410,7 +12606,7 @@
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/5ff2c56f-f9d7-482e-a848-ed96d95a7b0a")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -13518,10 +12714,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(U1-1.2V_REG_OUT)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "65856c9d-3751-4c2e-af28-d9822f9c67a7")
 		)
 		(pad "2" smd roundrect
@@ -13531,10 +12723,6 @@
 			(roundrect_rratio 0.25)
 			(net "+1V2")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "e5c14f65-25ed-4b11-a7ba-866fc0256b88")
 		)
 		(embedded_fonts no)
@@ -13603,7 +12791,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/a44d5592-d093-4aec-9ee2-b9d759dc923e")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -13731,10 +12919,6 @@
 			(roundrect_rratio 0.25)
 			(net "+1V2")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "8a74e084-af83-4a31-9e98-ced3035089e1")
 		)
 		(pad "2" smd roundrect
@@ -13744,10 +12928,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "3efd5488-3f92-4418-bb01-e2d14b4722f5")
 		)
 		(embedded_fonts no)
@@ -13816,7 +12996,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/9041f00a-e80b-494b-afa4-43de857d25aa")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -13944,10 +13124,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "cceca92c-2d59-46ff-8d8a-58cc29e9ff1e")
 		)
 		(pad "2" smd roundrect
@@ -13957,10 +13133,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(C29-Pad2)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "deab900d-0281-41cd-866d-2dd2faaf6a74")
 		)
 		(embedded_fonts no)
@@ -13986,7 +13158,7 @@
 			(at 6.87 -7.56 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "cc364e35-506f-4219-8087-7f283bb62313")
+			(uuid "526cb2f1-d9f5-414a-81cb-60c38bd31cfe")
 			(effects
 				(font
 					(size 1 1)
@@ -13997,7 +13169,7 @@
 		(property "Value" "330R"
 			(at 0 1.17 0)
 			(layer "F.Fab")
-			(uuid "727daf24-7706-4e7f-b868-8fd132d316fb")
+			(uuid "f034a508-a9ae-464e-b5a5-001539838522")
 			(effects
 				(font
 					(size 1 1)
@@ -14009,7 +13181,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f58c97dd-2da2-4fdb-b404-473494132e2f")
+			(uuid "bdfb186d-f871-415a-83d6-ec6c02c4812f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14020,7 +13192,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9d07b153-b7fb-4498-9a24-054a49ff2655")
+			(uuid "80d9de0c-134e-4242-8357-367965ce43d7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14029,8 +13201,8 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/683bcd79-1b3e-4e03-9646-0ca13c19a8fe")
-		(sheetname "/")
-		(sheetfile "RXBox.kicad_sch")
+		(sheetname "/ComputeModule/")
+		(sheetfile "computemodule.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14157,10 +13329,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(D2-K)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "d0b89c36-a678-43ae-bd08-167cd1b00371")
 		)
 		(pad "2" smd roundrect
@@ -14170,10 +13338,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "2f0a7136-6fad-4b40-9cc4-4d32c3a9935d")
 		)
 		(embedded_fonts no)
@@ -14199,7 +13363,7 @@
 			(at -6.87 5.22 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "118c249f-14c9-4b41-bba3-0457d5388835")
+			(uuid "fc9e5688-adfb-4f51-9a04-8e6cb79df05e")
 			(effects
 				(font
 					(size 1 1)
@@ -14210,7 +13374,7 @@
 		(property "Value" "220R"
 			(at 0 1.17 0)
 			(layer "F.Fab")
-			(uuid "bf54ca6b-ffa2-4ef0-a6c3-34d68401f727")
+			(uuid "448ecda3-a16f-42d5-9d36-04d2f94a8bb8")
 			(effects
 				(font
 					(size 1 1)
@@ -14222,7 +13386,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "da0adb9d-9044-4fac-ba62-1b3af02fbf22")
+			(uuid "b2e82ff9-c098-4ee0-94b3-d2b431d47c92")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14233,7 +13397,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ad6c60fa-da9e-4179-87bf-25a8a3239191")
+			(uuid "29b86b23-ea6c-42c3-9690-e58dbd0c2de2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14242,7 +13406,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/adb2917e-c4e7-4e21-b730-ba01c737f4ab")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -14370,10 +13534,6 @@
 			(roundrect_rratio 0.25)
 			(net "/sdr/TUNER_SCL")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "dbae2520-d336-4919-8f4b-068ec35c82ce")
 		)
 		(pad "2" smd roundrect
@@ -14383,10 +13543,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(U3-SCL)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "ef1e436e-3730-45fe-965e-97565a4e5548")
 		)
 		(embedded_fonts no)
@@ -14766,10 +13922,6 @@
 			(size 1.1 1.1)
 			(drill 1.1)
 			(layers "*.Mask")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "69a45489-b318-49fc-b130-d474b1e6cdbe")
 		)
 		(pad "" np_thru_hole circle
@@ -14777,10 +13929,6 @@
 			(size 1.1 1.1)
 			(drill 1.1)
 			(layers "*.Mask")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "82466e90-5211-41fd-8ec5-b837c9d5bef4")
 		)
 		(pad "1" smd roundrect
@@ -14791,10 +13939,6 @@
 			(net "VBUS")
 			(pinfunction "VBUS_1")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "b3fc463d-eb46-47ac-8e9d-27eb66e308e9")
 		)
 		(pad "2" smd roundrect
@@ -14805,10 +13949,6 @@
 			(net "Net-(J2-D-)")
 			(pinfunction "D-_2")
 			(pintype "bidirectional")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "907e8dab-2e1f-4398-9f6e-273d698f0e16")
 		)
 		(pad "3" smd roundrect
@@ -14819,10 +13959,6 @@
 			(net "Net-(J2-D+)")
 			(pinfunction "D+_3")
 			(pintype "bidirectional")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "3936d22d-8465-4021-8050-70e44cf333de")
 		)
 		(pad "4" smd roundrect
@@ -14833,10 +13969,6 @@
 			(net "Earth")
 			(pinfunction "GND_4")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "097b0eb3-9a8d-467b-9d36-87bd09214d46")
 		)
 		(pad "5" thru_hole oval
@@ -14849,10 +13981,6 @@
 			(net "Earth")
 			(pinfunction "Shield_5")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "42f286a1-5e38-4940-9ada-0d31f97753f0")
 		)
 		(pad "5" thru_hole oval
@@ -14865,10 +13993,6 @@
 			(net "Earth")
 			(pinfunction "Shield_5")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "ffd9885a-b9dd-48da-a027-18cdde57f962")
 		)
 		(embedded_fonts no)
@@ -14894,7 +14018,7 @@
 			(at 6.87 -7.55 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2644d006-5650-46cd-8cae-b6582d725a5d")
+			(uuid "da8178c3-0ba1-4890-97a0-4ee97615bd00")
 			(effects
 				(font
 					(size 1 1)
@@ -14905,7 +14029,7 @@
 		(property "Value" "10uF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
-			(uuid "b3395eb0-e43e-4f64-bd47-4dbceafdd290")
+			(uuid "195fbe59-7d4a-404c-a2b1-300cbbd394bc")
 			(effects
 				(font
 					(size 1 1)
@@ -14917,7 +14041,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "497cef4b-bb24-4ae7-995f-27b398581216")
+			(uuid "3d89d3b7-9262-4d9f-99d1-ea8d82045412")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14928,7 +14052,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5e8d1a16-f537-46cd-80a1-91fa9d1c037b")
+			(uuid "a072ab25-c29d-4023-a1c4-d132f26586b2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14937,8 +14061,8 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/806d7c95-ba3a-40bc-9fa7-9d91bbb1d895")
-		(sheetname "/sdr/")
-		(sheetfile "sdr.kicad_sch")
+		(sheetname "/Power/")
+		(sheetfile "power.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15065,10 +14189,6 @@
 			(roundrect_rratio 0.25)
 			(net "+3V3")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "ed40336b-5afb-447f-b910-9b68f4c85ba2")
 		)
 		(pad "2" smd roundrect
@@ -15078,10 +14198,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "eb1c33fc-2a56-4449-baad-5e2351b0dfec")
 		)
 		(embedded_fonts no)
@@ -15107,7 +14223,7 @@
 			(at -6.87 5.22 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "963a1aff-fb39-414b-ae65-7fa496cf2a22")
+			(uuid "00cd9aba-1e0a-4ee9-8638-dce703e8cb19")
 			(effects
 				(font
 					(size 1 1)
@@ -15118,7 +14234,7 @@
 		(property "Value" "bead"
 			(at 0 1.17 0)
 			(layer "F.Fab")
-			(uuid "05e3e4d0-5c42-423a-bb2d-145b0b1c6fc7")
+			(uuid "92dfafa0-1026-4724-b531-b1b0a9dd9d6a")
 			(effects
 				(font
 					(size 1 1)
@@ -15130,7 +14246,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "79c5da7c-833d-4856-830d-c6b1a5a838e0")
+			(uuid "b0ad3152-f2d0-4ed0-8b9e-958ba841dcde")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15141,7 +14257,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8fcdeb99-a438-45a7-a479-05ee6ce4d103")
+			(uuid "a4bca67f-5d30-4de4-9e35-0fe08db95951")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15150,7 +14266,7 @@
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/d7de68f1-11cf-422e-9467-6e82cf4d542a")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -15258,10 +14374,6 @@
 			(roundrect_rratio 0.25)
 			(net "+3V3")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "38ada0d7-4d85-4cc8-9079-b806aadcb78b")
 		)
 		(pad "2" smd roundrect
@@ -15271,10 +14383,6 @@
 			(roundrect_rratio 0.25)
 			(net "/sdr/RTL_3V3")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "11ea9bcb-fecd-4b68-8a7f-b6360d19b4ad")
 		)
 		(embedded_fonts no)
@@ -15343,7 +14451,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/9737cb7e-9802-48d8-b106-31cbc76690d6")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -15471,10 +14579,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(C27-Pad1)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "3b4350af-a45f-4baa-9c72-b36c6185fdf0")
 		)
 		(pad "2" smd roundrect
@@ -15484,10 +14588,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "970c5e65-f8c1-4750-b9e7-3ac434b1d629")
 		)
 		(embedded_fonts no)
@@ -15513,7 +14613,7 @@
 			(at -6.39 -8.04 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "9e202776-8ec9-4390-9e84-6a8316d262e4")
+			(uuid "338adbc7-73e4-4cfc-a7de-8c6c30fa86e3")
 			(effects
 				(font
 					(size 1 1)
@@ -15524,7 +14624,7 @@
 		(property "Value" "bead"
 			(at 0 1.17 90)
 			(layer "F.Fab")
-			(uuid "67f83a3c-9b0c-4f02-ac45-1d65168e02b2")
+			(uuid "f1f887c6-3271-45fa-bee0-317cfcb13e11")
 			(effects
 				(font
 					(size 1 1)
@@ -15536,7 +14636,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "af8c5e1f-e1a1-4dc8-811f-8c54d6f556d0")
+			(uuid "a6ff6d3d-5fb0-4578-abb0-ba4b91f5e85f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15547,7 +14647,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d26ef5a0-587b-42df-b2a2-44c0e2ba434c")
+			(uuid "6e9a0ed4-f88c-4bf5-984a-1aecd2433a3c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15556,7 +14656,7 @@
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/15b60fe1-51e9-4aab-9d58-1ad8efee6eb9")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -15664,10 +14764,6 @@
 			(roundrect_rratio 0.25)
 			(net "+3V3")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "99d643ce-2069-454c-a637-64302d163670")
 		)
 		(pad "2" smd roundrect
@@ -15677,10 +14773,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(C29-Pad2)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "6f2907cd-6576-4ba3-8cc4-11da241c081b")
 		)
 		(embedded_fonts no)
@@ -15706,7 +14798,7 @@
 			(at -6.39 -8.03 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "76d533f3-0346-441b-8147-00097b7504c8")
+			(uuid "8e41ddca-d112-4ffd-8d63-20bea7cdece3")
 			(effects
 				(font
 					(size 1 1)
@@ -15717,7 +14809,7 @@
 		(property "Value" "10uF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
-			(uuid "3b97bdf5-874d-48d7-94be-1a9ef46f8ef5")
+			(uuid "2444671d-89b0-49c6-a5f0-064e500e831a")
 			(effects
 				(font
 					(size 1 1)
@@ -15729,7 +14821,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "04ba17e0-90e5-4382-ae1e-ce11c9ed902f")
+			(uuid "2705cab1-7f14-4b82-923f-9f5e2b319de5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15740,7 +14832,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6dcef26d-5c62-42eb-af9c-96d46cc472c5")
+			(uuid "16736848-f70c-42c1-8591-995e6970902b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15749,7 +14841,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/b41d5eb5-1b0d-4b77-b762-676abb7c7bed")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -15877,10 +14969,6 @@
 			(roundrect_rratio 0.25)
 			(net "/sdr/RTL_3V3")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "34a61aa6-6836-49cd-aa27-96b276be444c")
 		)
 		(pad "2" smd roundrect
@@ -15890,10 +14978,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "95de0f0b-da48-41e7-b08b-7c51dab81a14")
 		)
 		(embedded_fonts no)
@@ -15919,7 +15003,7 @@
 			(at -6.39 -8.03 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ac4ed333-8803-4de0-8d13-fcc3fdd29dd8")
+			(uuid "4c8255af-8806-44ed-a21a-9caf8c2ef26e")
 			(effects
 				(font
 					(size 1 1)
@@ -15930,7 +15014,7 @@
 		(property "Value" "100nF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
-			(uuid "5fa25c5f-a2da-47d6-bc10-e358b8d158a9")
+			(uuid "1aa3374a-0eee-4f24-adca-1cf6728ef24d")
 			(effects
 				(font
 					(size 1 1)
@@ -15942,7 +15026,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6d3aa62a-6bb0-4797-8527-1a9473435ae0")
+			(uuid "72d0a89b-316a-4000-8054-a1c812a45d3f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15953,7 +15037,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "302ef0d0-23af-4d2f-9b1d-3839815ee6c7")
+			(uuid "696b0386-a7b4-4b02-8231-028adc02a2eb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15962,7 +15046,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/819ea285-3eb1-4682-ac39-7364d6fbd52e")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -16090,10 +15174,6 @@
 			(roundrect_rratio 0.25)
 			(net "/sdr/IF_P")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "ba14b7bc-0248-4ed0-bb56-2333822f4a72")
 		)
 		(pad "2" smd roundrect
@@ -16103,10 +15183,6 @@
 			(roundrect_rratio 0.25)
 			(net "/sdr/IF_I_P")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "0c0ccb34-d352-4eba-934a-eece3bfb2717")
 		)
 		(embedded_fonts no)
@@ -16132,7 +15208,7 @@
 			(at 6.39 3.54 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "89d6d8f8-002f-4c8e-8732-8f91ecdaff84")
+			(uuid "ac1ded45-90ad-4ed5-8ab7-38ea05b05e9d")
 			(effects
 				(font
 					(size 1 1)
@@ -16143,7 +15219,7 @@
 		(property "Value" "R820T2"
 			(at 0 3.33 90)
 			(layer "F.Fab")
-			(uuid "ce9f3ae1-8f5b-4a49-ba1b-cfd5b918e833")
+			(uuid "04cd2d1e-45ab-46db-9865-687f98ee0d88")
 			(effects
 				(font
 					(size 1 1)
@@ -16155,7 +15231,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1301de2b-c4b9-4321-90a6-ab96af16c5ba")
+			(uuid "452c1694-c67f-41f6-83bd-e71ba0cf96e9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16166,7 +15242,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "60c1ff89-538d-4d8e-9c62-f26bb5f0d6c9")
+			(uuid "d529d727-ee14-4e23-8a8a-f3d54855eb1d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16174,7 +15250,7 @@
 			)
 		)
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/2e76f5e7-5e16-46e1-9244-f1a1acef556d")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -16506,10 +15582,6 @@
 			(size 1.17 1.17)
 			(layers "F.Paste")
 			(roundrect_rratio 0.213675)
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "0f11b337-389e-4011-9743-f14c23492037")
 		)
 		(pad "" smd roundrect
@@ -16517,10 +15589,6 @@
 			(size 1.17 1.17)
 			(layers "F.Paste")
 			(roundrect_rratio 0.213675)
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "13d30320-ac99-4c5a-aa9a-d5ab017064c9")
 		)
 		(pad "" smd roundrect
@@ -16528,10 +15596,6 @@
 			(size 1.17 1.17)
 			(layers "F.Paste")
 			(roundrect_rratio 0.213675)
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "92f941ba-3241-44cb-b8b4-4c5baa1f3f8d")
 		)
 		(pad "" smd roundrect
@@ -16539,10 +15603,6 @@
 			(size 1.17 1.17)
 			(layers "F.Paste")
 			(roundrect_rratio 0.213675)
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "c7476b42-65b7-46a4-9f09-28588bad9138")
 		)
 		(pad "1" smd roundrect
@@ -16553,10 +15613,6 @@
 			(net "unconnected-(U3-NC-Pad1)")
 			(pinfunction "NC_1")
 			(pintype "no_connect")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "1c3da550-b06d-4c87-8f9c-346647516b61")
 		)
 		(pad "2" smd roundrect
@@ -16567,10 +15623,6 @@
 			(net "+3V3")
 			(pinfunction "VCC_2")
 			(pintype "input")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "607e8b68-8ded-44c0-a154-0220dd52e7c4")
 		)
 		(pad "3" smd roundrect
@@ -16581,10 +15633,6 @@
 			(net "unconnected-(U3-LT-Pad3)")
 			(pinfunction "LT_3")
 			(pintype "unspecified+no_connect")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "edf1a06f-d4f5-460e-b53d-bc71bdf37878")
 		)
 		(pad "4" smd roundrect
@@ -16595,10 +15643,6 @@
 			(net "Net-(U3-Det1)")
 			(pinfunction "Det1_4")
 			(pintype "unspecified")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "e0711ab5-eb5f-4e2d-80fe-a8e95b9c5cc3")
 		)
 		(pad "5" smd roundrect
@@ -16609,10 +15653,6 @@
 			(net "Net-(U3-Det2)")
 			(pinfunction "Det2_5")
 			(pintype "unspecified")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "5ba98041-cdd3-4e29-9040-e32ff060ff01")
 		)
 		(pad "6" smd roundrect
@@ -16623,10 +15663,6 @@
 			(net "Net-(U3-SCL)")
 			(pinfunction "SCL_6")
 			(pintype "unspecified")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "a2a0a32a-4425-4047-b4e9-088930fbdbcf")
 		)
 		(pad "7" smd roundrect
@@ -16637,10 +15673,6 @@
 			(net "Net-(U3-SDA)")
 			(pinfunction "SDA_7")
 			(pintype "bidirectional")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "6510c608-15d3-4ea1-b5c7-50741b413ca1")
 		)
 		(pad "8" smd roundrect
@@ -16651,10 +15683,6 @@
 			(net "/sdr/TUNER_XIN")
 			(pinfunction "Xtal_I_8")
 			(pintype "unspecified")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "23f5e153-7048-4795-9640-64e0b5cbcc82")
 		)
 		(pad "9" smd roundrect
@@ -16665,10 +15693,6 @@
 			(net "unconnected-(U3-Xtal_O-Pad9)")
 			(pinfunction "Xtal_O_9")
 			(pintype "unspecified+no_connect")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "7aaead04-8c61-4d67-9b04-7f1f8357d4cf")
 		)
 		(pad "10" smd roundrect
@@ -16679,10 +15703,6 @@
 			(net "Net-(U3-CLK_Out)")
 			(pinfunction "CLK_Out_10")
 			(pintype "output")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "1a18d17f-01ba-4f20-baad-56e468cc0a52")
 		)
 		(pad "11" smd roundrect
@@ -16693,10 +15713,6 @@
 			(net "+3V3")
 			(pinfunction "VCC_11")
 			(pintype "input")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "58c4dacf-ce4b-4858-8417-779e5fdb49a1")
 		)
 		(pad "12" smd roundrect
@@ -16707,10 +15723,6 @@
 			(net "/sdr/IF_N")
 			(pinfunction "IF_N_12")
 			(pintype "output")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "d1aa1da0-57d0-4c5a-850f-f187e0fd7378")
 		)
 		(pad "13" smd roundrect
@@ -16721,10 +15733,6 @@
 			(net "/sdr/IF_P")
 			(pinfunction "IF_P_13")
 			(pintype "output")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "5848d73a-223b-401c-bfbd-ef17f336ec7b")
 		)
 		(pad "14" smd roundrect
@@ -16735,10 +15743,6 @@
 			(net "/sdr/IF_AGC")
 			(pinfunction "IF_AGC_14")
 			(pintype "unspecified")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "8dd597df-246e-48d1-b8b0-6b5e6f00dd3f")
 		)
 		(pad "15" smd roundrect
@@ -16749,10 +15753,6 @@
 			(net "Net-(U3-CP)")
 			(pinfunction "CP_15")
 			(pintype "unspecified")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "aaa5120d-bbb4-44d9-a14e-b6e41033964f")
 		)
 		(pad "16" smd roundrect
@@ -16763,10 +15763,6 @@
 			(net "Earth")
 			(pinfunction "GND_16")
 			(pintype "input")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "af5293e5-3150-4aff-86d6-cece0cd28857")
 		)
 		(pad "17" smd roundrect
@@ -16777,10 +15773,6 @@
 			(net "Net-(U3-VDD_PLL)")
 			(pinfunction "VDD_PLL_17")
 			(pintype "unspecified")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "0f8b33e3-1c72-430e-938b-e12bdc821805")
 		)
 		(pad "18" smd roundrect
@@ -16791,10 +15783,6 @@
 			(net "+3V3")
 			(pinfunction "VCC_18")
 			(pintype "input")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "a77222f7-8001-49d1-becc-2006cf8fbfda")
 		)
 		(pad "19" smd roundrect
@@ -16805,10 +15793,6 @@
 			(net "Net-(U3-TF2N)")
 			(pinfunction "TF2N_19")
 			(pintype "unspecified")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "30d8d336-ce11-42f9-b065-7e1f5d60993d")
 		)
 		(pad "20" smd roundrect
@@ -16819,10 +15803,6 @@
 			(net "Net-(U3-TF2P)")
 			(pinfunction "TF2P_20")
 			(pintype "unspecified")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "36afb643-f7d6-41ca-9f26-a58f236eff3f")
 		)
 		(pad "21" smd roundrect
@@ -16833,10 +15813,6 @@
 			(net "Net-(U3-TF1N)")
 			(pinfunction "TF1N_21")
 			(pintype "unspecified")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "1e874fb3-1fd9-40c2-b6e5-418637a171d4")
 		)
 		(pad "22" smd roundrect
@@ -16847,10 +15823,6 @@
 			(net "Net-(U3-TF1P)")
 			(pinfunction "TF1P_22")
 			(pintype "unspecified")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "74d422ef-8156-4814-be63-49a97c1ecbe8")
 		)
 		(pad "23" smd roundrect
@@ -16861,10 +15833,6 @@
 			(net "+3V3")
 			(pinfunction "VCC_23")
 			(pintype "input")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "1dd5d8e0-1de9-4fa8-bce9-1093aa552264")
 		)
 		(pad "24" smd roundrect
@@ -16875,10 +15843,6 @@
 			(net "Net-(U3-RF_IN)")
 			(pinfunction "RF_IN_24")
 			(pintype "input")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "ce70a1c5-3f15-4e46-8ade-fa2780a8ec4f")
 		)
 		(pad "25" thru_hole circle
@@ -16891,10 +15855,6 @@
 			(net "Earth")
 			(pinfunction "GND_25")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "5fd46deb-2c6f-4009-b98c-32f62322ab69")
 		)
 		(pad "25" thru_hole circle
@@ -16907,10 +15867,6 @@
 			(net "Earth")
 			(pinfunction "GND_25")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "76cad51c-a6eb-40d8-8577-5ed50968b60c")
 		)
 		(pad "25" thru_hole circle
@@ -16923,10 +15879,6 @@
 			(net "Earth")
 			(pinfunction "GND_25")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "f58c0b9d-0fec-4dd7-95e7-6a131a733a67")
 		)
 		(pad "25" thru_hole circle
@@ -16939,10 +15891,6 @@
 			(net "Earth")
 			(pinfunction "GND_25")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "f9528f6e-cd72-42a0-a499-2c6904f66cae")
 		)
 		(pad "25" thru_hole circle
@@ -16955,10 +15903,6 @@
 			(net "Earth")
 			(pinfunction "GND_25")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "59c5a706-f9a3-4671-b47a-f16f33e0d51b")
 		)
 		(pad "25" smd rect
@@ -16970,10 +15914,6 @@
 			(pinfunction "GND_25")
 			(pintype "power_in")
 			(zone_connect 2)
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "ec77c538-d4b6-4ef4-8c5e-cee3b89098f4")
 		)
 		(pad "25" smd rect
@@ -16985,10 +15925,6 @@
 			(pinfunction "GND_25")
 			(pintype "power_in")
 			(zone_connect 2)
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "9f9e3dfd-23fd-404e-8673-c871c5c19532")
 		)
 		(pad "25" thru_hole circle
@@ -17001,10 +15937,6 @@
 			(net "Earth")
 			(pinfunction "GND_25")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "2a459355-a9dd-4a83-b424-87dd4e64bdeb")
 		)
 		(pad "25" thru_hole circle
@@ -17017,10 +15949,6 @@
 			(net "Earth")
 			(pinfunction "GND_25")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "6f3efe35-4f3e-4be8-84e6-ba2d3e3d0c60")
 		)
 		(pad "25" thru_hole circle
@@ -17033,10 +15961,6 @@
 			(net "Earth")
 			(pinfunction "GND_25")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "6e31135f-2abf-4e25-bc04-426d75e91925")
 		)
 		(pad "25" thru_hole circle
@@ -17049,10 +15973,6 @@
 			(net "Earth")
 			(pinfunction "GND_25")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "dfbb4385-046a-45db-b74d-47ff4dd34b17")
 		)
 		(embedded_fonts no)
@@ -17077,7 +15997,7 @@
 			(at 6.87 -8.39 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "235ba2e8-9efa-4977-b62a-36d3690f9ac0")
+			(uuid "2fc30fdd-a233-4d8f-a9f0-dac1fff46cbc")
 			(effects
 				(font
 					(size 1 1)
@@ -17088,7 +16008,7 @@
 		(property "Value" "19.2 MHz"
 			(at 0 2 0)
 			(layer "F.Fab")
-			(uuid "ac869eef-f8de-4cda-8130-613657dc1026")
+			(uuid "81240c41-639c-4ab5-9524-95c8179cee85")
 			(effects
 				(font
 					(size 1 1)
@@ -17100,7 +16020,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d3b666e1-386b-4f46-aaf4-20bce810dbb7")
+			(uuid "f4c5ec2b-8f60-4e51-a35a-aea2e963079f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17111,7 +16031,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d6427cd0-6128-4102-b8f2-b8ba62908a1e")
+			(uuid "2da04dc5-7647-4235-8742-da7733dc7807")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17119,7 +16039,7 @@
 			)
 		)
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/92e78a7b-286f-4a19-897f-5c3411be8313")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -17191,10 +16111,6 @@
 			(net "Earth")
 			(pinfunction "GND/NC_1")
 			(pintype "unspecified")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "15d0d3ad-cd54-4a1d-b6ce-b79ea60e33fc")
 		)
 		(pad "2" smd roundrect
@@ -17205,10 +16121,6 @@
 			(net "Earth")
 			(pinfunction "GND_2")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "df8c38e1-0933-405e-a155-661a8aa18882")
 		)
 		(pad "3" smd roundrect
@@ -17219,10 +16131,6 @@
 			(net "Net-(X1-Out)")
 			(pinfunction "Out_3")
 			(pintype "output")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "0452f686-22e5-47f7-a619-774cf1652c96")
 		)
 		(pad "4" smd roundrect
@@ -17233,10 +16141,6 @@
 			(net "+3V3")
 			(pinfunction "Vcc_4")
 			(pintype "power_in")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "7fa754df-354d-4bd2-aab2-8e2e375e0dca")
 		)
 		(embedded_fonts no)
@@ -17262,7 +16166,7 @@
 			(at -6.39 -8.04 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "fd7cb84c-7761-43b5-b7c5-0c5ef65689bd")
+			(uuid "b02c0f07-b904-49e6-be2e-ad9ca67107ef")
 			(effects
 				(font
 					(size 1 1)
@@ -17273,7 +16177,7 @@
 		(property "Value" "1M"
 			(at 0 1.17 90)
 			(layer "F.Fab")
-			(uuid "2a21019d-1410-48be-a527-99aa8ff87590")
+			(uuid "0fba55ea-9573-4612-8110-1da06e0eda21")
 			(effects
 				(font
 					(size 1 1)
@@ -17285,7 +16189,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f864d3f6-7f8a-489b-a20b-9c6b3ffa87df")
+			(uuid "f60dbee7-642c-4b1f-8aee-f7b58afc2494")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17296,7 +16200,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ac8fc255-0291-4f86-8842-ddb4de9e01ce")
+			(uuid "ad895191-37fd-4ec5-80b9-5dddafad54dc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17305,7 +16209,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/7a3a1cf2-f2a6-408c-8dcd-f3d8a4896203")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -17433,10 +16337,6 @@
 			(roundrect_rratio 0.25)
 			(net "/sdr/RTL_CLK")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "f602e805-e5d0-4b03-a24f-5be742930bd3")
 		)
 		(pad "2" smd roundrect
@@ -17446,10 +16346,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(U1-X_O)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "2ec0ea86-c400-4d60-90c6-22b3b0353c86")
 		)
 		(embedded_fonts no)
@@ -17475,7 +16371,7 @@
 			(at -6.39 -8.04 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b55ffa4d-e118-4248-a555-998db0fe835d")
+			(uuid "aa730ed8-f3d9-43d3-ab04-86b0048a4cc2")
 			(effects
 				(font
 					(size 1 1)
@@ -17486,7 +16382,7 @@
 		(property "Value" "bead"
 			(at 0 1.17 90)
 			(layer "F.Fab")
-			(uuid "6d149aaa-7f14-457c-a41a-9c0f6731a2ca")
+			(uuid "a0162646-a87c-4b7f-8e8e-b9fd28e3383d")
 			(effects
 				(font
 					(size 1 1)
@@ -17498,7 +16394,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2c904bd6-c288-4109-affb-45c98a15bdeb")
+			(uuid "8808d3a8-289e-4997-bfb7-24fdf95d5027")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17509,7 +16405,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f4d8f6ca-357f-4d9a-a0e4-8e24f12c3abd")
+			(uuid "b63ae580-8fb2-4cc6-a16d-3caaf5c3f112")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17518,7 +16414,7 @@
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/e038ca0c-b60e-4b87-b7b4-c7e46afc922d")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -17626,10 +16522,6 @@
 			(roundrect_rratio 0.25)
 			(net "+1V2")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "bcd7aea6-6461-40b3-baa9-b1e75e7f331c")
 		)
 		(pad "2" smd roundrect
@@ -17639,10 +16531,6 @@
 			(roundrect_rratio 0.25)
 			(net "/sdr/1V2_FILT_2")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "1cda2dec-7c86-466c-93c8-3a9fc39d6b77")
 		)
 		(embedded_fonts no)
@@ -17668,7 +16556,7 @@
 			(at -6.87 4.96 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "45d4deb0-7af8-4e79-8270-fda1629bc9d8")
+			(uuid "6591cb4a-fc6e-4ffc-816a-c73abe83301d")
 			(effects
 				(font
 					(size 1 1)
@@ -17679,7 +16567,7 @@
 		(property "Value" "LED"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "e352e7d0-3cec-4071-adb7-206ade90f78d")
+			(uuid "c4d73bce-5d34-4fff-b344-41e1135ec097")
 			(effects
 				(font
 					(size 1 1)
@@ -17691,7 +16579,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b7ac475e-cfc0-4008-93b7-9da58a9b7f49")
+			(uuid "83b817a6-c809-43fe-bb73-5c5604d5dd04")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17702,7 +16590,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eb6d55e9-4c01-44b6-a704-bc9ecdade874")
+			(uuid "b6a8e132-54f0-42db-8cd8-bc464baa80ec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17724,8 +16612,8 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/f1466dd0-e6ab-44c8-8156-20d94caabec3")
-		(sheetname "/")
-		(sheetfile "RXBox.kicad_sch")
+		(sheetname "/ComputeModule/")
+		(sheetfile "computemodule.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17873,10 +16761,6 @@
 			(net "Net-(D2-K)")
 			(pinfunction "K_1")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "ab41ff92-e4de-445b-abaa-60c69b31c7e5")
 		)
 		(pad "2" smd roundrect
@@ -17887,10 +16771,6 @@
 			(net "+3V3")
 			(pinfunction "A_2")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "388843e9-0213-43ff-8519-318f5cccc46e")
 		)
 		(embedded_fonts no)
@@ -17916,7 +16796,7 @@
 			(at -6.87 5.22 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b0c77a5c-c9fd-4436-b009-12a08b23abae")
+			(uuid "3e3fc79a-132f-4c87-b48c-5a975fdcdaf2")
 			(effects
 				(font
 					(size 1 1)
@@ -17927,7 +16807,7 @@
 		(property "Value" "1.6uH"
 			(at 0 1.17 0)
 			(layer "F.Fab")
-			(uuid "ba0ba05b-7b6a-49a0-856e-9ed28dad82cd")
+			(uuid "4acbf653-8fd5-4b17-9921-6f24920ce0a6")
 			(effects
 				(font
 					(size 1 1)
@@ -17939,7 +16819,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d8440ed5-531a-4045-aa1f-f90291627d62")
+			(uuid "3ee26783-2592-422a-90b3-c1d322de040c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17950,7 +16830,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "21f7b729-42b1-4c8f-89a3-16a95ee76b96")
+			(uuid "6d3be602-1001-4c8d-9866-4522f599cdd4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17959,7 +16839,7 @@
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/9a8dc4b8-cb2f-4a45-8d87-4c162421cc8a")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -18067,10 +16947,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(C5-Pad2)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "7961804c-18b5-4137-b2bb-a7ebb54a3566")
 		)
 		(pad "2" smd roundrect
@@ -18080,10 +16956,6 @@
 			(roundrect_rratio 0.25)
 			(net "/sdr/TUNER_XIN")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "f062b3cc-2285-4981-9cec-645999e95885")
 		)
 		(embedded_fonts no)
@@ -18109,7 +16981,7 @@
 			(at -6.87 5.23 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "aaac91e6-530d-4542-bd73-c9ccd344c302")
+			(uuid "dcdacb40-2389-402c-b1d5-5951d8f08901")
 			(effects
 				(font
 					(size 1 1)
@@ -18120,7 +16992,7 @@
 		(property "Value" "10uF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
-			(uuid "ca5d714e-f940-4df7-8a0c-30d5c9ad08cd")
+			(uuid "8832dce4-0d12-4bd9-83bd-491da7b24d6a")
 			(effects
 				(font
 					(size 1 1)
@@ -18132,7 +17004,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4b3c8edf-f8e6-49d8-8aea-de023584bb2e")
+			(uuid "973e9dc6-95d9-4599-82cc-1f636a029da6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18143,7 +17015,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a17b3491-bc99-478a-a57c-1a2fc85b42d6")
+			(uuid "8c01a638-1e54-4f90-978f-5d4da2b46f8c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18152,8 +17024,8 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/4c3c1240-dcba-49c7-8f09-f1193dd4a528")
-		(sheetname "/sdr/")
-		(sheetfile "sdr.kicad_sch")
+		(sheetname "/Power/")
+		(sheetfile "power.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18280,10 +17152,6 @@
 			(roundrect_rratio 0.25)
 			(net "VBUS")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "faf1854d-0b7c-4da9-bfe9-bdbc341aa8df")
 		)
 		(pad "2" smd roundrect
@@ -18293,10 +17161,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "c03f7a31-4686-44c3-81e1-5cbfcea06ea1")
 		)
 		(embedded_fonts no)
@@ -18365,7 +17229,7 @@
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/2f7413fc-54c6-45cf-88fd-cc1b22ceecc9")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -18473,10 +17337,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(C1-Pad2)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "d96fa632-383a-4d7a-a3f1-a0d1e4c7501b")
 		)
 		(pad "2" smd roundrect
@@ -18486,10 +17346,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(C3-Pad2)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "eaa8b126-5dcd-4e97-9ab5-4e4ad7fda279")
 		)
 		(embedded_fonts no)
@@ -18515,7 +17371,7 @@
 			(at -6.87 5.23 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e67f2070-9376-4c6d-872f-f04db937bc12")
+			(uuid "8aad8f3d-5533-4f2e-a452-75de5e0d2d7f")
 			(effects
 				(font
 					(size 1 1)
@@ -18526,7 +17382,7 @@
 		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
-			(uuid "e0d0a0a5-9f39-45c7-89e9-869e931afed3")
+			(uuid "5933d09b-df99-4dd5-bec0-cffb35454c00")
 			(effects
 				(font
 					(size 1 1)
@@ -18538,7 +17394,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1da3f33d-009c-41f3-9bca-d057265bdbf3")
+			(uuid "b7fbb476-9a89-4e3d-bf8f-b26e0c496152")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18549,7 +17405,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e162fae6-a5b3-48fd-b13c-3ab3d65a129b")
+			(uuid "49a2c790-b91a-4556-8ce8-1b96bbc7edb1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18558,7 +17414,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/b9115590-28ec-47cd-8d31-4a7539f81868")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -18686,10 +17542,6 @@
 			(roundrect_rratio 0.25)
 			(net "/sdr/RTL_3V3")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "bddecc4b-6b87-4e81-a3fa-49667be7138b")
 		)
 		(pad "2" smd roundrect
@@ -18699,10 +17551,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "3b51a0c8-863a-447b-b3b0-0f2842f261c1")
 		)
 		(embedded_fonts no)
@@ -18728,7 +17576,7 @@
 			(at -6.87 5.22 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "86e602f4-a61a-45e6-a76e-2e0a124ab0c7")
+			(uuid "08fcec53-2e42-4d3f-b732-7939bbc68c86")
 			(effects
 				(font
 					(size 1 1)
@@ -18739,7 +17587,7 @@
 		(property "Value" "bead"
 			(at 0 1.17 0)
 			(layer "F.Fab")
-			(uuid "b833574b-77f5-415e-bc45-5a1362374f3a")
+			(uuid "07177fed-7b0a-4546-aed7-97cb3137085f")
 			(effects
 				(font
 					(size 1 1)
@@ -18751,7 +17599,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3437f3f6-3b56-4ed1-997f-f5f9f87340f6")
+			(uuid "2defd09f-b829-4764-9ad5-37dc7a6a70ba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18762,7 +17610,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ca67f9f5-9b84-4eed-8bcb-8ed2c9158f08")
+			(uuid "8b235ffb-c90e-4872-b2a0-02eccfb0a469")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18771,7 +17619,7 @@
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/1035f87d-c732-417d-96f2-88336fc24e3a")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -18879,10 +17727,6 @@
 			(roundrect_rratio 0.25)
 			(net "+1V2")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "0dab6159-1fa8-42a6-bbbc-db7ec9cbf7f7")
 		)
 		(pad "2" smd roundrect
@@ -18892,10 +17736,6 @@
 			(roundrect_rratio 0.25)
 			(net "/sdr/1V2_FILT_1")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "cf8c7473-ba51-4034-a15d-0bd15e6369ab")
 		)
 		(embedded_fonts no)
@@ -18921,7 +17761,7 @@
 			(at -6.87 5.22 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "535ac2b7-165c-4940-9e0f-b8fb08d2f93c")
+			(uuid "7b6f0aa3-9e35-4eac-bf02-0aa4f0642fbb")
 			(effects
 				(font
 					(size 1 1)
@@ -18932,7 +17772,7 @@
 		(property "Value" "4.7kR"
 			(at 0 1.17 0)
 			(layer "F.Fab")
-			(uuid "7e6d413a-40f2-42a3-ab42-45383f9519bf")
+			(uuid "5b9378ee-60dd-4530-a86f-780d24a1afb3")
 			(effects
 				(font
 					(size 1 1)
@@ -18944,7 +17784,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "49c42a73-b835-4aec-83bb-dc87c896e920")
+			(uuid "3926419a-3832-46a2-889e-4ae6b7483720")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18955,7 +17795,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4611b1f9-0469-4d3e-9c55-58b251d0ccf0")
+			(uuid "63840e84-0e15-4671-a161-d6f1833e39a0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18964,7 +17804,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/ddf6b4d7-bb35-4f3a-b1e1-0532bf9cc1ec")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -19092,10 +17932,6 @@
 			(roundrect_rratio 0.25)
 			(net "+3V3")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "a0ba7e2a-5d76-43be-a8f4-57d282cca903")
 		)
 		(pad "2" smd roundrect
@@ -19105,10 +17941,6 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(U3-SCL)")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "31d4a897-d7b3-4390-93e5-8e7a54e16b19")
 		)
 		(embedded_fonts no)
@@ -19177,7 +18009,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ba42e672-3541-4915-9af8-b593ef75af02/f6501ff4-b48f-4488-98c6-1ef48f443402")
-		(sheetname "/sdr/")
+		(sheetname "/SDR/")
 		(sheetfile "sdr.kicad_sch")
 		(units
 			(unit
@@ -19305,10 +18137,6 @@
 			(roundrect_rratio 0.25)
 			(net "+1V2")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "10398981-5599-4336-bb22-4cda2a335b25")
 		)
 		(pad "2" smd roundrect
@@ -19318,10 +18146,6 @@
 			(roundrect_rratio 0.25)
 			(net "Earth")
 			(pintype "passive")
-			(tenting
-				(front none)
-				(back none)
-			)
 			(uuid "00b2691d-5167-421b-9f54-c63032396474")
 		)
 		(embedded_fonts no)
@@ -19788,20 +18612,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "01392a2b-014e-4a13-b1f3-53b2fba0b15e")
 	)
@@ -19811,20 +18621,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "01f0f3a0-ded9-48bc-a1be-47c365af9836")
 	)
@@ -19833,20 +18629,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "06f87f25-a108-44c1-94bb-cce322c099d0")
 	)
@@ -19856,20 +18638,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "0c89c599-4c70-4e70-a502-197754b1f2f2")
 	)
@@ -19879,20 +18647,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "0e130e93-4296-4aed-a488-eb27986f54ac")
 	)
@@ -19902,20 +18656,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "0fa66aee-1fec-4127-a93e-02f8832a0a28")
 	)
@@ -19925,20 +18665,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "112bcfb0-c312-4268-be70-3b06abe4dafd")
 	)
@@ -19948,20 +18674,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "1216b8f8-a728-4e38-a203-5a778ae549f7")
 	)
@@ -19971,20 +18683,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "14c61aa7-5d8f-4d05-8794-1e388e70deae")
 	)
@@ -19994,20 +18692,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "171d1ebc-afae-4600-8b2f-dc5442e3f751")
 	)
@@ -20017,20 +18701,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "172ceae3-2978-49db-a096-d4499f093475")
 	)
@@ -20040,20 +18710,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "19425950-c3cc-455f-a4b8-ef91019c126e")
 	)
@@ -20062,20 +18718,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "27320a37-1d3d-4dda-9644-ba77eed758cf")
 	)
@@ -20085,20 +18727,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "2894150e-756f-47bd-bb60-608dad034a8b")
 	)
@@ -20108,20 +18736,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "29641680-5bcf-46df-a23a-968bd6d667b7")
 	)
@@ -20131,20 +18745,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "298936d0-839d-438b-a02c-3b194b707ff6")
 	)
@@ -20154,20 +18754,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "2b30f934-53e5-4405-8b81-e52b561d0954")
 	)
@@ -20177,20 +18763,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "2b5df7f8-9a41-40de-9358-60299e5dc0ab")
 	)
@@ -20200,20 +18772,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "2ba374f8-89d9-4ec3-a895-e8cfefb2da74")
 	)
@@ -20223,20 +18781,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "2ce0239d-89d0-4594-a0df-52147cda2e82")
 	)
@@ -20246,20 +18790,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "2d7ea3d6-29ea-4419-b9f1-808cd8c972d4")
 	)
@@ -20269,20 +18799,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "2da2554a-86d2-46f9-abfc-60061ddbfe51")
 	)
@@ -20292,20 +18808,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "324c3708-deaf-434e-bc8c-7876e737165a")
 	)
@@ -20315,20 +18817,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "3404e07c-9b57-4a25-8366-0a1c49f73a94")
 	)
@@ -20337,20 +18825,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "3494df6f-3e33-441d-8d76-cc6cb28c55ef")
 	)
@@ -20360,20 +18834,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "36dbed60-28bc-46d0-a62f-5b50c98cabf0")
 	)
@@ -20383,20 +18843,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "37724c4d-6ed0-4b7f-9987-0b3f949db643")
 	)
@@ -20406,20 +18852,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "3876d110-7b10-4198-abca-b9acb51e841c")
 	)
@@ -20429,20 +18861,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "3a3f4262-702b-49f3-a9d4-c68a65fb6590")
 	)
@@ -20452,20 +18870,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "3b5e128d-2f43-4366-91d9-5efa6802f9cd")
 	)
@@ -20475,20 +18879,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "3d2224f7-188d-44aa-b58a-90912d1d721d")
 	)
@@ -20498,20 +18888,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "408655bb-3a33-45b8-9f44-7c094bf126a6")
 	)
@@ -20520,20 +18896,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "4425e99c-4014-4628-a464-17262036c570")
 	)
@@ -20542,20 +18904,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "4a5621b5-46d0-4635-a602-47c13d96f54d")
 	)
@@ -20565,20 +18913,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "4c0c4771-f4aa-487f-9e7d-a6c78db32fd6")
 	)
@@ -20588,20 +18922,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "4ce82701-7e2e-4c2a-a619-b0779f44aedf")
 	)
@@ -20611,20 +18931,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "4d4943c4-fe04-4ef3-bcc0-4e673dcfb2e4")
 	)
@@ -20634,20 +18940,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "4db41db1-0ad5-4c94-b8f6-b6500d058f87")
 	)
@@ -20657,20 +18949,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "5099c4b7-67de-44fd-9680-0c06ea42550a")
 	)
@@ -20679,20 +18957,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "50c5d802-fa75-43e2-95fc-cd5887855a82")
 	)
@@ -20701,20 +18965,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "50f4eb67-fd6c-496c-bcf5-0514bd8903ff")
 	)
@@ -20724,20 +18974,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "517d25fa-84bf-467a-a67e-d11ea2f64e6b")
 	)
@@ -20747,20 +18983,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "540b2fb6-d5cc-4b5c-ae54-bc101bac0aae")
 	)
@@ -20769,20 +18991,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "5935ee1a-83ca-4ac9-9f82-39c967563ca0")
 	)
@@ -20792,20 +19000,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "599a2347-2008-42fd-b04c-331eafdcf1c1")
 	)
@@ -20815,20 +19009,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "5bb27270-8902-4174-810a-e15941e66060")
 	)
@@ -20838,20 +19018,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "5f0de539-d23f-44b8-b3fc-0b599b829052")
 	)
@@ -20861,20 +19027,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "6762d410-6cf7-4cda-bf02-14958ecb5726")
 	)
@@ -20884,20 +19036,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "68a12265-e726-4bdc-b9c9-e32fcf79cb49")
 	)
@@ -20907,20 +19045,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "694a8331-c398-4233-93df-2a2ead70403d")
 	)
@@ -20930,20 +19054,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "6e543972-6edb-405f-b75b-54f9614afa51")
 	)
@@ -20953,20 +19063,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "6e962796-3cd4-4b1f-a839-beead19c98b5")
 	)
@@ -20976,20 +19072,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "70802aad-dd81-4b95-be1b-fd51157715f2")
 	)
@@ -20999,20 +19081,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "71c03e60-1378-463a-9756-c732fd247d94")
 	)
@@ -21022,20 +19090,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "71d16dda-29b4-4a09-b008-dd09b091771a")
 	)
@@ -21044,20 +19098,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "71e090fa-3304-47c2-b9b3-8de97086252a")
 	)
@@ -21067,20 +19107,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "7203569c-f07c-4069-bfe5-335e2a7e6fc5")
 	)
@@ -21090,20 +19116,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "736a185e-80b8-4298-8cd2-3ebee6fddb7a")
 	)
@@ -21113,20 +19125,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "752b7e4b-3f60-402a-9102-030f912b1b0c")
 	)
@@ -21136,20 +19134,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "76bd78d0-f020-4876-b0af-6b68b11b61b9")
 	)
@@ -21159,20 +19143,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "7b1055c5-0f7d-4eb3-9be2-22d18186f1cd")
 	)
@@ -21182,20 +19152,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "7bc3d27d-82b7-4192-b941-e21456631ef0")
 	)
@@ -21205,20 +19161,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "7ca731af-178d-4839-b881-7bea5e72a0f8")
 	)
@@ -21228,20 +19170,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "828d539d-8f9b-433b-9f7b-bd0a20edfb0a")
 	)
@@ -21250,20 +19178,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "82b7a4a0-1bdc-4a0a-a4f3-c3a5169b2f65")
 	)
@@ -21273,20 +19187,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "89a88044-0b59-4432-a1e2-471a10a8b2fe")
 	)
@@ -21296,20 +19196,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "8c485d69-0188-4c55-a84f-007e7b8165bb")
 	)
@@ -21319,20 +19205,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "9083067e-a2ba-4ca2-b983-d6911c758d38")
 	)
@@ -21342,20 +19214,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "90d1626b-f2b7-4447-9f8e-35bdd762a6f9")
 	)
@@ -21365,20 +19223,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "92ab6a07-d162-41a1-bc25-d0c55d999eb8")
 	)
@@ -21388,20 +19232,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "937b3c18-1923-4aa0-af6f-3df04f68c146")
 	)
@@ -21411,20 +19241,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "96333718-3966-4577-b5a2-daefc1f9bc26")
 	)
@@ -21434,20 +19250,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "9b07dc3d-a1e4-44e7-b56d-28e66dba1bca")
 	)
@@ -21457,20 +19259,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "9dd2a232-cf94-4d09-9f45-30eceef2c420")
 	)
@@ -21480,20 +19268,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "a16119d9-fab1-40d1-8738-167f885fc96d")
 	)
@@ -21503,20 +19277,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "a26a52e1-c0d7-4aa3-a9f4-ece70cefd952")
 	)
@@ -21526,20 +19286,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "a4310f8c-2108-4843-9bdc-3de2bd84131e")
 	)
@@ -21549,20 +19295,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "a4f5acad-e079-4b39-87ec-23aa9bea7913")
 	)
@@ -21571,20 +19303,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "a6842f76-fff0-4abc-821d-d0096e6a031f")
 	)
@@ -21594,20 +19312,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "a796a259-5193-44e3-bc13-37fe9a546bfd")
 	)
@@ -21617,20 +19321,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "a7aae131-6a8b-4320-a340-53d77222961c")
 	)
@@ -21640,20 +19330,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "a8f13b8c-d0c1-449e-9257-1065165d0145")
 	)
@@ -21663,20 +19339,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "a9dc611f-ce8f-4a14-aba3-064dc5d34e4e")
 	)
@@ -21686,20 +19348,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "ae4b178f-e0eb-4189-b227-a071673e9d98")
 	)
@@ -21708,20 +19356,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "b3551b4c-b8de-489d-98ff-5b3b7434d302")
 	)
@@ -21731,20 +19365,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "bbef3891-a001-4798-8a7b-64c2dd3ce87c")
 	)
@@ -21754,20 +19374,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "c0770b10-f0ab-41d7-83a1-988c3b7c66c2")
 	)
@@ -21777,20 +19383,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "c4efe27a-58a0-4e58-8300-c762a0848f10")
 	)
@@ -21800,20 +19392,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "c5155dde-7d15-42e2-a1c3-b4e951a757ad")
 	)
@@ -21823,20 +19401,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "c5260c63-69cb-458e-a724-ee24d72d7391")
 	)
@@ -21846,20 +19410,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "c85a21b7-da7d-4cb7-9072-a914c2297b99")
 	)
@@ -21869,20 +19419,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "ca1966f6-dd95-4540-8402-252d3f18bb25")
 	)
@@ -21892,20 +19428,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "ca2eb591-f0f3-4185-bd9d-92c64a4a68b4")
 	)
@@ -21915,20 +19437,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "ca8ca544-191d-490a-9785-63c6f5c8ebb0")
 	)
@@ -21938,20 +19446,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "cd6741d8-cf04-4421-ab9d-b1acd7ff13f1")
 	)
@@ -21961,20 +19455,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "cd709512-2dde-4a9b-80f2-33d0a0beeb76")
 	)
@@ -21984,20 +19464,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "cd9d128c-9e33-4275-af68-dc190ee63982")
 	)
@@ -22007,20 +19473,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "cee0ccf8-34c2-4ea0-8234-ed1efbfc3a49")
 	)
@@ -22030,20 +19482,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "d108754f-ee76-48be-b4de-bb5f6561c214")
 	)
@@ -22053,20 +19491,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "d1678842-2860-4d9c-b406-911873258b36")
 	)
@@ -22076,20 +19500,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "d9f13ea2-3631-4caf-b028-7626dc564a81")
 	)
@@ -22099,20 +19509,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "daeb8ccc-bb14-4704-8a62-e01c0e8714cc")
 	)
@@ -22122,20 +19518,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "db34204f-a5c7-486b-8b3b-16d159b064e1")
 	)
@@ -22145,20 +19527,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "db952151-ff78-4e73-986e-f938764207ee")
 	)
@@ -22167,20 +19535,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "dc85db79-f9ba-4d5d-ad60-7656c656d6bd")
 	)
@@ -22190,20 +19544,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "ddb2943a-abd8-4f82-8f4b-b4c7eb4265fa")
 	)
@@ -22212,20 +19552,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "de9a838b-d00a-42b3-8fae-ff15bf8534af")
 	)
@@ -22235,20 +19561,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "e1028d6d-f1f5-4198-a7a1-4204b8b26cfb")
 	)
@@ -22258,20 +19570,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "e1601491-e927-4f66-abae-f979226ecc32")
 	)
@@ -22281,20 +19579,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "e4ce249b-dce3-47eb-ba3e-36ec8fac4c8a")
 	)
@@ -22303,20 +19587,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "e5cece58-f340-4854-b1f9-e5e1954d1f1e")
 	)
@@ -22326,20 +19596,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "ee399c5d-5a3e-420d-8950-ff70f7af3bd4")
 	)
@@ -22349,20 +19605,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "ef18f32c-8b69-452c-b661-489b2255aa92")
 	)
@@ -22372,20 +19614,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "f2a1eaa8-6a71-418d-98b8-2d3ba28d1574")
 	)
@@ -22395,20 +19623,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "f40b43b5-955a-45a3-8123-363caccad867")
 	)
@@ -22418,20 +19632,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "f4165e04-7aa9-4922-a8ef-9c2e33b75284")
 	)
@@ -22440,20 +19640,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "f4de51ce-3c8d-465b-a676-85ee6a116a98")
 	)
@@ -22463,20 +19649,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "fc829eb0-321c-4d2a-9dcd-cc16f0f8108f")
 	)
@@ -22486,20 +19658,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "fcb39373-69a1-4c24-b574-0fea136fa165")
 	)
@@ -22509,20 +19667,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "fce23bef-a152-4fcb-92d0-22d93550abdc")
 	)
@@ -22532,20 +19676,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "fd5d515c-9305-4d06-8d8a-9daa61a8c61a")
 	)
@@ -22555,20 +19685,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "Earth")
 		(uuid "ffb27349-bc3a-4fc1-9908-369c6b432ef1")
 	)
@@ -22977,20 +20093,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "+3V3")
 		(uuid "06e9f60d-4032-4d65-87cb-e0a7e6a853a0")
 	)
@@ -22999,20 +20101,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "+3V3")
 		(uuid "17172ad7-24f7-45d0-a070-b92d67a1c8db")
 	)
@@ -23021,20 +20109,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "+3V3")
 		(uuid "20331edd-65db-4953-90cb-0f14631562c6")
 	)
@@ -23043,20 +20117,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "+3V3")
 		(uuid "33d38ebc-2ac5-4162-a380-dc8b0e3a423a")
 	)
@@ -23066,20 +20126,6 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "+3V3")
 		(uuid "393fa57f-e532-4bdb-afe9-9f0101f7028d")
 	)
@@ -23088,20 +20134,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "+3V3")
 		(uuid "5976df95-d8c1-45bb-93d7-38839d09beca")
 	)
@@ -23110,20 +20142,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "+3V3")
 		(uuid "5ef53c69-d1b0-4bed-828c-12476ff1a2a1")
 	)
@@ -23132,20 +20150,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "+3V3")
 		(uuid "5fadb961-2ae9-461c-81bb-261e571b8491")
 	)
@@ -23154,20 +20158,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "+3V3")
 		(uuid "664b5299-3bb4-4456-b2e8-9aba7f7b46fb")
 	)
@@ -23176,20 +20166,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "+3V3")
 		(uuid "6fa08396-9af5-4ba6-b459-e6c75244c732")
 	)
@@ -23198,20 +20174,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "+3V3")
 		(uuid "82b2be35-6c13-481f-ad71-4c9f2597a275")
 	)
@@ -23220,20 +20182,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "+3V3")
 		(uuid "a61be22e-0cf0-4e35-aa67-bf98805630ed")
 	)
@@ -23242,20 +20190,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "+3V3")
 		(uuid "badf5e74-c258-44af-bdf3-ceca0feb555d")
 	)
@@ -23264,20 +20198,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "+3V3")
 		(uuid "c58e49f1-4d95-450e-84b4-ace23eda76a8")
 	)
@@ -23286,20 +20206,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "+3V3")
 		(uuid "f88c1a06-1093-492a-a715-8579a964dfbb")
 	)
@@ -23308,20 +20214,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "+3V3")
 		(uuid "fa6afdfd-98df-4fd1-a578-9e8fd7d297fb")
 	)
@@ -23674,20 +20566,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "+1V2")
 		(uuid "201b37e8-4177-4a95-a15e-67fca036f482")
 	)
@@ -23696,20 +20574,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "+1V2")
 		(uuid "2209002d-62bc-4705-801b-403cbeed854c")
 	)
@@ -23718,20 +20582,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "+1V2")
 		(uuid "25af854f-8fe5-4abd-9664-ef73530d43db")
 	)
@@ -23740,20 +20590,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "+1V2")
 		(uuid "293a5523-edee-4bc6-a226-fd2b39675ff4")
 	)
@@ -23762,20 +20598,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "+1V2")
 		(uuid "753e738d-f9ed-4582-9253-3aaf73da72b8")
 	)
@@ -23784,20 +20606,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "+1V2")
 		(uuid "7a3e6dbd-4b78-425c-b46f-f07c8b53b9a4")
 	)
@@ -23806,20 +20614,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "+1V2")
 		(uuid "a1ea2084-fa9d-40be-9435-19547c5d5457")
 	)
@@ -24572,20 +21366,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "/sdr/RTL_IF_AGC")
 		(uuid "bad6eeb0-f889-43ac-8ab4-7f149377efd8")
 	)
@@ -24594,20 +21374,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "/sdr/RTL_IF_AGC")
 		(uuid "bfe80b0b-9ea5-4254-84bd-00799aa3f873")
 	)
@@ -24800,20 +21566,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "/sdr/RTL_3V3")
 		(uuid "66a1322d-f115-4733-bbfa-c8195eda7592")
 	)
@@ -24822,20 +21574,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "/sdr/RTL_3V3")
 		(uuid "66c3ec00-2a20-4210-990d-692c956d6f9f")
 	)
@@ -24844,20 +21582,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "/sdr/RTL_3V3")
 		(uuid "b36efe14-88fa-4505-af24-7e3b6630a353")
 	)
@@ -24866,20 +21590,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "/sdr/RTL_3V3")
 		(uuid "c26b82ee-cf3a-4b3d-b89a-2a5db204b7d6")
 	)
@@ -25024,20 +21734,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "/sdr/TUNER_SCL")
 		(uuid "14b847c3-b1fa-4a9c-a86a-9a0047f8bb53")
 	)
@@ -25046,20 +21742,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "/sdr/TUNER_SCL")
 		(uuid "272e813e-bde6-4dc0-8349-275f772ce5d9")
 	)
@@ -25204,20 +21886,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "/sdr/TUNER_SDA")
 		(uuid "43e335b5-7ff5-4f4f-88d1-d35050c93359")
 	)
@@ -25226,20 +21894,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "/sdr/TUNER_SDA")
 		(uuid "4a4ba6a5-7de4-448e-880f-f659eb9d65c2")
 	)
@@ -25488,20 +22142,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "/sdr/1V2_FILT_1")
 		(uuid "0712e22e-2fd1-486c-bc6d-02a8a26378c9")
 	)
@@ -25510,20 +22150,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "/sdr/1V2_FILT_1")
 		(uuid "735dc7cd-e3fd-4e61-803c-06987990003d")
 	)
@@ -25740,20 +22366,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "/sdr/IF_N")
 		(uuid "399801aa-b7e8-4bea-a0a6-2c2f5436cf56")
 	)
@@ -25762,20 +22374,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "/sdr/IF_N")
 		(uuid "d2f7d31f-5c62-451c-bb20-852d1f48785b")
 	)
@@ -26406,20 +23004,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "/sdr/IF_P")
 		(uuid "1075eace-5d60-456a-9b3d-753c9a051b3a")
 	)
@@ -26428,20 +23012,6 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(tenting
-			(front none)
-			(back none)
-		)
-		(capping none)
-		(covering
-			(front none)
-			(back none)
-		)
-		(plugging
-			(front none)
-			(back none)
-		)
-		(filling none)
 		(net "/sdr/IF_P")
 		(uuid "c6c50f0e-eb84-4dbb-a8aa-d4930eda19d3")
 	)
@@ -26542,7 +23112,7 @@
 		(uuid "c3a219db-5c42-45f3-a3a4-f0226197ab20")
 	)
 	(zone
-		(net "Net-(J1-In)")
+		(net "Net-(U3-RF_IN)")
 		(layer "F.Cu")
 		(hatch none 0.1)
 		(priority 30000)
@@ -26560,16 +23130,17 @@
 		)
 		(polygon
 			(pts
-				(xy 162.665 69.965) (xy 162.665 70.335) (xy 163.454329 70.76597) (xy 164.901 70.15) (xy 163.454329 69.53403)
+				(xy 155.49 69.665) (xy 155.49 70.035) (xy 155.855443 70.145) (xy 156.081 69.85) (xy 155.855443 69.555)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 163.459543 69.53625) (xy 164.875717 70.139235) (xy 164.881987 70.145629) (xy 164.881899 70.154583)
-				(xy 164.875717 70.160765) (xy 163.459543 70.763749) (xy 163.450589 70.763837) (xy 163.449353 70.763253)
-				(xy 162.671093 70.338326) (xy 162.665474 70.331354) (xy 162.665 70.328057) (xy 162.665 69.971942)
-				(xy 162.668427 69.963669) (xy 162.671093 69.961673) (xy 163.449354 69.536745) (xy 163.458257 69.535789)
+				(xy 155.856601 69.558228) (xy 155.860358 69.561428) (xy 156.075565 69.842893) (xy 156.077868 69.851547)
+				(xy 156.075565 69.857107) (xy 155.860358 70.138571) (xy 155.852611 70.143061) (xy 155.847692 70.142667)
+				(xy 155.834084 70.138571) (xy 155.812364 70.132033) (xy 155.498328 70.037506) (xy 155.491393 70.03184)
+				(xy 155.49 70.026303) (xy 155.49 69.673696) (xy 155.493427 69.665423) (xy 155.498327 69.662493)
+				(xy 155.847694 69.557332)
 			)
 		)
 	)
@@ -26609,38 +23180,6 @@
 		(net "Net-(J1-In)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30000)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 159.96731 69.665) (xy 159.96731 70.035) (xy 160.2 70.448628) (xy 160.501 70.3125) (xy 160.212699 69.665679)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 160.205126 69.665658) (xy 160.21339 69.669108) (xy 160.215781 69.672595) (xy 160.496262 70.301872)
-				(xy 160.4965 70.310823) (xy 160.490396 70.317295) (xy 160.209764 70.444212) (xy 160.200814 70.444499)
-				(xy 160.194746 70.439288) (xy 159.968813 70.03767) (xy 159.96731 70.031934) (xy 159.96731 69.676732)
-				(xy 159.970737 69.668459) (xy 159.979009 69.665032)
-			)
-		)
-	)
-	(zone
-		(net "Net-(J1-In)")
-		(layer "F.Cu")
-		(hatch none 0.1)
 		(priority 30001)
 		(attr
 			(teardrop
@@ -26666,6 +23205,70 @@
 				(xy 161.1 70.328856) (xy 161.096573 70.337129) (xy 161.094942 70.338488) (xy 160.806985 70.537069)
 				(xy 160.798229 70.538944) (xy 160.793251 70.536743) (xy 160.520462 70.328856) (xy 160.508336 70.319615)
 				(xy 160.503834 70.311876) (xy 160.506122 70.30322) (xy 160.795809 69.925801) (xy 160.803562 69.921327)
+			)
+		)
+	)
+	(zone
+		(net "Net-(J1-In)")
+		(layer "F.Cu")
+		(hatch none 0.1)
+		(priority 30000)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 162.665 69.965) (xy 162.665 70.335) (xy 163.454329 70.76597) (xy 164.901 70.15) (xy 163.454329 69.53403)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 163.459543 69.53625) (xy 164.875717 70.139235) (xy 164.881987 70.145629) (xy 164.881899 70.154583)
+				(xy 164.875717 70.160765) (xy 163.459543 70.763749) (xy 163.450589 70.763837) (xy 163.449353 70.763253)
+				(xy 162.671093 70.338326) (xy 162.665474 70.331354) (xy 162.665 70.328057) (xy 162.665 69.971942)
+				(xy 162.668427 69.963669) (xy 162.671093 69.961673) (xy 163.449354 69.536745) (xy 163.458257 69.535789)
+			)
+		)
+	)
+	(zone
+		(net "Net-(J1-In)")
+		(layer "F.Cu")
+		(hatch none 0.1)
+		(priority 30000)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 159.96731 69.665) (xy 159.96731 70.035) (xy 160.2 70.448628) (xy 160.501 70.3125) (xy 160.212699 69.665679)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 160.205126 69.665658) (xy 160.21339 69.669108) (xy 160.215781 69.672595) (xy 160.496262 70.301872)
+				(xy 160.4965 70.310823) (xy 160.490396 70.317295) (xy 160.209764 70.444212) (xy 160.200814 70.444499)
+				(xy 160.194746 70.439288) (xy 159.968813 70.03767) (xy 159.96731 70.031934) (xy 159.96731 69.676732)
+				(xy 159.970737 69.668459) (xy 159.979009 69.665032)
 			)
 		)
 	)
@@ -26698,39 +23301,6 @@
 				(xy 156.075873 69.857365) (xy 155.874895 70.146097) (xy 155.867356 70.15093) (xy 155.860293 70.149991)
 				(xy 155.496701 69.978166) (xy 155.490685 69.971533) (xy 155.49 69.967588) (xy 155.49 69.781628)
 				(xy 155.493427 69.773355) (xy 155.495681 69.771595) (xy 155.832079 69.570021) (xy 155.840936 69.568709)
-			)
-		)
-	)
-	(zone
-		(net "Net-(U3-RF_IN)")
-		(layer "F.Cu")
-		(hatch none 0.1)
-		(priority 30000)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 155.49 69.665) (xy 155.49 70.035) (xy 155.855443 70.145) (xy 156.081 69.85) (xy 155.855443 69.555)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 155.856601 69.558228) (xy 155.860358 69.561428) (xy 156.075565 69.842893) (xy 156.077868 69.851547)
-				(xy 156.075565 69.857107) (xy 155.860358 70.138571) (xy 155.852611 70.143061) (xy 155.847692 70.142667)
-				(xy 155.834084 70.138571) (xy 155.812364 70.132033) (xy 155.498328 70.037506) (xy 155.491393 70.03184)
-				(xy 155.49 70.026303) (xy 155.49 69.673696) (xy 155.493427 69.665423) (xy 155.498327 69.662493)
-				(xy 155.847694 69.557332)
 			)
 		)
 	)
@@ -30390,7 +26960,7 @@
 		(last_netname "/IF_N")
 		(last_status "tuned")
 		(last_track_width 0.2)
-		(last_tuning "30.6846 mm (tuned)")
+		(last_tuning_length 0)
 		(max_amplitude 1)
 		(min_amplitude 0.2)
 		(min_spacing 0.6)
