@@ -698,6 +698,23 @@
         "SCL",
         "SDA"
       ],
+      "PARALLEL": [
+        "R[0..7]",
+        "G[0..7]",
+        "B[0..7]",
+        "PCLK",
+        "DE",
+        "HSYNC",
+        "VSYNC",
+        "INT",
+        "RST",
+        "SCL",
+        "SDA",
+        "DISP",
+        "LEDK",
+        "LEDA",
+        "BRIGHT"
+      ],
       "SPI": [
         "~{CS}",
         "CLK",
@@ -763,7 +780,7 @@
         "uuid": "628a1d0e-3f7e-46e6-aacf-8d90ddf82e31"
       }
     ],
-    "used_designators": "J2",
+    "used_designators": "R24-41,U10",
     "variants": []
   },
   "sheets": [
