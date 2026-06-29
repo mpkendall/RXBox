@@ -379,6 +379,14 @@
       "T113_POWERCTL": [
         "CPU_FB",
         "CPU_PWM"
+      ],
+      "T113_POWEREN": [
+        "EN_SYS",
+        "EN_CPU",
+        "EN_DRAM",
+        "EN_1V8",
+        "EN_AVCC",
+        "EN_GEN"
       ]
     },
     "connection_grid_size": 50.0,
@@ -421,7 +429,7 @@
         "uuid": "4bda69c0-d40e-4af8-940b-109cd2045912"
       }
     ],
-    "used_designators": "U6-7,C11,C15-18,L5,#PWR13,#PWR15,#PWR19-22,R9-10",
+    "used_designators": "U6-7,C11,C15-18,L5,#PWR13,#PWR15,#PWR19-22,R9-10,R13",
     "variants": []
   },
   "sheets": [
@@ -440,6 +448,10 @@
     [
       "cf13f4fd-261c-4d6b-9a62-449bc6811668",
       "power"
+    ],
+    [
+      "6dbcee08-4690-4ae2-8aa9-185bee3684ab",
+      "sequencing"
     ]
   ],
   "text_variables": {},

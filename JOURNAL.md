@@ -17,7 +17,7 @@ I'll probably use an FPGA to interface directly between the ADCs and the on-boar
 
 I'm hoping to use an Allwinner chip, most likely the T113-i. From some preliminary research, this does have the capability to directly drive a 565 RGB display! This way I can hopefully save some GPIO while still keeping decent display quality.
 
-## Power on the T113-i
+## Power on the T113-i - 5 hours (2026-06-29)
 
 As I mentioned before, I'll be using the Allwinner T113-i microprocessor. This chip is fairly ubiquitous and cheap (so all the cost can go to the RAM :yay:).
 
@@ -35,7 +35,6 @@ One important caveat is that the start-up rate of each voltage rail needs to be 
 
 Here's what my first implementation of the power tree looks like:
 
-![6 different power regulators](https://cdn.hackclub.com/019f0ee6-7a32-7f78-8fb1-76ce334970be/paste-1782661412785.png)
+![6 regulators with sequencing](https://cdn.hackclub.com/019f14dc-b99b-7655-a64d-fb5468d97619/paste-1782761436289.png)
 
 The DVFS implementation on the VDD_CPU line is controlled by the CPU_PWM net. This is, well, a PWM signal modulated by the CPU to scale the output voltage on demand. Instead of using a dedicated regulator, to minimize the BOM, I'm just going to add a few extra passives. First, the PWM signal is converted into an analog average by the low-pass filter. When the PWM is high, it'll use the existing divider, which calculates to around 1.11V. The 130kR resistor sets the gain and how much the PWM alters the resistance seen at that point. This yields around 0.83V at the lowest setting.
-
