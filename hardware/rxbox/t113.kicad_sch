@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "32cabe3f-877a-497b-a0e0-7ff1d59d2c3d")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "SBC_Custom:T113-I"
 			(exclude_from_sim no)
@@ -6343,58 +6343,590 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VDD"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VDD"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDD\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VDD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 364.49 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "125a0086-e446-4e40-acda-ef759052f11e")
+	)
+	(junction
+		(at 360.68 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c546901-a44f-4db0-a3b5-6b6aaf3e91d0")
+	)
+	(junction
+		(at 364.49 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51ddb0ab-e978-4d92-846c-97cd07479892")
+	)
+	(junction
+		(at 364.49 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f2e2b72-70b6-4121-9b93-b88e272e35b7")
+	)
+	(junction
+		(at 364.49 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af800972-0d6b-45cd-9d21-e1c190a22df7")
+	)
+	(junction
+		(at 360.68 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c766d31e-067e-4fd0-a34b-3fcfe763c1a5")
+	)
+	(junction
+		(at 364.49 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfb85863-ae77-42e1-842d-5a96268b601f")
+	)
+	(junction
+		(at 360.68 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6b47668-0736-4de4-82c3-c825d0fc7a10")
+	)
+	(junction
+		(at 360.68 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fad05fd6-15b2-4da1-8ce7-0ca12a625e11")
 	)
 	(no_connect
-		(at 104.14 161.29)
+		(at 373.38 236.22)
 		(uuid "22b32a6c-16c4-4110-a42f-b7afaa3e0e5b")
 	)
 	(no_connect
-		(at 104.14 140.97)
+		(at 373.38 215.9)
 		(uuid "2ace2fb8-e340-41b5-b566-19c456111ed8")
 	)
 	(no_connect
-		(at 104.14 135.89)
+		(at 373.38 210.82)
 		(uuid "2f3e280a-df45-42ab-b6a5-d6a1c0fd6ea8")
 	)
 	(no_connect
-		(at 104.14 156.21)
+		(at 373.38 231.14)
 		(uuid "7c0f3571-47f4-4406-abec-f7ea132778c6")
 	)
 	(no_connect
-		(at 104.14 146.05)
+		(at 373.38 220.98)
 		(uuid "7fbf1a7b-7fcb-4f6c-a076-29898519fe69")
 	)
 	(no_connect
-		(at 104.14 153.67)
+		(at 373.38 228.6)
 		(uuid "8d9a9008-fb2e-44a4-ac6c-a5e03157c3be")
 	)
 	(no_connect
-		(at 104.14 143.51)
+		(at 373.38 218.44)
 		(uuid "a8db64e7-e244-41d7-a2e1-1963eaf480ab")
 	)
 	(no_connect
-		(at 104.14 163.83)
+		(at 373.38 238.76)
 		(uuid "afc11e62-56bc-4f13-a018-4ce8ccfdc4f2")
 	)
 	(no_connect
-		(at 104.14 138.43)
+		(at 373.38 213.36)
 		(uuid "d1217090-497a-463d-87d6-d3c13499bd1f")
 	)
 	(no_connect
-		(at 104.14 148.59)
+		(at 373.38 223.52)
 		(uuid "e1a3ffc4-127f-4129-90d8-9b2d9a953d4a")
 	)
 	(no_connect
-		(at 104.14 151.13)
+		(at 373.38 226.06)
 		(uuid "f92c5383-7df6-44f8-8d19-50301f1b8343")
 	)
 	(no_connect
-		(at 104.14 158.75)
+		(at 373.38 233.68)
 		(uuid "fe446497-f351-4fcf-881a-7aa425d1fb5c")
+	)
+	(bus_entry
+		(at 369.57 143.51)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03b7e5be-d015-41d6-a52b-52f709809981")
+	)
+	(bus_entry
+		(at 369.57 146.05)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c40e74f6-f51d-491e-81d2-ad5db54c5c48")
+	)
+	(wire
+		(pts
+			(xy 368.3 190.5) (xy 360.68 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b829e07-fac4-466a-9656-5079a57368f2")
+	)
+	(wire
+		(pts
+			(xy 358.14 148.59) (xy 367.03 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c883e80-f25e-4ae4-833c-3351f2b3adcb")
+	)
+	(wire
+		(pts
+			(xy 360.68 182.88) (xy 360.68 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25a76554-0f7a-42c9-a8ca-5e1bb6072582")
+	)
+	(wire
+		(pts
+			(xy 364.49 175.26) (xy 368.3 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3901fc28-5eff-4c84-8dfe-bdd1d681db7a")
+	)
+	(wire
+		(pts
+			(xy 364.49 165.1) (xy 368.3 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e80ea3c-5cfa-4106-a1ef-682ebf76a875")
+	)
+	(wire
+		(pts
+			(xy 360.68 180.34) (xy 360.68 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44ed6345-44a1-4a8c-a9af-8294cbc42fbd")
+	)
+	(wire
+		(pts
+			(xy 364.49 170.18) (xy 368.3 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cfe5559-ed60-4559-8f56-98899d2a6c3e")
+	)
+	(wire
+		(pts
+			(xy 368.3 177.8) (xy 364.49 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51b3face-e187-4d4e-9c8f-1e0155587d0a")
+	)
+	(wire
+		(pts
+			(xy 364.49 167.64) (xy 368.3 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55f89b33-ab7e-4a77-a0bb-bce62bd13bca")
+	)
+	(wire
+		(pts
+			(xy 358.14 146.05) (xy 367.03 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d2c6197-8941-4da8-9869-445b82dcd683")
+	)
+	(wire
+		(pts
+			(xy 360.68 185.42) (xy 360.68 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6608f809-5b3e-4f82-9a26-18bf839f43c1")
+	)
+	(wire
+		(pts
+			(xy 360.68 193.04) (xy 368.3 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fde37ae-4427-4684-a67e-2bc83b05f556")
+	)
+	(wire
+		(pts
+			(xy 364.49 172.72) (xy 364.49 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d413b80-fa9a-47c8-9b19-12f49ad4b009")
+	)
+	(wire
+		(pts
+			(xy 360.68 180.34) (xy 368.3 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87589cbc-eab9-490a-962c-ca25eadf0ad1")
+	)
+	(bus
+		(pts
+			(xy 369.57 143.51) (xy 369.57 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88e28cd8-5caf-4b44-bc84-7adc4422a5ea")
+	)
+	(wire
+		(pts
+			(xy 360.68 187.96) (xy 360.68 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f240637-4d59-43c1-897b-1ab1fc9798c2")
+	)
+	(wire
+		(pts
+			(xy 368.3 182.88) (xy 360.68 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98bffefc-7e65-43b7-b85c-05d82a10b05a")
+	)
+	(wire
+		(pts
+			(xy 368.3 185.42) (xy 360.68 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a83d3e-72bd-4366-833a-f1aa243b00bb")
+	)
+	(wire
+		(pts
+			(xy 364.49 161.29) (xy 364.49 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acdbf6ce-bf2f-4786-bf53-f7392300e770")
+	)
+	(wire
+		(pts
+			(xy 364.49 172.72) (xy 368.3 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d215d1ea-07fe-4716-abea-3019a54252c4")
+	)
+	(wire
+		(pts
+			(xy 364.49 175.26) (xy 364.49 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db9d8e8e-45d2-4f27-9ae6-7c1f8aa81eaa")
+	)
+	(wire
+		(pts
+			(xy 364.49 167.64) (xy 364.49 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1872ef4-58c4-427e-82c8-78e8d1250b23")
+	)
+	(wire
+		(pts
+			(xy 364.49 177.8) (xy 364.49 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e638076e-12cf-410e-a08f-bc684c000e17")
+	)
+	(wire
+		(pts
+			(xy 360.68 161.29) (xy 360.68 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9d13e7e-e3ef-44f2-8bc2-005d3233e9cb")
+	)
+	(wire
+		(pts
+			(xy 356.87 195.58) (xy 368.3 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf8e179-bbc6-4cba-be7e-730fa8333359")
+	)
+	(wire
+		(pts
+			(xy 356.87 161.29) (xy 356.87 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f963bec8-3fe0-466e-87b2-bd4f55edf689")
+	)
+	(wire
+		(pts
+			(xy 368.3 187.96) (xy 360.68 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbcf17aa-cb56-4622-ada1-45467421370c")
+	)
+	(wire
+		(pts
+			(xy 364.49 170.18) (xy 364.49 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe3488c-4b1a-4878-bc20-4c6ca70fb0f1")
+	)
+	(label "CPU_PWM"
+		(at 358.14 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "246a9d99-88b3-4c84-a993-8b267ded0675")
+	)
+	(label "CPU_FB"
+		(at 358.14 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "641e6bad-aadd-47d4-94a0-014d42b4a250")
+	)
+	(label "CPU_FB"
+		(at 360.68 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "748282ca-5cab-4770-93b9-ed0cdedd4084")
+	)
+	(hierarchical_label "{T113_POWERCTL}"
+		(shape bidirectional)
+		(at 369.57 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6768d2b6-69e5-4d65-925c-5fd9163ec13b")
 	)
 	(symbol
 		(lib_id "SBC_Custom:T113-I")
-		(at 222.25 76.2 0)
+		(at 104.14 82.55 0)
 		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6405,7 +6937,7 @@
 		(fields_autoplaced yes)
 		(uuid "09fe6601-235b-4aed-be8a-d0702e08b862")
 		(property "Reference" "U1"
-			(at 233.68 74.9299 0)
+			(at 115.57 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6416,7 +6948,7 @@
 			)
 		)
 		(property "Value" "T113-I"
-			(at 233.68 77.4699 0)
+			(at 115.57 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6427,7 +6959,7 @@
 			)
 		)
 		(property "Footprint" "Package_BGA_Allwinner_Custom:BGA-337_L13.0-W13.0-P0.65_QUANZHI-D1-C2940046"
-			(at 222.25 83.82 0)
+			(at 104.14 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6438,7 +6970,7 @@
 			)
 		)
 		(property "Datasheet" "https://bbs.aw-ol.com/assets/uploads/files/1678720117073-eb74fed1-28d3-4451-b1e6-c9be3af193af-t113-i_datasheet_v1.4.pdf"
-			(at 222.25 86.36 0)
+			(at 104.14 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6449,7 +6981,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 76.2 0)
+			(at 104.14 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6460,7 +6992,7 @@
 			)
 		)
 		(property "Manufacturer" "Allwinner(全志)"
-			(at 222.25 88.9 0)
+			(at 104.14 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6471,7 +7003,7 @@
 			)
 		)
 		(property "MPN" "T113-i"
-			(at 222.25 91.44 0)
+			(at 104.14 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6482,7 +7014,7 @@
 			)
 		)
 		(property "LCSC" "C7545092"
-			(at 222.25 93.98 0)
+			(at 104.14 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7514,7 +8046,7 @@
 	)
 	(symbol
 		(lib_id "SBC_Custom:T113-I")
-		(at 44.45 154.94 0)
+		(at 60.96 215.9 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7525,7 +8057,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d2aab86-b9de-4eb7-89eb-6b9be4dd2ab0")
 		(property "Reference" "U1"
-			(at 54.61 153.6699 0)
+			(at 71.12 214.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7536,7 +8068,7 @@
 			)
 		)
 		(property "Value" "T113-I"
-			(at 54.61 156.2099 0)
+			(at 71.12 217.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7547,7 +8079,7 @@
 			)
 		)
 		(property "Footprint" "Package_BGA_Allwinner_Custom:BGA-337_L13.0-W13.0-P0.65_QUANZHI-D1-C2940046"
-			(at 44.45 162.56 0)
+			(at 60.96 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7558,7 +8090,7 @@
 			)
 		)
 		(property "Datasheet" "https://bbs.aw-ol.com/assets/uploads/files/1678720117073-eb74fed1-28d3-4451-b1e6-c9be3af193af-t113-i_datasheet_v1.4.pdf"
-			(at 44.45 165.1 0)
+			(at 60.96 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7569,7 +8101,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 154.94 0)
+			(at 60.96 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7580,7 +8112,7 @@
 			)
 		)
 		(property "Manufacturer" "Allwinner(全志)"
-			(at 44.45 167.64 0)
+			(at 60.96 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7591,7 +8123,7 @@
 			)
 		)
 		(property "MPN" "T113-i"
-			(at 44.45 170.18 0)
+			(at 60.96 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7602,7 +8134,7 @@
 			)
 		)
 		(property "LCSC" "C7545092"
-			(at 44.45 172.72 0)
+			(at 60.96 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8634,7 +9166,7 @@
 	)
 	(symbol
 		(lib_id "SBC_Custom:T113-I")
-		(at 48.26 67.31 0)
+		(at 113.03 219.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8645,7 +9177,7 @@
 		(fields_autoplaced yes)
 		(uuid "628de5d2-333c-4dd3-949d-6d49ce63a237")
 		(property "Reference" "U1"
-			(at 48.26 21.59 0)
+			(at 113.03 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8655,7 +9187,7 @@
 			)
 		)
 		(property "Value" "T113-I"
-			(at 48.26 24.13 0)
+			(at 113.03 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8665,7 +9197,7 @@
 			)
 		)
 		(property "Footprint" "Package_BGA_Allwinner_Custom:BGA-337_L13.0-W13.0-P0.65_QUANZHI-D1-C2940046"
-			(at 48.26 74.93 0)
+			(at 113.03 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8676,7 +9208,7 @@
 			)
 		)
 		(property "Datasheet" "https://bbs.aw-ol.com/assets/uploads/files/1678720117073-eb74fed1-28d3-4451-b1e6-c9be3af193af-t113-i_datasheet_v1.4.pdf"
-			(at 48.26 77.47 0)
+			(at 113.03 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8687,7 +9219,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 67.31 0)
+			(at 113.03 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8698,7 +9230,7 @@
 			)
 		)
 		(property "Manufacturer" "Allwinner(全志)"
-			(at 48.26 80.01 0)
+			(at 113.03 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8709,7 +9241,7 @@
 			)
 		)
 		(property "MPN" "T113-i"
-			(at 48.26 82.55 0)
+			(at 113.03 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8720,7 +9252,7 @@
 			)
 		)
 		(property "LCSC" "C7545092"
-			(at 48.26 85.09 0)
+			(at 113.03 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9751,8 +10283,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 356.87 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6857310b-a358-49a9-ad99-f3cad4bc667f")
+		(property "Reference" "#PWR043"
+			(at 356.87 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD_1V8"
+			(at 351.282 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 356.87 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 356.87 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 356.87 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1cab2ae4-a65f-4464-b07f-a7755875186b")
+		)
+		(instances
+			(project "rxbox"
+				(path "/4bda69c0-d40e-4af8-940b-109cd2045912/e6dabd82-beec-4023-a66f-b67e0b07de29/c655f256-4828-42c1-b22d-2dd3587d2bc5"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 360.68 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "922dcba2-6078-4257-9e74-8e30eb4bb252")
+		(property "Reference" "#PWR042"
+			(at 360.68 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD_CPU"
+			(at 360.68 157.226 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 360.68 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360.68 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 360.68 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73c5390a-780c-4266-a937-9fa4f40a65d5")
+		)
+		(instances
+			(project "rxbox"
+				(path "/4bda69c0-d40e-4af8-940b-109cd2045912/e6dabd82-beec-4023-a66f-b67e0b07de29/c655f256-4828-42c1-b22d-2dd3587d2bc5"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SBC_Custom:T113-I")
-		(at 90.17 82.55 0)
+		(at 381 180.34 0)
 		(unit 6)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9763,7 +10449,7 @@
 		(fields_autoplaced yes)
 		(uuid "aac98164-9d5b-44c9-a08d-0d400553466c")
 		(property "Reference" "U1"
-			(at 100.33 81.2799 0)
+			(at 391.16 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9774,7 +10460,7 @@
 			)
 		)
 		(property "Value" "T113-I"
-			(at 100.33 83.8199 0)
+			(at 391.16 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9785,7 +10471,7 @@
 			)
 		)
 		(property "Footprint" "Package_BGA_Allwinner_Custom:BGA-337_L13.0-W13.0-P0.65_QUANZHI-D1-C2940046"
-			(at 90.17 90.17 0)
+			(at 381 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9796,7 +10482,7 @@
 			)
 		)
 		(property "Datasheet" "https://bbs.aw-ol.com/assets/uploads/files/1678720117073-eb74fed1-28d3-4451-b1e6-c9be3af193af-t113-i_datasheet_v1.4.pdf"
-			(at 90.17 92.71 0)
+			(at 381 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9807,7 +10493,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 82.55 0)
+			(at 381 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9818,7 +10504,7 @@
 			)
 		)
 		(property "Manufacturer" "Allwinner(全志)"
-			(at 90.17 95.25 0)
+			(at 381 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9829,7 +10515,7 @@
 			)
 		)
 		(property "MPN" "T113-i"
-			(at 90.17 97.79 0)
+			(at 381 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9840,7 +10526,7 @@
 			)
 		)
 		(property "LCSC" "C7545092"
-			(at 90.17 100.33 0)
+			(at 381 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10872,7 +11558,7 @@
 	)
 	(symbol
 		(lib_id "SBC_Custom:T113-I")
-		(at 262.89 78.74 0)
+		(at 144.78 85.09 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10883,7 +11569,7 @@
 		(fields_autoplaced yes)
 		(uuid "becce112-6b16-49ea-a6b3-67bc91ce0ca8")
 		(property "Reference" "U1"
-			(at 262.89 12.7 0)
+			(at 144.78 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10893,7 +11579,7 @@
 			)
 		)
 		(property "Value" "T113-I"
-			(at 262.89 15.24 0)
+			(at 144.78 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10903,7 +11589,7 @@
 			)
 		)
 		(property "Footprint" "Package_BGA_Allwinner_Custom:BGA-337_L13.0-W13.0-P0.65_QUANZHI-D1-C2940046"
-			(at 262.89 86.36 0)
+			(at 144.78 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10914,7 +11600,7 @@
 			)
 		)
 		(property "Datasheet" "https://bbs.aw-ol.com/assets/uploads/files/1678720117073-eb74fed1-28d3-4451-b1e6-c9be3af193af-t113-i_datasheet_v1.4.pdf"
-			(at 262.89 88.9 0)
+			(at 144.78 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10925,7 +11611,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 262.89 78.74 0)
+			(at 144.78 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10936,7 +11622,7 @@
 			)
 		)
 		(property "Manufacturer" "Allwinner(全志)"
-			(at 262.89 91.44 0)
+			(at 144.78 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10947,7 +11633,7 @@
 			)
 		)
 		(property "MPN" "T113-i"
-			(at 262.89 93.98 0)
+			(at 144.78 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10958,7 +11644,7 @@
 			)
 		)
 		(property "LCSC" "C7545092"
-			(at 262.89 96.52 0)
+			(at 144.78 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11990,7 +12676,7 @@
 	)
 	(symbol
 		(lib_id "SBC_Custom:T113-I")
-		(at 110.49 149.86 0)
+		(at 379.73 224.79 0)
 		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12001,7 +12687,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4da74d6-212e-4635-8a73-b9a2a6e36dad")
 		(property "Reference" "U1"
-			(at 121.92 148.5899 0)
+			(at 391.16 223.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12012,7 +12698,7 @@
 			)
 		)
 		(property "Value" "T113-I"
-			(at 121.92 151.1299 0)
+			(at 391.16 226.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12023,7 +12709,7 @@
 			)
 		)
 		(property "Footprint" "Package_BGA_Allwinner_Custom:BGA-337_L13.0-W13.0-P0.65_QUANZHI-D1-C2940046"
-			(at 110.49 157.48 0)
+			(at 379.73 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12034,7 +12720,7 @@
 			)
 		)
 		(property "Datasheet" "https://bbs.aw-ol.com/assets/uploads/files/1678720117073-eb74fed1-28d3-4451-b1e6-c9be3af193af-t113-i_datasheet_v1.4.pdf"
-			(at 110.49 160.02 0)
+			(at 379.73 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12045,7 +12731,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 149.86 0)
+			(at 379.73 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12056,7 +12742,7 @@
 			)
 		)
 		(property "Manufacturer" "Allwinner(全志)"
-			(at 110.49 162.56 0)
+			(at 379.73 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12067,7 +12753,7 @@
 			)
 		)
 		(property "MPN" "T113-i"
-			(at 110.49 165.1 0)
+			(at 379.73 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12078,7 +12764,7 @@
 			)
 		)
 		(property "LCSC" "C7545092"
-			(at 110.49 167.64 0)
+			(at 379.73 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13109,8 +13795,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 364.49 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e4d56d69-7e93-4f45-a5cf-420644a6eeb1")
+		(property "Reference" "#PWR041"
+			(at 364.49 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD_SYS"
+			(at 370.078 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 364.49 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 364.49 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "91f1a5c7-86a3-4d3f-98e4-81ec2bd69b20")
+		)
+		(instances
+			(project "rxbox"
+				(path "/4bda69c0-d40e-4af8-940b-109cd2045912/e6dabd82-beec-4023-a66f-b67e0b07de29/c655f256-4828-42c1-b22d-2dd3587d2bc5"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SBC_Custom:T113-I")
-		(at 151.13 88.9 0)
+		(at 33.02 95.25 0)
 		(unit 7)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13121,7 +13884,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8d0608c-a8da-4589-8196-1c4d1e642a45")
 		(property "Reference" "U1"
-			(at 154.94 25.4 0)
+			(at 36.83 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13131,7 +13894,7 @@
 			)
 		)
 		(property "Value" "T113-I"
-			(at 154.94 27.94 0)
+			(at 36.83 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13141,7 +13904,7 @@
 			)
 		)
 		(property "Footprint" "Package_BGA_Allwinner_Custom:BGA-337_L13.0-W13.0-P0.65_QUANZHI-D1-C2940046"
-			(at 151.13 96.52 0)
+			(at 33.02 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13152,7 +13915,7 @@
 			)
 		)
 		(property "Datasheet" "https://bbs.aw-ol.com/assets/uploads/files/1678720117073-eb74fed1-28d3-4451-b1e6-c9be3af193af-t113-i_datasheet_v1.4.pdf"
-			(at 151.13 99.06 0)
+			(at 33.02 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13163,7 +13926,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 88.9 0)
+			(at 33.02 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13174,7 +13937,7 @@
 			)
 		)
 		(property "Manufacturer" "Allwinner(全志)"
-			(at 151.13 101.6 0)
+			(at 33.02 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13185,7 +13948,7 @@
 			)
 		)
 		(property "MPN" "T113-i"
-			(at 151.13 104.14 0)
+			(at 33.02 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13196,7 +13959,7 @@
 			)
 		)
 		(property "LCSC" "C7545092"
-			(at 151.13 106.68 0)
+			(at 33.02 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

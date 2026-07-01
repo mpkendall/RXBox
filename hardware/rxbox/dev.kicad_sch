@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "72607bff-b7e4-4d5f-ac70-bcae4cc0f5c5")
+	(uuid "5a964837-9d90-4d8d-acff-1375a99bc528")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Jumper:Jumper_2_Bridged"

@@ -1918,6 +1918,15 @@
 		(uuid "7588351f-e6d2-4737-90e3-0aa5d67ba120")
 	)
 	(bus_entry
+		(at 144.78 140.97)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fb5f2e6-aacd-407a-b76d-29e797106da4")
+	)
+	(bus_entry
 		(at 233.68 45.72)
 		(size -2.54 -2.54)
 		(stroke
@@ -2211,16 +2220,6 @@
 			(type default)
 		)
 		(uuid "3fd66820-e263-48f9-ace7-ffaef43caa9f")
-	)
-	(bus
-		(pts
-			(xy 144.78 125.73) (xy 144.78 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4116ec2c-6ff3-46cb-b311-371e61cdb793")
 	)
 	(wire
 		(pts
@@ -2664,6 +2663,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 143.51) (xy 142.24 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8780960-c663-43a1-80e1-a748323a50b0")
+	)
+	(wire
+		(pts
 			(xy 91.44 133.35) (xy 102.87 133.35)
 		)
 		(stroke
@@ -2691,6 +2700,16 @@
 			(type default)
 		)
 		(uuid "d21ad124-0a50-49ed-a87a-f6bb68cd54db")
+	)
+	(bus
+		(pts
+			(xy 144.78 125.73) (xy 144.78 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d23d60f9-cb4d-4b09-883a-24ab0597a4cd")
 	)
 	(wire
 		(pts
@@ -3921,6 +3940,16 @@
 		)
 		(uuid "32c4609f-7350-41d2-b865-c0fa3d42f233")
 	)
+	(label "EN_CLK"
+		(at 133.35 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "38d87135-224d-430f-b7ac-9318988f8aa7")
+	)
 	(label "EN_DRAM"
 		(at 54.61 92.71 0)
 		(effects
@@ -4012,7 +4041,7 @@
 		(uuid "b99f51cc-9b72-42c9-89a9-e7491dc364de")
 	)
 	(hierarchical_label "{T113_POWERCTL}"
-		(shape input)
+		(shape bidirectional)
 		(at 233.68 59.69 0)
 		(effects
 			(font

@@ -5,9 +5,19 @@
 	(uuid "e923edeb-8042-401f-813b-f8cbaa581c46")
 	(paper "A4")
 	(lib_symbols)
+	(bus
+		(pts
+			(xy 146.05 81.28) (xy 161.29 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "101a2bc7-2b03-4cdc-8752-c980394cf5aa")
+	)
 	(sheet
-		(at 44.45 41.91)
-		(size 48.895 38.1)
+		(at 97.79 62.865)
+		(size 48.26 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +32,7 @@
 		)
 		(uuid "c655f256-4828-42c1-b22d-2dd3587d2bc5")
 		(property "Sheetname" "t113"
-			(at 44.45 41.1984 0)
+			(at 97.79 62.1534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +43,7 @@
 			)
 		)
 		(property "Sheetfile" "t113.kicad_sch"
-			(at 44.45 80.5946 0)
+			(at 97.79 101.5496 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41,6 +51,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{T113_POWERCTL}" bidirectional
+			(at 146.05 81.28 0)
+			(uuid "a54aa3ae-deb4-4129-9d8a-e4cf9b1ad618")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -52,8 +72,8 @@
 		)
 	)
 	(sheet
-		(at 127.635 53.975)
-		(size 42.545 38.735)
+		(at 161.29 69.85)
+		(size 33.02 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -68,7 +88,7 @@
 		)
 		(uuid "cf13f4fd-261c-4d6b-9a62-449bc6811668")
 		(property "Sheetname" "power"
-			(at 127.635 53.2634 0)
+			(at 161.29 69.1384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +99,7 @@
 			)
 		)
 		(property "Sheetfile" "sbc-power.kicad_sch"
-			(at 127.635 93.2946 0)
+			(at 161.29 94.5646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -87,6 +107,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{T113_POWERCTL}" bidirectional
+			(at 161.29 81.28 180)
+			(uuid "91366cb5-f567-4c9d-8de6-14490ebc51c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
