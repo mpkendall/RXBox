@@ -4512,7 +4512,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "13d062df-5ecc-4f93-ac46-2f13f2844881")
 		(property "Reference" "#PWR07"
 			(at 52.07 91.44 0)
@@ -4525,14 +4524,15 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 52.07 82.55 0)
+		(property "Value" "T113_5V"
+			(at 48.26 83.312 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5807,7 +5807,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "64630663-6f11-45e1-b9c1-9e73272af2b0")
 		(property "Reference" "#PWR016"
 			(at 140.97 91.44 0)
@@ -5820,14 +5819,15 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 140.97 82.55 0)
+		(property "Value" "T113_5V"
+			(at 137.16 83.312 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6212,7 +6212,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7112977c-9270-47e2-aedc-ad0bf8457863")
 		(property "Reference" "#PWR02"
 			(at 53.34 50.8 0)
@@ -6225,14 +6224,15 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 53.34 41.91 0)
+		(property "Value" "T113_5V"
+			(at 49.53 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6469,7 +6469,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "T113_5V"
 			(at 52.07 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7505,7 +7505,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ac3bf512-0580-43cb-9fd9-a58a55ec50b9")
 		(property "Reference" "#PWR03"
 			(at 143.51 46.99 0)
@@ -7518,14 +7517,15 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 143.51 38.1 0)
+		(property "Value" "T113_5V"
+			(at 139.7 38.862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7838,7 +7838,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "T113_5V"
 			(at 226.06 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)

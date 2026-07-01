@@ -38,3 +38,19 @@ Here's what my first implementation of the power tree looks like:
 ![6 regulators with sequencing](https://cdn.hackclub.com/019f14dc-b99b-7655-a64d-fb5468d97619/paste-1782761436289.png)
 
 The DVFS implementation on the VDD_CPU line is controlled by the CPU_PWM net. This is, well, a PWM signal modulated by the CPU to scale the output voltage on demand. Instead of using a dedicated regulator, to minimize the BOM, I'm just going to add a few extra passives. First, the PWM signal is converted into an analog average by the low-pass filter. When the PWM is high, it'll use the existing divider, which calculates to around 1.11V. The 130kR resistor sets the gain and how much the PWM alters the resistance seen at that point. This yields around 0.83V at the lowest setting.
+
+## Power sequencing - 3 hours (2026-06-30)
+
+This session was mostly working on the internal power sequencing logic. Earlier I said I wanted to use a dedicated power sequencing ASIC, though I found a relatively simple workaround which lets me use a simple RC circuit. If a reverse-biased diode is placed across the resistor, power coming from one direction goes through the typical RC circuit, but from the other direction, the capacitor is instantly drained. This way, if the voltage glitches, all the rails can still sequence correctly!
+
+Here's what the finished implementation looks like:
+
+![sequencing circuitry](https://cdn.hackclub.com/019f1be5-86f7-73c2-9e84-de730001b75f/paste-1782879453870.png)
+
+It's pretty simple, though there were some engineering tradeoffs. For example, the 1MR resistor is somewhat sensitive to leakage from the EN pin, but it needs to be high so the voltage divider formed by the pulldown and the series RC resistor allow the EN pin to reach the threshold. I've also had to recalculate the RC constants several times, since it's not as simple as making tau (R*C) match the listed delay. The EN pin has a fixed threshold voltage of 1.5V, I calculated how long the capacitor would take to charge to 1.5V given the input supply voltage.
+
+I also am using the ME2808 power supervisor IC. The Vout pin is pulled (though it's open-drain, hence pulldowns) low if the voltage dips below some fixed voltage as per the part series. The specific variant I'm using specifies an input threshold of 4.4V. Once this supervisor is pulled high (through the 47kR pullup), it'll cascade into each timing block, ending with the clock's enable pin. I'll update the clock enable timing once I actually choose a clock, since I need the clock's EN threshold.
+
+One last thing, the T113_5V is simply controlled by this jumper in a separate `dev` sheet. This'll be the place where other power jumpers and similar flags will be placed.
+
+![jumper for t113](https://cdn.hackclub.com/019f1be9-4f21-76d9-b36e-ef262435136f/paste-1782879701390.png)
