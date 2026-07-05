@@ -54,3 +54,26 @@ I also am using the ME2808 power supervisor IC. The Vout pin is pulled (though i
 One last thing, the T113_5V is simply controlled by this jumper in a separate `dev` sheet. This'll be the place where other power jumpers and similar flags will be placed.
 
 ![jumper for t113](https://cdn.hackclub.com/019f1be9-4f21-76d9-b36e-ef262435136f/paste-1782879701390.png)
+
+## Starting wifi - 2 hours
+
+After finishing up power, I decided to start on WiFi. I'm prioritizing cost and software support, and after some research, I decided to go with the RTL8723DS WiFi chipset. It offers several different interfaces, including UART, SPI, but most importantly, SDIO. It contains both 2.4GHz Wifi and BT! 5GHz WiFi isn't too much of a priority for me for this project. It's also maintained in mainline linux, which is great!
+
+Now that I chose a chip, I needed to make a symbol for it. Unfortunately, this chip offered one of the worst datasheets I've ever seen.
+
+![datasheet](https://cdn.hackclub.com/019f3266-b8a5-79fd-9776-a670721989c9/paste-1783257019078.png)
+_^ same pin name, different functions?_
+
+![datasheet](https://cdn.hackclub.com/019f3267-1c68-7185-a8ff-f7ba74db05ca/paste-1783257044221.png)
+_^ gpio10 is skipped?_
+
+And possibly one of the worst issues,
+| | |
+|---|---|
+|![datasheet](https://cdn.hackclub.com/019f3267-fb7d-7dad-9f0a-35a5ec3a3b43/paste-1783257101175.png)| ![datasheet](https://cdn.hackclub.com/019f3268-325c-7d52-afb0-0c3a24fbcd08/paste-1783257115871.png) |
+
+However, after a lot of cross-checking and some time, I finished the symbol!
+
+![symbol](https://cdn.hackclub.com/019f326b-7456-7152-954b-ecfbc923c41d/paste-1783257329235.png)
+
+Each of the interfaces are actually alternate functions of the GPIO pins, so those are marked as alternate pins in KiCad (hence the arrow symbols).

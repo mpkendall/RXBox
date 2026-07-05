@@ -430,7 +430,7 @@
         "uuid": "4bda69c0-d40e-4af8-940b-109cd2045912"
       }
     ],
-    "used_designators": "U8,D3,#PWR37-43,C21,R20-22",
+    "used_designators": "U9",
     "variants": []
   },
   "sheets": [
@@ -457,6 +457,10 @@
     [
       "f4641733-9192-4a16-8912-57d5ce082289",
       "dev"
+    ],
+    [
+      "0d1e87e5-577e-4d86-8f27-48323346a7c4",
+      "wifi"
     ]
   ],
   "text_variables": {},
