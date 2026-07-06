@@ -53,6 +53,16 @@
 				(justify left top)
 			)
 		)
+		(pin "WIFI{SDIO}" input
+			(at 161.29 116.84 180)
+			(uuid "fa514687-64bd-48cd-9717-3505b06093cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "rxbox"
 				(path "/4bda69c0-d40e-4af8-940b-109cd2045912/e6dabd82-beec-4023-a66f-b67e0b07de29"

@@ -376,6 +376,14 @@
       "sort_field": "Reference"
     },
     "bus_aliases": {
+      "SDIO": [
+        "CMD",
+        "CLK",
+        "D0",
+        "D1",
+        "D2",
+        "D3"
+      ],
       "T113_POWERCTL": [
         "CPU_FB",
         "CPU_PWM"
