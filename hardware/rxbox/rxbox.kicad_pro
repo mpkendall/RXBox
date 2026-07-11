@@ -376,6 +376,14 @@
       "sort_field": "Reference"
     },
     "bus_aliases": {
+      "2G4_CTL": [
+        "BT_WAKE",
+        "BT_HOST_WAKE",
+        "BT_RST_N",
+        "WL_REG_ON",
+        "WL_HOST_WAKE",
+        "32KHZ"
+      ],
       "SDIO": [
         "CMD",
         "CLK",
@@ -396,6 +404,12 @@
         "EN_AVCC",
         "EN_GEN",
         "EN_CLK"
+      ],
+      "UART": [
+        "CTS",
+        "RTS",
+        "TXD",
+        "RXD"
       ]
     },
     "connection_grid_size": 50.0,
@@ -438,7 +452,7 @@
         "uuid": "4bda69c0-d40e-4af8-940b-109cd2045912"
       }
     ],
-    "used_designators": "U9",
+    "used_designators": "U12",
     "variants": []
   },
   "sheets": [

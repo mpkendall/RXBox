@@ -7,17 +7,17 @@
 	(lib_symbols)
 	(bus
 		(pts
-			(xy 146.05 72.39) (xy 161.29 72.39)
+			(xy 120.65 54.61) (xy 120.65 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "646bd1dc-5259-4c47-b906-e7266e998251")
+		(uuid "538235e2-94cb-4214-b0b6-cb434da047ac")
 	)
 	(sheet
-		(at 161.29 104.775)
-		(size 33.02 26.035)
+		(at 155.575 63.5)
+		(size 21.59 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -32,7 +32,7 @@
 		)
 		(uuid "0d1e87e5-577e-4d86-8f27-48323346a7c4")
 		(property "Sheetname" "wifi"
-			(at 161.29 104.0634 0)
+			(at 155.575 62.7884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -43,7 +43,7 @@
 			)
 		)
 		(property "Sheetfile" "wifi.kicad_sch"
-			(at 161.29 131.3946 0)
+			(at 155.575 76.7846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54,8 +54,28 @@
 			)
 		)
 		(pin "WIFI{SDIO}" input
-			(at 161.29 116.84 180)
+			(at 155.575 69.85 180)
 			(uuid "fa514687-64bd-48cd-9717-3505b06093cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BT{UART}" input
+			(at 155.575 67.31 180)
+			(uuid "c26862b3-0056-4a75-9b10-02a9f14f5782")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{2G4_CTL}" input
+			(at 155.575 72.39 180)
+			(uuid "67537c58-51dc-4380-9d86-96c7842c87c1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72,7 +92,7 @@
 		)
 	)
 	(sheet
-		(at 97.79 62.865)
+		(at 99.06 63.5)
 		(size 48.26 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -88,7 +108,7 @@
 		)
 		(uuid "c655f256-4828-42c1-b22d-2dd3587d2bc5")
 		(property "Sheetname" "t113"
-			(at 97.79 62.1534 0)
+			(at 99.06 62.7884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -99,7 +119,7 @@
 			)
 		)
 		(property "Sheetfile" "t113.kicad_sch"
-			(at 97.79 101.5496 0)
+			(at 99.06 102.1846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -110,7 +130,7 @@
 			)
 		)
 		(pin "{T113_POWERCTL}" bidirectional
-			(at 146.05 72.39 0)
+			(at 120.65 63.5 90)
 			(uuid "a54aa3ae-deb4-4129-9d8a-e4cf9b1ad618")
 			(effects
 				(font
@@ -128,7 +148,7 @@
 		)
 	)
 	(sheet
-		(at 161.29 59.69)
+		(at 104.14 30.48)
 		(size 33.02 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -144,7 +164,7 @@
 		)
 		(uuid "cf13f4fd-261c-4d6b-9a62-449bc6811668")
 		(property "Sheetname" "power"
-			(at 161.29 58.9784 0)
+			(at 104.14 29.7684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -155,7 +175,7 @@
 			)
 		)
 		(property "Sheetfile" "sbc-power.kicad_sch"
-			(at 161.29 84.4046 0)
+			(at 104.14 55.1946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -166,7 +186,7 @@
 			)
 		)
 		(pin "{T113_POWERCTL}" bidirectional
-			(at 161.29 72.39 180)
+			(at 120.65 54.61 270)
 			(uuid "91366cb5-f567-4c9d-8de6-14490ebc51c3")
 			(effects
 				(font

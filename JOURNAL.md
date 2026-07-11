@@ -77,3 +77,6 @@ However, after a lot of cross-checking and some time, I finished the symbol!
 ![symbol](https://cdn.hackclub.com/019f326b-7456-7152-954b-ecfbc923c41d/paste-1783257329235.png)
 
 Each of the interfaces are actually alternate functions of the GPIO pins, so those are marked as alternate pins in KiCad (hence the arrow symbols).
+
+## AP6212 -- 2 hours (2026-07-06)
+
