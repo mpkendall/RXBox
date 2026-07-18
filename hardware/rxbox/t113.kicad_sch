@@ -7274,6 +7274,69 @@
 		(uuid "03b7e5be-d015-41d6-a52b-52f709809981")
 	)
 	(bus_entry
+		(at 306.07 58.42)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c912f4-5e3c-4311-8e23-a6551d443d83")
+	)
+	(bus_entry
+		(at 306.07 53.34)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ab6b2d2-b8a1-4deb-95f2-9a5524cfdd17")
+	)
+	(bus_entry
+		(at 306.07 55.88)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e4e917-ec82-4ac1-9db0-e4c5771bc6ec")
+	)
+	(bus_entry
+		(at 306.07 68.58)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "802b9591-065a-4b14-9097-d71629d266b6")
+	)
+	(bus_entry
+		(at 306.07 76.2)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96b3db72-90e9-4794-90ad-bf81e2d67333")
+	)
+	(bus_entry
+		(at 306.07 66.04)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "971612cc-e678-4dab-96a3-dff43fe4a874")
+	)
+	(bus_entry
+		(at 306.07 71.12)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bccd21ef-0222-41f5-8a30-0d901460217b")
+	)
+	(bus_entry
 		(at 373.38 151.13)
 		(size -2.54 2.54)
 		(stroke
@@ -7281,6 +7344,33 @@
 			(type default)
 		)
 		(uuid "c40e74f6-f51d-491e-81d2-ad5db54c5c48")
+	)
+	(bus_entry
+		(at 306.07 73.66)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de16cb16-b3cf-418d-9f01-7899cedcc6e7")
+	)
+	(bus_entry
+		(at 306.07 60.96)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de5a8c0b-fb04-47be-a08d-8ff3c7c1ca2b")
+	)
+	(bus_entry
+		(at 306.07 63.5)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f490676a-d034-49ac-aa42-e153698825eb")
 	)
 	(wire
 		(pts
@@ -7354,6 +7444,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 71.12) (xy 303.53 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ed5c60e-d5af-4963-abd6-7d34bdc8d055")
+	)
+	(wire
+		(pts
 			(xy 361.95 30.48) (xy 360.68 30.48)
 		)
 		(stroke
@@ -7391,6 +7491,26 @@
 			(type default)
 		)
 		(uuid "15e495f6-1b36-47c9-a2c6-a5225d877b8c")
+	)
+	(wire
+		(pts
+			(xy 303.53 60.96) (xy 294.64 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c87f1b-92a4-4d5f-bb2e-1f49e04b32b3")
+	)
+	(wire
+		(pts
+			(xy 303.53 58.42) (xy 294.64 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18a3bdb1-9ee6-4417-a534-530306889f69")
 	)
 	(wire
 		(pts
@@ -7441,6 +7561,16 @@
 			(type default)
 		)
 		(uuid "1d952739-c707-496c-85b3-698267065713")
+	)
+	(bus
+		(pts
+			(xy 306.07 53.34) (xy 306.07 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e3d9bb6-e1e8-4c00-9f3b-6d7e58d2ee40")
 	)
 	(wire
 		(pts
@@ -7784,6 +7914,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 55.88) (xy 294.64 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ffe1c32-ec0b-40e5-b694-a7ef5757eac8")
+	)
+	(wire
+		(pts
 			(xy 391.16 78.74) (xy 391.16 81.28)
 		)
 		(stroke
@@ -7791,6 +7931,16 @@
 			(type default)
 		)
 		(uuid "40cb06cc-4612-4d17-aced-50743d847314")
+	)
+	(wire
+		(pts
+			(xy 294.64 68.58) (xy 303.53 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4281ba80-471a-4aa1-850a-d9dbd7da3007")
 	)
 	(wire
 		(pts
@@ -7841,6 +7991,16 @@
 			(type default)
 		)
 		(uuid "470c81ec-e426-443d-8d20-e3a1bdc05e02")
+	)
+	(wire
+		(pts
+			(xy 294.64 66.04) (xy 303.53 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47285a80-9766-42c3-b0c0-b616d3e4911d")
 	)
 	(wire
 		(pts
@@ -8424,6 +8584,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 73.66) (xy 303.53 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f015fb9-8ad5-46e8-9863-2fb3b4f7a291")
+	)
+	(wire
+		(pts
 			(xy 364.49 193.04) (xy 364.49 195.58)
 		)
 		(stroke
@@ -8814,6 +8984,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 76.2) (xy 303.53 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cca587da-754f-4462-b41e-0be09f897a57")
+	)
+	(wire
+		(pts
 			(xy 360.68 116.84) (xy 360.68 119.38)
 		)
 		(stroke
@@ -8941,6 +9121,16 @@
 			(type default)
 		)
 		(uuid "d3e9033f-defb-4127-9154-e408123c541c")
+	)
+	(wire
+		(pts
+			(xy 294.64 78.74) (xy 303.53 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d48a0fe0-e04a-4583-a959-23de2eb5b17a")
 	)
 	(wire
 		(pts
@@ -9101,6 +9291,16 @@
 			(type default)
 		)
 		(uuid "e8f25c4a-523f-4407-acf9-0e0e648db05e")
+	)
+	(wire
+		(pts
+			(xy 303.53 63.5) (xy 294.64 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e926a4e5-c6fa-4eb8-957c-16ff35c30f8b")
 	)
 	(wire
 		(pts
@@ -9342,6 +9542,16 @@
 		)
 		(uuid "ff233e7e-e60a-41ed-bb57-364a9dd22f5d")
 	)
+	(bus
+		(pts
+			(xy 306.07 63.5) (xy 306.07 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff720d63-36ab-4755-addd-2c222994843f")
+	)
 	(wire
 		(pts
 			(xy 360.68 119.38) (xy 360.68 121.92)
@@ -9362,6 +9572,16 @@
 		)
 		(uuid "ffe7ffa5-5010-40cb-bf82-00298823cdc2")
 	)
+	(label "BT.~{RTS}"
+		(at 303.53 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e160b20-19a8-4106-b5f9-fd9b255fb92f")
+	)
 	(label "CPU_PWM"
 		(at 361.95 153.67 0)
 		(effects
@@ -9371,6 +9591,16 @@
 			(justify left bottom)
 		)
 		(uuid "246a9d99-88b3-4c84-a993-8b267ded0675")
+	)
+	(label "WIFI.D2"
+		(at 303.53 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e27ac80-d800-4185-818f-cb50c66f1091")
 	)
 	(label "CPU_FB"
 		(at 361.95 151.13 0)
@@ -9382,6 +9612,26 @@
 		)
 		(uuid "641e6bad-aadd-47d4-94a0-014d42b4a250")
 	)
+	(label "BT.TXD"
+		(at 303.53 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a8c342b-1a7a-4c4f-971e-f863667aba45")
+	)
+	(label "WIFI.D0"
+		(at 303.53 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6daf6948-127a-4761-a9db-77a7f50dfdb1")
+	)
 	(label "CPU_FB"
 		(at 364.49 198.12 0)
 		(effects
@@ -9391,6 +9641,66 @@
 			(justify left bottom)
 		)
 		(uuid "748282ca-5cab-4770-93b9-ed0cdedd4084")
+	)
+	(label "WIFI.CLK"
+		(at 303.53 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7d45e0b8-0e03-446e-9dbd-d80a4405cfb3")
+	)
+	(label "WIFI.D3"
+		(at 303.53 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "88dc8454-23e2-4c3f-9691-c8086bbf8107")
+	)
+	(label "BT.RXD"
+		(at 303.53 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a3fe3bfa-fa84-402d-b0a5-e7e29fbf79be")
+	)
+	(label "BT.~{CTS}"
+		(at 303.53 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bbecd3bd-56a8-410a-89c0-0adbc38fec7a")
+	)
+	(label "WIFI.D1"
+		(at 303.53 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bcadd37f-aef0-4175-b9c4-9b4b411e40c6")
+	)
+	(label "WIFI.CMD"
+		(at 303.53 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fcd22fd1-1aca-4c2e-981d-98efbc4c3710")
 	)
 	(hierarchical_label "{T113_POWERCTL}"
 		(shape bidirectional)
@@ -9402,6 +9712,28 @@
 			(justify left)
 		)
 		(uuid "6768d2b6-69e5-4d65-925c-5fd9163ec13b")
+	)
+	(hierarchical_label "WIFI{SDIO}"
+		(shape input)
+		(at 306.07 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e709400-88c4-4778-b506-d584a273ac26")
+	)
+	(hierarchical_label "BT{UART}"
+		(shape input)
+		(at 306.07 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f853efbd-a66f-4894-b8b6-219aeb7d14eb")
 	)
 	(symbol
 		(lib_id "SBC_Custom:T113-I")
@@ -14115,7 +14447,7 @@
 	)
 	(symbol
 		(lib_id "SBC_Custom:T113-I")
-		(at 149.86 102.87 0)
+		(at 276.86 90.17 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14126,7 +14458,7 @@
 		(fields_autoplaced yes)
 		(uuid "becce112-6b16-49ea-a6b3-67bc91ce0ca8")
 		(property "Reference" "U1"
-			(at 149.86 36.83 0)
+			(at 276.86 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14136,7 +14468,7 @@
 			)
 		)
 		(property "Value" "T113-I"
-			(at 149.86 39.37 0)
+			(at 276.86 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14146,7 +14478,7 @@
 			)
 		)
 		(property "Footprint" "Package_BGA_Allwinner_Custom:BGA-337_L13.0-W13.0-P0.65_QUANZHI-D1-C2940046"
-			(at 149.86 110.49 0)
+			(at 276.86 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14157,7 +14489,7 @@
 			)
 		)
 		(property "Datasheet" "https://bbs.aw-ol.com/assets/uploads/files/1678720117073-eb74fed1-28d3-4451-b1e6-c9be3af193af-t113-i_datasheet_v1.4.pdf"
-			(at 149.86 113.03 0)
+			(at 276.86 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14168,7 +14500,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 102.87 0)
+			(at 276.86 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14179,7 +14511,7 @@
 			)
 		)
 		(property "Manufacturer" "Allwinner(全志)"
-			(at 149.86 115.57 0)
+			(at 276.86 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14190,7 +14522,7 @@
 			)
 		)
 		(property "MPN" "T113-i"
-			(at 149.86 118.11 0)
+			(at 276.86 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14201,7 +14533,7 @@
 			)
 		)
 		(property "LCSC" "C7545092"
-			(at 149.86 120.65 0)
+			(at 276.86 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

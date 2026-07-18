@@ -4321,7 +4321,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "01febd34-291e-4799-abc8-7f25c89b36f1")
 		(property "Reference" "#PWR050"
 			(at 52.07 168.91 0)
@@ -4334,14 +4333,15 @@
 				)
 			)
 		)
-		(property "Value" "T113_5V"
-			(at 52.07 160.02 0)
+		(property "Value" "WIFI_5V"
+			(at 53.34 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

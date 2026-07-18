@@ -406,8 +406,8 @@
         "EN_CLK"
       ],
       "UART": [
-        "CTS",
-        "RTS",
+        "~{CTS}",
+        "~{RTS}",
         "TXD",
         "RXD"
       ]
@@ -452,7 +452,7 @@
         "uuid": "4bda69c0-d40e-4af8-940b-109cd2045912"
       }
     ],
-    "used_designators": "U12",
+    "used_designators": "C32,C34-35,L8,#PWR59-66,JP2-3,R25-31,U12",
     "variants": []
   },
   "sheets": [

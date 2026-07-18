@@ -323,6 +323,26 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 50.8) (xy 208.28 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7abc2594-70e6-4f25-bf44-7af7f00ee04c")
+	)
+	(wire
+		(pts
+			(xy 220.98 50.8) (xy 218.44 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e5ac236-1d86-433a-8d97-dcfc58b0f999")
+	)
+	(wire
+		(pts
 			(xy 220.98 41.91) (xy 218.44 41.91)
 		)
 		(stroke
@@ -482,6 +502,242 @@
 			(project "rxbox"
 				(path "/4bda69c0-d40e-4af8-940b-109cd2045912/f4641733-9192-4a16-8912-57d5ce082289"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 220.98 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dae5fe7-145d-40ea-b5f9-9601b6ed79a9")
+		(property "Reference" "#PWR062"
+			(at 220.98 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WIFI_5V"
+			(at 220.98 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 220.98 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "edc3c096-bd48-49c3-8cb6-65de099de52b")
+		)
+		(instances
+			(project "rxbox"
+				(path "/4bda69c0-d40e-4af8-940b-109cd2045912/f4641733-9192-4a16-8912-57d5ce082289"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 213.36 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70fa42e2-4511-4f56-8255-1f8b5a276dc6")
+		(property "Reference" "JP3"
+			(at 213.36 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WIFI_EN"
+			(at 213.36 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 213.36 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be238f7f-5d43-4d58-a092-a3964bf19070")
+		)
+		(pin "2"
+			(uuid "a3115e8e-64dc-4295-9ee2-9de132ec4c57")
+		)
+		(instances
+			(project "rxbox"
+				(path "/4bda69c0-d40e-4af8-940b-109cd2045912/f4641733-9192-4a16-8912-57d5ce082289"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 205.74 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dafb0243-e3f6-40f8-87cb-d030e77854df")
+		(property "Reference" "#PWR061"
+			(at 205.74 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 205.74 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 205.74 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "985d9dbb-6a45-4ed7-bed4-632919d24727")
+		)
+		(instances
+			(project "rxbox"
+				(path "/4bda69c0-d40e-4af8-940b-109cd2045912/f4641733-9192-4a16-8912-57d5ce082289"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
