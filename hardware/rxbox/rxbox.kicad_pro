@@ -294,6 +294,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -394,7 +395,8 @@
       ],
       "T113_POWERCTL": [
         "CPU_FB",
-        "CPU_PWM"
+        "CPU_PWM",
+        "SYS_FB"
       ],
       "T113_POWEREN": [
         "EN_SYS",
@@ -452,7 +454,7 @@
         "uuid": "4bda69c0-d40e-4af8-940b-109cd2045912"
       }
     ],
-    "used_designators": "C32,C34-35,L8,#PWR59-66,JP2-3,R25-31,U12",
+    "used_designators": "C32,C34-49,C54-61,D4,L8,Y2-3,#PWR41-45,#PWR59-78,#PWR82-91,TP1-8,JP2-3,R25-49,U1,U12",
     "variants": []
   },
   "sheets": [
@@ -483,6 +485,10 @@
     [
       "0d1e87e5-577e-4d86-8f27-48323346a7c4",
       "wifi"
+    ],
+    [
+      "574d7562-f95c-484a-9d3f-ff7faaf5a6b3",
+      "ddr3"
     ]
   ],
   "text_variables": {},

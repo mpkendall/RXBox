@@ -1538,6 +1538,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 71.12) (xy 48.26 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63fd289a-a517-4f11-b3c0-8280d9d15c65")
+	)
+	(wire
+		(pts
 			(xy 158.75 73.66) (xy 160.02 73.66)
 		)
 		(stroke
@@ -4769,7 +4779,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 48.26 72.39 0)
+		(at 48.26 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4779,7 +4789,7 @@
 		(dnp no)
 		(uuid "a841cd11-3f3a-4500-9d1d-b2254cc15355")
 		(property "Reference" "#PWR040"
-			(at 48.26 76.2 0)
+			(at 48.26 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4790,7 +4800,7 @@
 			)
 		)
 		(property "Value" "T113_5V"
-			(at 49.784 70.866 0)
+			(at 49.784 69.596 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4801,7 +4811,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 72.39 0)
+			(at 48.26 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4812,7 +4822,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 72.39 0)
+			(at 48.26 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4823,7 +4833,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 48.26 72.39 0)
+			(at 48.26 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5013,7 +5023,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bea116ed-82a9-4c7e-952a-60a67e50d331")
 		(property "Reference" "#PWR023"
@@ -5270,7 +5280,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cd25fd4d-25fa-4934-9044-503de16f4e3f")
 		(property "Reference" "R13"
@@ -5613,7 +5623,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e4e7c24d-e693-413b-afca-965094441b99")
 		(property "Reference" "#PWR028"
