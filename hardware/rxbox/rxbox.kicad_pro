@@ -385,6 +385,14 @@
         "WL_HOST_WAKE",
         "32KHZ"
       ],
+      "SDHC": [
+        "D0",
+        "D1",
+        "D2",
+        "D3",
+        "CLK",
+        "CMD"
+      ],
       "SDIO": [
         "CMD",
         "CLK",
@@ -392,6 +400,12 @@
         "D1",
         "D2",
         "D3"
+      ],
+      "SPI": [
+        "~{CS}",
+        "SCLK",
+        "MISO",
+        "MOSI"
       ],
       "T113_POWERCTL": [
         "CPU_FB",
@@ -454,7 +468,7 @@
         "uuid": "4bda69c0-d40e-4af8-940b-109cd2045912"
       }
     ],
-    "used_designators": "C32,C34-49,C54-61,D4,L8,Y2-3,#PWR41-45,#PWR59-78,#PWR82-91,TP1-8,JP2-3,R25-49,U1,U12",
+    "used_designators": "J2,C32,C34-49,C54-63,D4,L8,Y2-3,#PWR41-45,#PWR59-78,#PWR82-98,TP1-8,JP2-3,R25-52,U1,U12",
     "variants": []
   },
   "sheets": [
@@ -489,6 +503,10 @@
     [
       "574d7562-f95c-484a-9d3f-ff7faaf5a6b3",
       "ddr3"
+    ],
+    [
+      "1085701e-924b-46bc-b1ea-142e7bcb1310",
+      "storage"
     ]
   ],
   "text_variables": {},

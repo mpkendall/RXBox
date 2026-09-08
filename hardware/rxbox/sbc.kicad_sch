@@ -122,6 +122,52 @@
 		)
 	)
 	(sheet
+		(at 85.09 112.395)
+		(size 22.86 15.875)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1085701e-924b-46bc-b1ea-142e7bcb1310")
+		(property "Sheetname" "storage"
+			(at 85.09 111.6834 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "storage.kicad_sch"
+			(at 85.09 128.8546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rxbox"
+				(path "/4bda69c0-d40e-4af8-940b-109cd2045912/e6dabd82-beec-4023-a66f-b67e0b07de29"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 152.4 115.57)
 		(size 25.4 13.97)
 		(exclude_from_sim no)
