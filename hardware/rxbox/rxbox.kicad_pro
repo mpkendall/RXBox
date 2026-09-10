@@ -385,13 +385,72 @@
         "WL_HOST_WAKE",
         "32KHZ"
       ],
+      "DDR_ADDR": [
+        "A0",
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "BA0",
+        "BA1",
+        "BA2"
+      ],
+      "DDR_CLOCK": [
+        "CLK+",
+        "CLK-"
+      ],
+      "DDR_CMD": [
+        "~{RESET}",
+        "~{CS}",
+        "~{RAS}",
+        "~{CAS}",
+        "~{WE}",
+        "ODT",
+        "CKE",
+        "VREF"
+      ],
+      "DDR_DATA": [
+        "DQL0",
+        "DQL1",
+        "DQL2",
+        "DQL3",
+        "DQL4",
+        "DQL5",
+        "DQL6",
+        "DQL7",
+        "DQU0",
+        "DQU1",
+        "DQU2",
+        "DQU3",
+        "DQU4",
+        "DQU5",
+        "DQU7",
+        "DML",
+        "DMU",
+        "DQSL+",
+        "DQSL-",
+        "DQSU+",
+        "DQSU-",
+        "DQU6"
+      ],
       "SDHC": [
         "D0",
         "D1",
         "D2",
         "D3",
         "CLK",
-        "CMD"
+        "CMD",
+        "DET"
       ],
       "SDIO": [
         "CMD",
@@ -435,7 +494,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "hop_over_size_choice": 0,
+      "hop_over_size_choice": 2,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -468,7 +527,7 @@
         "uuid": "4bda69c0-d40e-4af8-940b-109cd2045912"
       }
     ],
-    "used_designators": "J2,C32,C34-49,C54-63,D4,L8,Y2-3,#PWR41-45,#PWR59-78,#PWR82-98,TP1-8,JP2-3,R25-52,U1,U12",
+    "used_designators": "U1,U12-13,R25-67,JP2-3,TP1-8,#PWR41-45,#PWR59-78,#PWR80,#PWR82-126,Y2-3,L8,D4,C32,C34-49,C54-88,J2",
     "variants": []
   },
   "sheets": [

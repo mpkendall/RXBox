@@ -17,6 +17,26 @@
 	)
 	(bus
 		(pts
+			(xy 114.3 101.6) (xy 114.3 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38425f2d-0b7d-47bb-80ef-d3a97efae7c2")
+	)
+	(bus
+		(pts
+			(xy 111.76 101.6) (xy 111.76 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e4c69d5-41ca-4558-9ee0-a947d16e3220")
+	)
+	(bus
+		(pts
 			(xy 147.32 72.39) (xy 156.21 72.39)
 		)
 		(stroke
@@ -44,6 +64,46 @@
 			(type default)
 		)
 		(uuid "538235e2-94cb-4214-b0b6-cb434da047ac")
+	)
+	(bus
+		(pts
+			(xy 134.62 101.6) (xy 134.62 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baaae32a-beca-4180-8ff3-1c5613724aea")
+	)
+	(bus
+		(pts
+			(xy 106.68 101.6) (xy 106.68 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce8d8cbe-8f3c-4e87-86a4-213d93b93ee0")
+	)
+	(bus
+		(pts
+			(xy 137.16 101.6) (xy 137.16 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db6871ef-9cde-460b-a637-e4c746cb41c3")
+	)
+	(bus
+		(pts
+			(xy 109.22 101.6) (xy 109.22 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc14d05d-9a0c-4ad6-8c09-ee6e28f536eb")
 	)
 	(sheet
 		(at 156.21 63.5)
@@ -122,8 +182,8 @@
 		)
 	)
 	(sheet
-		(at 85.09 112.395)
-		(size 22.86 15.875)
+		(at 125.73 107.95)
+		(size 20.32 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -138,7 +198,7 @@
 		)
 		(uuid "1085701e-924b-46bc-b1ea-142e7bcb1310")
 		(property "Sheetname" "storage"
-			(at 85.09 111.6834 0)
+			(at 125.73 107.2384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -149,7 +209,7 @@
 			)
 		)
 		(property "Sheetfile" "storage.kicad_sch"
-			(at 85.09 128.8546 0)
+			(at 125.73 133.9346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -157,6 +217,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "NOR{SPI WP HOLD}" input
+			(at 137.16 107.95 90)
+			(uuid "798fe00d-4ce7-439f-8a05-566153247c0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{SDHC}" input
+			(at 134.62 107.95 90)
+			(uuid "f2a118bc-5a70-48fe-a61d-b613d5e3ca21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -168,8 +248,8 @@
 		)
 	)
 	(sheet
-		(at 152.4 115.57)
-		(size 25.4 13.97)
+		(at 100.33 107.95)
+		(size 20.32 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -184,7 +264,7 @@
 		)
 		(uuid "574d7562-f95c-484a-9d3f-ff7faaf5a6b3")
 		(property "Sheetname" "ddr3"
-			(at 152.4 114.8584 0)
+			(at 100.33 107.2384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -195,7 +275,7 @@
 			)
 		)
 		(property "Sheetfile" "ddr3.kicad_sch"
-			(at 152.4 130.1246 0)
+			(at 100.33 133.9346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -203,6 +283,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{DDR_DATA}" bidirectional
+			(at 109.22 107.95 90)
+			(uuid "c46dc8fa-2e77-4056-8d94-cb615c0708a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{DDR_CLOCK}" input
+			(at 114.3 107.95 90)
+			(uuid "f732bfb3-d490-45d7-a3b1-52ce825d3139")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{DDR_ADDR}" bidirectional
+			(at 106.68 107.95 90)
+			(uuid "11f9e1c1-1b38-4baa-bf94-3c9a2cadd3bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{DDR_CMD}" input
+			(at 111.76 107.95 90)
+			(uuid "95214d41-0ae4-4abe-90e2-9eea0ee916b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -289,6 +409,66 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "SDBOOT{SDHC}" input
+			(at 134.62 101.6 270)
+			(uuid "63d94f68-f97d-4803-ad71-2a9c44f4d158")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NOR{SPI WP HOLD}" input
+			(at 137.16 101.6 270)
+			(uuid "982451ca-8253-441e-b26e-3a83342458ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{DDR_CMD}" input
+			(at 111.76 101.6 270)
+			(uuid "951d55a1-e207-466a-8d70-69ac3eca43b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{DDR_ADDR}" bidirectional
+			(at 106.68 101.6 270)
+			(uuid "f99ae43d-d1d5-431d-9242-68ca26eb486d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{DDR_CLOCK}" input
+			(at 114.3 101.6 270)
+			(uuid "6eb34f82-d35c-4b5a-b670-098e24bee735")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{DDR_DATA}" bidirectional
+			(at 109.22 101.6 270)
+			(uuid "f988cdc7-a70d-4879-a887-671aa812a955")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
